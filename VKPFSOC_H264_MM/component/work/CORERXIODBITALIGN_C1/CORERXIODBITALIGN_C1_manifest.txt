@@ -1,0 +1,41 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:50:49 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  CORERXIODBITALIGN_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/core/CoreRxIODBitAlign.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/core/CoreRxIODBitAlign_top.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/prbscheck_parallel_fab_x4.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/prbsgen_parallel_fab_x4.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/rev_bits_x4.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CCC_COMP_CCC_COMP_0_PF_CCC.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CCC_COMP.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CORERXIODBITALIGN_C0.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_CLK_TRAINING_PF_IOD.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_RX_PF_IOD.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_LANECTRL_0_PF_LANECTRL.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PLL_BclkSclkAlign.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/ICB_BclkSclkAlign.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CoreBclkSclkAlign.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_TR.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC1.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_CLK_PF_IOD.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_PF_IOD.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CoreRxIODBitAlign_SD_wrap.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/testbench.v
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\CORERXIODBITALIGN_C1.sdc

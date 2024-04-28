@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:51:36 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  IMAGE_SCALER_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/IMAGE_SCALER/4.2.0/Encrypted/Image_Scaler.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/IMAGE_SCALER_C0/IMAGE_SCALER_C0.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/IMAGE_SCALER/4.2.0/Stimulus/Image_Scaler_tb.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/IMAGE_SCALER/4.2.0/Stimulus/Input_Image_960_540.txt
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/IMAGE_SCALER_C0\IMAGE_SCALER_C0_0\IMAGE_SCALER_C0.sdc

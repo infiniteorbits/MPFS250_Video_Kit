@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:51:20 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  mipicsi2rxdecoderPF_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/mipicsi2rxdecoderPF/5.0.0/Encrypted/mipicsi2rxdecoderPF.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/mipicsi2rxdecoderPF_C0/mipicsi2rxdecoderPF_C0.v
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/mipicsi2rxdecoderPF_C0\mipicsi2rxdecoderPF_C0_0\mipicsi2rxdecoderPF_C0.sdc

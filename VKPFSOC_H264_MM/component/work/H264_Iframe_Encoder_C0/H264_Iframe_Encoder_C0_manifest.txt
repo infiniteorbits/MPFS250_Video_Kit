@@ -1,0 +1,20 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:51:34 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  H264_Iframe_Encoder_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/H264_Iframe_Encoder/1.5.0/Evaluation/H264_Iframe_Encoder_Eval_enc.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/H264_Iframe_Encoder_C0/H264_Iframe_Encoder_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/H264_Iframe_Encoder/1.5.0/Stimulus/H264_Iframe_Encoder_tb.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/H264_Iframe_Encoder/1.5.0/Stimulus/H264_sim_data_in_y.txt
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/H264_Iframe_Encoder/1.5.0/Stimulus/H264_sim_data_in_c.txt
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/H264_Iframe_Encoder/1.5.0/Stimulus/H264_refOut.txt
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/H264_Iframe_Encoder_C0\H264_Iframe_Encoder_C0_0\H264_Iframe_Encoder_C0.sdc

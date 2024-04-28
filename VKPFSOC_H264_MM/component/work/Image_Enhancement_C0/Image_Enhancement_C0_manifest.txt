@@ -1,0 +1,17 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:51:37 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  Image_Enhancement_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/Image_Enhancement/4.5.0/Encrypted/Image_Enhancement.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/Image_Enhancement_C0/Image_Enhancement_C0.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/Image_Enhancement/4.5.0/Stimulus/Image_Enhancement_tb.vhd
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/Image_Enhancement_C0\Image_Enhancement_C0_0\Image_Enhancement_C0.sdc

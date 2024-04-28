@@ -1,0 +1,49 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Sun Apr 28 14:51:40 2024
+Project   :  C:\Users\katia\OneDrive\Documents\work2\CAN\MPFS250_Video_Kit\VKPFSOC_H264_MM
+Component :  VDMA_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/async_fifo_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/axi4lite_if_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_async_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_fwft_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_grayToBinConv_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_NstagesSync_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_resetSync_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_sync_scntr_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/corefifo_sync_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ddr_axi4_arbiter_native_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ddr_axi4_arbiter_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ddr_rw_arbiter_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/data_packer_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/read_demux_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ddr_write_controller_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/read_mux_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ddr_write_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/request_scheduler_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/write_demux_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/vdma_controller.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/interrupt_controller_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/LSRAM_top_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/ram_wrapper_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/write_mux_vdma.vhd
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/read_top_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/synchronizer_circuit_2stage_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/vdma_dma_top.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/vdma_ip_reset.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/VDMA.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/vdma_write.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/video_axi_fifo_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/RTL/write_top_vdma.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/VDMA_C0/VDMA_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/Stimulus/axi4_ram.v
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/Microchip/SolutionCore/VDMA/1.0.0/Stimulus/vdma_tb.v
+
+Constraint files:
+    C:/Users/katia/OneDrive/Documents/work2/CAN/MPFS250_Video_Kit/VKPFSOC_H264_MM/component/work/VDMA_C0\VDMA_C0_0\VDMA_C0.sdc

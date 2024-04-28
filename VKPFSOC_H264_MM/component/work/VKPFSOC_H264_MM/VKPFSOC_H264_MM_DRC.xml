@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>VKPFSOC_H264_MM</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between FIC_CONVERTER_0:AXI4L_VDMA:AXI4L_VDMA_SLAVE0_AWID[0-8] and Video_Pipeline_0:AXI4L_VDMA:[0--1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_VDMA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between FIC_CONVERTER_0:AXI4L_MIPI:AXI4L_MIPI_SLAVE1_AWID[0-8] and Video_Pipeline_0:AXI4L_MIPI:[0--1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_MIPI</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between FIC_CONVERTER_0:AXI4L_H264:AXI4L_H264_SLAVE2_AWID[0-8] and Video_Pipeline_0:AXI4L_H264:[0--1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_H264</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface ID width mismatch</message>
+    <detail> There is an ID width mismatch between FIC_CONVERTER_0:AXI4L_IE:AXI4L_IE_SLAVE3_AWID[0-8] and Video_Pipeline_0:AXI4L_IE:[0--1] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_IE</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_CONVERTER_0:AXI4L_SCALER:AXI4L_SCALER_SLAVE4_WDATA[0-63] and Video_Pipeline_0:AXI4L_SCALER:AXI4L_SCALER_wdata[0-31] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_SCALER</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message> bus interface data width mismatch</message>
+    <detail> There is a data width mismatch between FIC_CONVERTER_0:AXI4L_OSD:AXI4L_OSD_SLAVE5_WDATA[0-63] and Video_Pipeline_0:AXI4L_OSD:AXI4L_OSD_wdata[0-31] which may result in a loss of data.</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/FIC_CONVERTER_0:AXI4L_OSD</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS:CRYPTO_DLL_LOCK_M2F</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/MSS:CRYPTO_DLL_LOCK_M2F</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin MSS:CRYPTO_BUSY_M2F</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/VKPFSOC_H264_MM/pins/MSS:CRYPTO_BUSY_M2F</crossprobe>
+  </drc>
+</drcreport>
