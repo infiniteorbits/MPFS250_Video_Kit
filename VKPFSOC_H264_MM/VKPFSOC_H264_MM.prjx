@@ -2138,12 +2138,12 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1714316031"
+TIME="1714316486"
 SIZE="25054"
 ENDFILE
 VALUE "<project>\component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.v,hdl"
 STATE="utd"
-TIME="1714316031"
+TIME="1714316485"
 SIZE="85305"
 PARENT="<project>\component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.cxf"
 IS_READONLY="TRUE"
@@ -2157,6 +2157,11 @@ VALUE "<project>\constraint\io\user.pdc,io_pdc"
 STATE="utd"
 TIME="1714316031"
 SIZE="4041"
+ENDFILE
+VALUE "<project>\constraint\io\VIDEO_KIT_CAN0.pdc,io_pdc"
+STATE="utd"
+TIME="1714316463"
+SIZE="375"
 ENDFILE
 VALUE "<project>\constraint\io\VIDEO_KIT_MAC.pdc,io_pdc"
 STATE="utd"
@@ -2369,7 +2374,7 @@ VALUE "<project>\component\Microchip\SolutionCore\VDMA\1.0.0\Stimulus\vdma_tb.v,
 ENDLIST
 ENDLIST
 LIST "VKPFSOC_H264_MM::work"
-FILE "<project>\component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.v,hdl"
+FILE "<project>\component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.cxf,actgen_cxf"
 LIST SynthesisConstraints
 VALUE "<project>\constraint\VKPFSOC_H264_MM_derived_constraints.sdc,sdc"
 ENDLIST
@@ -2386,6 +2391,7 @@ VALUE "<project>\constraint\VKPFSOC_H264_MM_derived_constraints.sdc,sdc"
 VALUE "<project>\constraint\user.sdc,sdc"
 VALUE "<project>\constraint\scaler_constraint.sdc,sdc"
 VALUE "<project>\constraint\fp\user.pdc,fp_pdc"
+VALUE "<project>\constraint\io\VIDEO_KIT_CAN0.pdc,io_pdc"
 ENDLIST
 ENDLIST
 LIST "CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN::CORERXIODBITALIGN_LIB"
@@ -2638,8 +2644,11 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Constraint Manager;Constraint Manager;0
+HDL;constraint\io\VIDEO_KIT_CAN0.pdc;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;VKPFSOC_H264_MM;0
+ACTIVEVIEW;VKPFSOC_H264_MM
 ENDLIST
 LIST ModuleSubBlockList
 LIST "async_fifo_vdma::work","component\Microchip\SolutionCore\VDMA\1.0.0\RTL\async_fifo_vdma.v","FALSE","FALSE"
@@ -3698,7 +3707,7 @@ SUBBLOCK "IMAGE_SCALER_C0::work","component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0
 SUBBLOCK "Image_Enhancement_C0::work","component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd","TRUE","FALSE"
 SUBBLOCK "RGBtoYCbCr_C0::work","component\work\RGBtoYCbCr_C0\RGBtoYCbCr_C0.vhd","TRUE","FALSE"
 ENDLIST
-LIST "VKPFSOC_H264_MM::work","component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.v","TRUE","FALSE"
+LIST "VKPFSOC_H264_MM::work","component\work\VKPFSOC_H264_MM\VKPFSOC_H264_MM.cxf","TRUE","FALSE"
 SUBBLOCK "CLOCKS_AND_RESETS::work","component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v","TRUE","FALSE"
 SUBBLOCK "FIC_CONVERTER::work","component\work\FIC_CONVERTER\FIC_CONVERTER.v","TRUE","FALSE"
 SUBBLOCK "MSS_VIDEO_KIT_H264_MM::work","component\work\MSS_VIDEO_KIT_H264_MM\MSS_VIDEO_KIT_H264_MM.v","TRUE","FALSE"
@@ -4805,6 +4814,7 @@ VALUE "constraint\io\VIDEO_KIT_MAC.pdc"
 VALUE "constraint\io\VIDEO_KIT_MMUART0.pdc"
 VALUE "constraint\io\VIDEO_KIT_MMUART1.pdc"
 VALUE "constraint\io\user.pdc"
+VALUE "constraint\io\VIDEO_KIT_CAN0.pdc"
 ENDLIST
 LIST FPTabList
 VALUE "constraint\fp\user.pdc"
