@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sun Apr 28 14:56:56 2024
+// Created by SmartDesign Sun Apr 28 16:01:25 2024
 // Version: 2023.2 2023.2.0.8
 //////////////////////////////////////////////////////////////////////
 
@@ -589,9 +589,9 @@ wire          SGMII_TX1_P_net_1;
 wire          USB_STP_net_1;
 wire          USB_ULPI_RESET_N_net_1;
 wire          VSC_8662_RESETN_net_1;
+wire          CAN_0_TXBUS_net_1;
 wire   [5:0]  CA_net_1;
 wire   [3:0]  DM_net_1;
-wire          CAN_0_TXBUS_net_1;
 wire   [63:0] MSS_INT_F2M_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
@@ -779,12 +779,12 @@ assign USB_ULPI_RESET_N_net_1            = USB_ULPI_RESET_N_net_0;
 assign USB_ULPI_RESET_N                  = USB_ULPI_RESET_N_net_1;
 assign VSC_8662_RESETN_net_1             = VSC_8662_RESETN_net_0;
 assign VSC_8662_RESETN                   = VSC_8662_RESETN_net_1;
+assign CAN_0_TXBUS_net_1                 = CAN_0_TXBUS_net_0;
+assign CAN_0_TXBUS                       = CAN_0_TXBUS_net_1;
 assign CA_net_1                          = CA_net_0;
 assign CA[5:0]                           = CA_net_1;
 assign DM_net_1                          = DM_net_0;
 assign DM[3:0]                           = DM_net_1;
-assign CAN_0_TXBUS_net_1                 = CAN_0_TXBUS_net_0;
-assign CAN_0_TXBUS                       = CAN_0_TXBUS_net_1;
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
@@ -1218,40 +1218,17 @@ MSS_VIDEO_KIT_H264_MM MSS(
         .FIC_0_ACLK                  ( CLOCKS_AND_RESETS_CLK_125MHz ),
         .FIC_0_AXI4_M_AWREADY        ( MSS_FIC_0_AXI4_INITIATOR_AWREADY ),
         .FIC_0_AXI4_M_WREADY         ( MSS_FIC_0_AXI4_INITIATOR_WREADY ),
-        .FIC_0_AXI4_M_BID            ( MSS_FIC_0_AXI4_INITIATOR_BID ),
-        .FIC_0_AXI4_M_BRESP          ( MSS_FIC_0_AXI4_INITIATOR_BRESP ),
         .FIC_0_AXI4_M_BVALID         ( MSS_FIC_0_AXI4_INITIATOR_BVALID ),
         .FIC_0_AXI4_M_ARREADY        ( MSS_FIC_0_AXI4_INITIATOR_ARREADY ),
-        .FIC_0_AXI4_M_RID            ( MSS_FIC_0_AXI4_INITIATOR_RID ),
-        .FIC_0_AXI4_M_RDATA          ( MSS_FIC_0_AXI4_INITIATOR_RDATA ),
-        .FIC_0_AXI4_M_RRESP          ( MSS_FIC_0_AXI4_INITIATOR_RRESP ),
         .FIC_0_AXI4_M_RLAST          ( MSS_FIC_0_AXI4_INITIATOR_RLAST ),
         .FIC_0_AXI4_M_RVALID         ( MSS_FIC_0_AXI4_INITIATOR_RVALID ),
         .FIC_1_ACLK                  ( CLOCKS_AND_RESETS_CLK_125MHz ),
-        .FIC_1_AXI4_S_AWID           ( Video_Pipeline_0_mAXI4_SLAVE_AWID ),
-        .FIC_1_AXI4_S_AWADDR         ( Video_Pipeline_0_mAXI4_SLAVE_AWADDR ),
-        .FIC_1_AXI4_S_AWLEN          ( Video_Pipeline_0_mAXI4_SLAVE_AWLEN ),
-        .FIC_1_AXI4_S_AWSIZE         ( Video_Pipeline_0_mAXI4_SLAVE_AWSIZE ),
-        .FIC_1_AXI4_S_AWBURST        ( Video_Pipeline_0_mAXI4_SLAVE_AWBURST ),
         .FIC_1_AXI4_S_AWLOCK         ( Video_Pipeline_0_mAXI4_SLAVE_AWLOCK_0 ),
-        .FIC_1_AXI4_S_AWCACHE        ( Video_Pipeline_0_mAXI4_SLAVE_AWCACHE ),
-        .FIC_1_AXI4_S_AWQOS          ( FIC_1_AXI4_S_AWQOS_const_net_0 ), // tied to 4'h0 from definition
-        .FIC_1_AXI4_S_AWPROT         ( Video_Pipeline_0_mAXI4_SLAVE_AWPROT ),
         .FIC_1_AXI4_S_AWVALID        ( Video_Pipeline_0_mAXI4_SLAVE_AWVALID ),
-        .FIC_1_AXI4_S_WDATA          ( Video_Pipeline_0_mAXI4_SLAVE_WDATA ),
-        .FIC_1_AXI4_S_WSTRB          ( Video_Pipeline_0_mAXI4_SLAVE_WSTRB ),
         .FIC_1_AXI4_S_WLAST          ( Video_Pipeline_0_mAXI4_SLAVE_WLAST ),
         .FIC_1_AXI4_S_WVALID         ( Video_Pipeline_0_mAXI4_SLAVE_WVALID ),
         .FIC_1_AXI4_S_BREADY         ( Video_Pipeline_0_mAXI4_SLAVE_BREADY ),
-        .FIC_1_AXI4_S_ARID           ( Video_Pipeline_0_mAXI4_SLAVE_ARID ),
-        .FIC_1_AXI4_S_ARADDR         ( Video_Pipeline_0_mAXI4_SLAVE_ARADDR ),
-        .FIC_1_AXI4_S_ARLEN          ( Video_Pipeline_0_mAXI4_SLAVE_ARLEN ),
-        .FIC_1_AXI4_S_ARSIZE         ( Video_Pipeline_0_mAXI4_SLAVE_ARSIZE ),
-        .FIC_1_AXI4_S_ARBURST        ( Video_Pipeline_0_mAXI4_SLAVE_ARBURST ),
-        .FIC_1_AXI4_S_ARQOS          ( FIC_1_AXI4_S_ARQOS_const_net_0 ), // tied to 4'h0 from definition
         .FIC_1_AXI4_S_ARLOCK         ( Video_Pipeline_0_mAXI4_SLAVE_ARLOCK_0 ),
-        .FIC_1_AXI4_S_ARCACHE        ( Video_Pipeline_0_mAXI4_SLAVE_ARCACHE ),
-        .FIC_1_AXI4_S_ARPROT         ( Video_Pipeline_0_mAXI4_SLAVE_ARPROT ),
         .FIC_1_AXI4_S_ARVALID        ( Video_Pipeline_0_mAXI4_SLAVE_ARVALID ),
         .FIC_1_AXI4_S_RREADY         ( Video_Pipeline_0_mAXI4_SLAVE_RREADY ),
         .MMUART_0_RXD_F2M            ( MMUART_0_RXD_F2M ),
@@ -1260,7 +1237,6 @@ MSS_VIDEO_KIT_H264_MM MSS(
         .I2C_0_SDA_F2M               ( BIBUF_2_Y ),
         .I2C_0_BCLK_F2M              ( CLOCKS_AND_RESETS_I2C_BCLK ),
         .GPIO_2_F2M_25               ( VCC_net ),
-        .MSS_INT_F2M                 ( MSS_INT_F2M_net_0 ),
         .MSS_RESET_N_F2M             ( CLOCKS_AND_RESETS_FABRIC_POR_N ),
         .CAN_0_RXBUS                 ( CAN_0_RXBUS ),
         .USB_CLK                     ( USB_CLK ),
@@ -1274,44 +1250,45 @@ MSS_VIDEO_KIT_H264_MM MSS(
         .SGMII_RX0_N                 ( SGMII_RX0_N ),
         .REFCLK                      ( REFCLK ),
         .REFCLK_N                    ( REFCLK_N ),
+        .FIC_0_AXI4_M_BID            ( MSS_FIC_0_AXI4_INITIATOR_BID ),
+        .FIC_0_AXI4_M_BRESP          ( MSS_FIC_0_AXI4_INITIATOR_BRESP ),
+        .FIC_0_AXI4_M_RID            ( MSS_FIC_0_AXI4_INITIATOR_RID ),
+        .FIC_0_AXI4_M_RDATA          ( MSS_FIC_0_AXI4_INITIATOR_RDATA ),
+        .FIC_0_AXI4_M_RRESP          ( MSS_FIC_0_AXI4_INITIATOR_RRESP ),
+        .FIC_1_AXI4_S_AWID           ( Video_Pipeline_0_mAXI4_SLAVE_AWID ),
+        .FIC_1_AXI4_S_AWADDR         ( Video_Pipeline_0_mAXI4_SLAVE_AWADDR ),
+        .FIC_1_AXI4_S_AWLEN          ( Video_Pipeline_0_mAXI4_SLAVE_AWLEN ),
+        .FIC_1_AXI4_S_AWSIZE         ( Video_Pipeline_0_mAXI4_SLAVE_AWSIZE ),
+        .FIC_1_AXI4_S_AWBURST        ( Video_Pipeline_0_mAXI4_SLAVE_AWBURST ),
+        .FIC_1_AXI4_S_AWCACHE        ( Video_Pipeline_0_mAXI4_SLAVE_AWCACHE ),
+        .FIC_1_AXI4_S_AWQOS          ( FIC_1_AXI4_S_AWQOS_const_net_0 ), // tied to 4'h0 from definition
+        .FIC_1_AXI4_S_AWPROT         ( Video_Pipeline_0_mAXI4_SLAVE_AWPROT ),
+        .FIC_1_AXI4_S_WDATA          ( Video_Pipeline_0_mAXI4_SLAVE_WDATA ),
+        .FIC_1_AXI4_S_WSTRB          ( Video_Pipeline_0_mAXI4_SLAVE_WSTRB ),
+        .FIC_1_AXI4_S_ARID           ( Video_Pipeline_0_mAXI4_SLAVE_ARID ),
+        .FIC_1_AXI4_S_ARADDR         ( Video_Pipeline_0_mAXI4_SLAVE_ARADDR ),
+        .FIC_1_AXI4_S_ARLEN          ( Video_Pipeline_0_mAXI4_SLAVE_ARLEN ),
+        .FIC_1_AXI4_S_ARSIZE         ( Video_Pipeline_0_mAXI4_SLAVE_ARSIZE ),
+        .FIC_1_AXI4_S_ARBURST        ( Video_Pipeline_0_mAXI4_SLAVE_ARBURST ),
+        .FIC_1_AXI4_S_ARQOS          ( FIC_1_AXI4_S_ARQOS_const_net_0 ), // tied to 4'h0 from definition
+        .FIC_1_AXI4_S_ARCACHE        ( Video_Pipeline_0_mAXI4_SLAVE_ARCACHE ),
+        .FIC_1_AXI4_S_ARPROT         ( Video_Pipeline_0_mAXI4_SLAVE_ARPROT ),
+        .MSS_INT_F2M                 ( MSS_INT_F2M_net_0 ),
         // Outputs
         .FIC_0_DLL_LOCK_M2F          (  ),
         .FIC_1_DLL_LOCK_M2F          ( MSS_FIC_1_DLL_LOCK_M2F ),
-        .FIC_0_AXI4_M_AWID           ( MSS_FIC_0_AXI4_INITIATOR_AWID ),
-        .FIC_0_AXI4_M_AWADDR         ( MSS_FIC_0_AXI4_INITIATOR_AWADDR ),
-        .FIC_0_AXI4_M_AWLEN          ( MSS_FIC_0_AXI4_INITIATOR_AWLEN ),
-        .FIC_0_AXI4_M_AWSIZE         ( MSS_FIC_0_AXI4_INITIATOR_AWSIZE ),
-        .FIC_0_AXI4_M_AWBURST        ( MSS_FIC_0_AXI4_INITIATOR_AWBURST ),
         .FIC_0_AXI4_M_AWLOCK         ( MSS_FIC_0_AXI4_INITIATOR_AWLOCK ),
-        .FIC_0_AXI4_M_AWQOS          ( MSS_FIC_0_AXI4_INITIATOR_AWQOS ),
-        .FIC_0_AXI4_M_AWCACHE        ( MSS_FIC_0_AXI4_INITIATOR_AWCACHE ),
-        .FIC_0_AXI4_M_AWPROT         ( MSS_FIC_0_AXI4_INITIATOR_AWPROT ),
         .FIC_0_AXI4_M_AWVALID        ( MSS_FIC_0_AXI4_INITIATOR_AWVALID ),
-        .FIC_0_AXI4_M_WDATA          ( MSS_FIC_0_AXI4_INITIATOR_WDATA ),
-        .FIC_0_AXI4_M_WSTRB          ( MSS_FIC_0_AXI4_INITIATOR_WSTRB ),
         .FIC_0_AXI4_M_WLAST          ( MSS_FIC_0_AXI4_INITIATOR_WLAST ),
         .FIC_0_AXI4_M_WVALID         ( MSS_FIC_0_AXI4_INITIATOR_WVALID ),
         .FIC_0_AXI4_M_BREADY         ( MSS_FIC_0_AXI4_INITIATOR_BREADY ),
-        .FIC_0_AXI4_M_ARID           ( MSS_FIC_0_AXI4_INITIATOR_ARID ),
-        .FIC_0_AXI4_M_ARADDR         ( MSS_FIC_0_AXI4_INITIATOR_ARADDR ),
-        .FIC_0_AXI4_M_ARLEN          ( MSS_FIC_0_AXI4_INITIATOR_ARLEN ),
-        .FIC_0_AXI4_M_ARSIZE         ( MSS_FIC_0_AXI4_INITIATOR_ARSIZE ),
-        .FIC_0_AXI4_M_ARBURST        ( MSS_FIC_0_AXI4_INITIATOR_ARBURST ),
         .FIC_0_AXI4_M_ARLOCK         ( MSS_FIC_0_AXI4_INITIATOR_ARLOCK ),
-        .FIC_0_AXI4_M_ARQOS          ( MSS_FIC_0_AXI4_INITIATOR_ARQOS ),
-        .FIC_0_AXI4_M_ARCACHE        ( MSS_FIC_0_AXI4_INITIATOR_ARCACHE ),
-        .FIC_0_AXI4_M_ARPROT         ( MSS_FIC_0_AXI4_INITIATOR_ARPROT ),
         .FIC_0_AXI4_M_ARVALID        ( MSS_FIC_0_AXI4_INITIATOR_ARVALID ),
         .FIC_0_AXI4_M_RREADY         ( MSS_FIC_0_AXI4_INITIATOR_RREADY ),
         .FIC_1_AXI4_S_AWREADY        ( Video_Pipeline_0_mAXI4_SLAVE_AWREADY ),
         .FIC_1_AXI4_S_WREADY         ( Video_Pipeline_0_mAXI4_SLAVE_WREADY ),
-        .FIC_1_AXI4_S_BID            ( Video_Pipeline_0_mAXI4_SLAVE_BID ),
-        .FIC_1_AXI4_S_BRESP          ( Video_Pipeline_0_mAXI4_SLAVE_BRESP ),
         .FIC_1_AXI4_S_BVALID         ( Video_Pipeline_0_mAXI4_SLAVE_BVALID ),
         .FIC_1_AXI4_S_ARREADY        ( Video_Pipeline_0_mAXI4_SLAVE_ARREADY ),
-        .FIC_1_AXI4_S_RID            ( Video_Pipeline_0_mAXI4_SLAVE_RID ),
-        .FIC_1_AXI4_S_RDATA          ( Video_Pipeline_0_mAXI4_SLAVE_RDATA ),
-        .FIC_1_AXI4_S_RRESP          ( Video_Pipeline_0_mAXI4_SLAVE_RRESP ),
         .FIC_1_AXI4_S_RLAST          ( Video_Pipeline_0_mAXI4_SLAVE_RLAST ),
         .FIC_1_AXI4_S_RVALID         ( Video_Pipeline_0_mAXI4_SLAVE_RVALID ),
         .MMUART_0_TXD_M2F            ( MMUART_0_TXD_M2F_net_0 ),
@@ -1328,7 +1305,6 @@ MSS_VIDEO_KIT_H264_MM MSS(
         .GPIO_2_M2F_3                (  ),
         .GPIO_2_M2F_2                (  ),
         .GPIO_2_M2F_1                (  ),
-        .MSS_INT_M2F                 (  ),
         .PLL_CPU_LOCK_M2F            (  ),
         .PLL_DDR_LOCK_M2F            (  ),
         .PLL_SGMII_LOCK_M2F          (  ),
@@ -1353,13 +1329,37 @@ MSS_VIDEO_KIT_H264_MM MSS(
         .SGMII_TX1_N                 ( SGMII_TX1_N_net_0 ),
         .SGMII_TX0_P                 ( SGMII_TX0_P_net_0 ),
         .SGMII_TX0_N                 ( SGMII_TX0_N_net_0 ),
-        .DM                          ( DM_net_0 ),
         .RESET_N                     ( RESET_N_net_0 ),
         .ODT                         ( ODT_net_0 ),
         .CKE                         ( CKE_net_0 ),
         .CS                          ( CS_net_0 ),
         .CK                          ( CK_net_0 ),
         .CK_N                        ( CK_N_net_0 ),
+        .FIC_0_AXI4_M_AWID           ( MSS_FIC_0_AXI4_INITIATOR_AWID ),
+        .FIC_0_AXI4_M_AWADDR         ( MSS_FIC_0_AXI4_INITIATOR_AWADDR ),
+        .FIC_0_AXI4_M_AWLEN          ( MSS_FIC_0_AXI4_INITIATOR_AWLEN ),
+        .FIC_0_AXI4_M_AWSIZE         ( MSS_FIC_0_AXI4_INITIATOR_AWSIZE ),
+        .FIC_0_AXI4_M_AWBURST        ( MSS_FIC_0_AXI4_INITIATOR_AWBURST ),
+        .FIC_0_AXI4_M_AWQOS          ( MSS_FIC_0_AXI4_INITIATOR_AWQOS ),
+        .FIC_0_AXI4_M_AWCACHE        ( MSS_FIC_0_AXI4_INITIATOR_AWCACHE ),
+        .FIC_0_AXI4_M_AWPROT         ( MSS_FIC_0_AXI4_INITIATOR_AWPROT ),
+        .FIC_0_AXI4_M_WDATA          ( MSS_FIC_0_AXI4_INITIATOR_WDATA ),
+        .FIC_0_AXI4_M_WSTRB          ( MSS_FIC_0_AXI4_INITIATOR_WSTRB ),
+        .FIC_0_AXI4_M_ARID           ( MSS_FIC_0_AXI4_INITIATOR_ARID ),
+        .FIC_0_AXI4_M_ARADDR         ( MSS_FIC_0_AXI4_INITIATOR_ARADDR ),
+        .FIC_0_AXI4_M_ARLEN          ( MSS_FIC_0_AXI4_INITIATOR_ARLEN ),
+        .FIC_0_AXI4_M_ARSIZE         ( MSS_FIC_0_AXI4_INITIATOR_ARSIZE ),
+        .FIC_0_AXI4_M_ARBURST        ( MSS_FIC_0_AXI4_INITIATOR_ARBURST ),
+        .FIC_0_AXI4_M_ARQOS          ( MSS_FIC_0_AXI4_INITIATOR_ARQOS ),
+        .FIC_0_AXI4_M_ARCACHE        ( MSS_FIC_0_AXI4_INITIATOR_ARCACHE ),
+        .FIC_0_AXI4_M_ARPROT         ( MSS_FIC_0_AXI4_INITIATOR_ARPROT ),
+        .FIC_1_AXI4_S_BID            ( Video_Pipeline_0_mAXI4_SLAVE_BID ),
+        .FIC_1_AXI4_S_BRESP          ( Video_Pipeline_0_mAXI4_SLAVE_BRESP ),
+        .FIC_1_AXI4_S_RID            ( Video_Pipeline_0_mAXI4_SLAVE_RID ),
+        .FIC_1_AXI4_S_RDATA          ( Video_Pipeline_0_mAXI4_SLAVE_RDATA ),
+        .FIC_1_AXI4_S_RRESP          ( Video_Pipeline_0_mAXI4_SLAVE_RRESP ),
+        .MSS_INT_M2F                 (  ),
+        .DM                          ( DM_net_0 ),
         .CA                          ( CA_net_0 ),
         // Inouts
         .MAC_0_MDIO                  ( MAC_0_MDIO ),
