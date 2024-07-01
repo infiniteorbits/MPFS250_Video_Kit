@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\katia\Documents\Work\video-kit\video-kit\VKPFSOC_H264\synthesis\mipi_csi2_rx_embsync_detect_Z17_layer0\mipi_csi2_rx_embsync_detect_Z17_layer0.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CAM1_RX_CLK_P</data>
+<data>250.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>REF_CLK_PAD_P</data>
+<data>148.5 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0</data>
+<data>170.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV</data>
+<data>62.5 MHz</data>
+<data>196.9 MHz</data>
+<data>10.922</data>
+</row>
+<row>
+<data>osc_rc2mhz</data>
+<data>2.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>121.5 MHz</data>
+<data>1.768</data>
+</row>
+</report_table>

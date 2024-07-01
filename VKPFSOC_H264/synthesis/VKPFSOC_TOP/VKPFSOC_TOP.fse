@@ -1,0 +1,86 @@
+
+fsm_encoding {22416041630} onehot
+
+fsm_state_encoding {22416041630} MTX_IDLE1 {000001}
+
+fsm_state_encoding {22416041630} MTX_IDLE2 {000010}
+
+fsm_state_encoding {22416041630} MTX_MOTSTART {000100}
+
+fsm_state_encoding {22416041630} MTX_SHIFT1 {001000}
+
+fsm_state_encoding {22416041630} MTX_SHIFT2 {010000}
+
+fsm_state_encoding {22416041630} MTX_END {100000}
+
+fsm_registers {22416041630} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 
+
+fsm_encoding {39419341926} onehot
+
+fsm_state_encoding {39419341926} C_IDLE {00001}
+
+fsm_state_encoding {39419341926} C_MBXWR_PHASE {00010}
+
+fsm_state_encoding {39419341926} C_SSIREQ_PHASE {00100}
+
+fsm_state_encoding {39419341926} C_MBXRDWAIT_PHASE {01000}
+
+fsm_state_encoding {39419341926} C_MBXRD_PHASE {10000}
+
+fsm_registers {39419341926} {main_curr_state[4]}  {main_curr_state[3]}  {main_curr_state[2]}  {main_curr_state[1]}  {main_curr_state[0]} 
+
+fsm_encoding {38155315528} onehot
+
+fsm_state_encoding {38155315528} SSI_IDLE {00001}
+
+fsm_state_encoding {38155315528} SSI_CMD_PHASE {00010}
+
+fsm_state_encoding {38155315528} SSI_ACK_WAIT {00100}
+
+fsm_state_encoding {38155315528} SSI_RESP_PHASE {01000}
+
+fsm_state_encoding {38155315528} SSI_RESP_WAIT {10000}
+
+fsm_registers {38155315528} {ssi_curr_state[4]}  {ssi_curr_state[3]}  {ssi_curr_state[2]}  {ssi_curr_state[1]}  {ssi_curr_state[0]} 
+
+fsm_encoding {36198319827} onehot
+
+fsm_state_encoding {36198319827} MBX_IDLE {000000000001}
+
+fsm_state_encoding {36198319827} MBXWR_LD_PHASE {000000000010}
+
+fsm_state_encoding {36198319827} MBXWR_PHASE {000000000100}
+
+fsm_state_encoding {36198319827} MBXWR_DONE_PHASE {000000001000}
+
+fsm_state_encoding {36198319827} MBXRD_LD_PHASE {000000010000}
+
+fsm_state_encoding {36198319827} MBXRD_PHASE {000000100000}
+
+fsm_state_encoding {36198319827} MBXRD_WAIT_PHASE1 {000001000000}
+
+fsm_state_encoding {36198319827} MBXRD_WAIT_PHASE2 {000010000000}
+
+fsm_state_encoding {36198319827} MBXRD_WAIT_PHASE3 {000100000000}
+
+fsm_state_encoding {36198319827} MBXRD_WAIT_PHASE4 {001000000000}
+
+fsm_state_encoding {36198319827} MBXRD_DONEWAIT_PHASE {010000000000}
+
+fsm_state_encoding {36198319827} MBXRD_DONE_PHASE {100000000000}
+
+fsm_registers {36198319827} {mbx_curr_state[11]}  {mbx_curr_state[10]}  {mbx_curr_state[9]}  {mbx_curr_state[8]}  {mbx_curr_state[7]}  {mbx_curr_state[6]}  {mbx_curr_state[5]}  {mbx_curr_state[4]}  {mbx_curr_state[3]}  {mbx_curr_state[2]}  {mbx_curr_state[1]}  {mbx_curr_state[0]} 
+
+fsm_encoding {37130313029} onehot
+
+fsm_state_encoding {37130313029} ARB_IDLE_ST {00001}
+
+fsm_state_encoding {37130313029} ARB_FFNONTIMED_ST {00010}
+
+fsm_state_encoding {37130313029} ARB_FFTIMED_ST {00100}
+
+fsm_state_encoding {37130313029} ARB_SYSSERV_ST {01000}
+
+fsm_state_encoding {37130313029} ARB_DONE_ST {10000}
+
+fsm_registers {37130313029} {arb_curr_state[4]}  {arb_curr_state[3]}  {arb_curr_state[2]}  {arb_curr_state[1]}  {arb_curr_state[0]} 

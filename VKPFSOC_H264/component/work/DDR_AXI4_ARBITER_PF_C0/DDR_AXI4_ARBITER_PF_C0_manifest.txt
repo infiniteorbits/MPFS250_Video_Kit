@@ -1,0 +1,33 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 10:31:29 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  DDR_AXI4_ARBITER_PF_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/AXI4_M_M_IF.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/AXI4_S_IF.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_async.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_fwft.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_grayToBinConv.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_NstagesSync.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_resetSync.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_sync.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_corefifo_sync_scntr.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_LSRAM_top.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/axi_lbus_ram_wrapper.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/DDR_AXI4_ARBITER_PF.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/DDR_AXI4_ARBITER_PF_Native.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/ddr_rw_arbiter.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/read_demux.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/read_mux.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/read_top.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/request_scheduler.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/video_axi_fifo.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/write_demux.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/write_mux.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/DDR_AXI4_ARBITER_PF/2.1.0/RTL/write_top.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/DDR_AXI4_ARBITER_PF_C0/DDR_AXI4_ARBITER_PF_C0.v
+

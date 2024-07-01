@@ -1,0 +1,77 @@
+Jitter Estimation Report
+========================
+
+Date           : Fri Jun 28 20:07:14 2024
+Libero version : 2023.2.0.8
+Design         : VKPFSOC_TOP
+Family         : PolarFireSoC
+Die            : MPFS250TS
+Speed grade    : -1
+Data state     : Production
+All jitter values are peak-to-peak
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    CAM1_RX_CLK_P
+System jitter (worst aggressor):  0.025 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) Master Clock jitter:                          0.025 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.025 ns
+
+
+Clock: Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: osc_rc2mhz
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) RC Oscillator jitter:                        10.000 ns
+
+     Resulting clock jitter (max of (1) and (2)): 10.000 ns
+
+
+Clock: CAM1_RX_CLK_P
+
+     System jitter (worst aggressor):              0.025 ns
+     Resulting clock jitter:                       0.025 ns
+
+
+Clock: REF_CLK_PAD_P
+
+ (1) System jitter (worst aggressor):              0.025 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.025 ns
+
+

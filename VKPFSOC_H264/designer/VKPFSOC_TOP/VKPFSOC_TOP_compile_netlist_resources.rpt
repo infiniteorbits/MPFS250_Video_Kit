@@ -1,0 +1,214 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+Date: Fri Jun 28 20:06:52 2024
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS250TS    |
+| Package                | FCG1152      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | IND          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+--------------------------------------------------------------------------------------+
+| Topcell | VKPFSOC_TOP                                                                          |
+| Format  | Verilog                                                                              |
+| Source  | C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\VKPFSOC_TOP.vm |
++---------+--------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+-------+--------+------------+
+| Type                      | Used  | Total  | Percentage |
++---------------------------+-------+--------+------------+
+| 4LUT                      | 34468 | 254196 | 13.56      |
+| DFF                       | 30643 | 254196 | 12.05      |
+| I/O Register              | 0     | 1116   | 0.00       |
+| User I/O                  | 30    | 372    | 8.06       |
+| -- Single-ended I/O       | 20    | 372    | 5.38       |
+| -- Differential I/O Pairs | 5     | 186    | 2.69       |
+| uSRAM                     | 25    | 2352   | 1.06       |
+| LSRAM                     | 122   | 812    | 15.02      |
+| Math                      | 47    | 784    | 5.99       |
+| H-Chip Global             | 7     | 48     | 14.58      |
+| PLL                       | 2     | 8      | 25.00      |
+| DLL                       | 0     | 8      | 0.00       |
+| BANKCTRL                  | 1     | 6      | 16.67      |
+| CRN_INT                   | 2     | 24     | 8.33       |
+| PF_SPI                    | 1     | 1      | 100.00     |
+| INIT                      | 1     | 1      | 100.00     |
+| SYS_SERVICES              | 1     | 1      | 100.00     |
+| OSC_RC2MHZ                | 1     | 1      | 100.00     |
+| Transceiver Lanes         | 0     | 16     | 0.00       |
+| Transceiver PCIe          | 0     | 2      | 0.00       |
+| XCVR_REF_CLK              | 1     | 11     | 9.09       |
+| ICB_CLKDIV                | 3     | 24     | 12.50      |
+| ICB_CLKINT                | 5     | 72     | 6.94       |
+| MSS                       | 1     | 1      | 100.00     |
+| MSS I/O                   | 97    | 136    | 71.32      |
++---------------------------+-------+--------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+-------+-------+
+| Type                  | 4LUT  | DFF   |
++-----------------------+-------+-------+
+| Fabric Logic          | 28084 | 24259 |
+| uSRAM Interface Logic | 300   | 300   |
+| LSRAM Interface Logic | 4392  | 4392  |
+| Math Interface Logic  | 1692  | 1692  |
+| Total Used            | 34468 | 30643 |
++-----------------------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 6      | 11   |
+| 7      | 16   |
+| 8      | 16   |
+| 9      | 94   |
+| 10     | 52   |
+| 11     | 37   |
+| 12     | 28   |
+| 13     | 21   |
+| 14     | 14   |
+| 15     | 10   |
+| 16     | 18   |
+| 17     | 39   |
+| 18     | 8    |
+| 19     | 9    |
+| 23     | 1    |
+| 24     | 3    |
+| 25     | 16   |
+| 26     | 2    |
+| 27     | 10   |
+| 28     | 12   |
+| 29     | 9    |
+| 30     | 12   |
+| 32     | 1    |
+| 63     | 1    |
+| 64     | 1    |
+| Total  | 441  |
++--------+------+
+
+Detailed 4LUT Groups Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 672  |
+| 5      | 57   |
+| 22     | 24   |
+| 46     | 40   |
+| Total  | 793  |
++--------+------+
+
+Detailed Math Chains Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 41   |
+| 2      | 3    |
+| Total  | 44   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 16           | 0           | 0               |
+| Bidirectional I/O             | 2            | 0           | 0               |
+| Differential Input I/O Pairs  | 5            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                    |
++--------+---------+---------------------------------------------------------------------------------------------------------+
+| 18320  | INT_NET | Net   : Video_Pipeline_0/IMX334_IF_TOP_0_PARALLEL_CLOCK                                                 |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                                         |
+| 4918   | INT_NET | Net   : Video_Pipeline_0/IMX334_IF_TOP_0/NN_1                                                           |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0_RGB1               |
+|        |         | Source: NETLIST                                                                                         |
+| 3078   | INT_NET | Net   : Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_Y_arst                           |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                                         |
+| 892    | INT_NET | Net   : Video_Pipeline_0/IMX334_IF_TOP_0/dff_arst_0                                                     |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                         |
+| 774    | INT_NET | Net   : CLOCKS_AND_RESETS_CLK_50MHz                                                                     |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                                         |
+| 670    | INT_NET | Net   : CLOCKS_AND_RESETS_CLK_125MHz                                                                    |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1                               |
+|        |         | Source: NETLIST                                                                                         |
+| 1      | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_NET                               |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0_RGB1                         |
+|        |         | Source: NETLIST                                                                                         |
++--------+---------+---------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                      |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+| 16267  | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_net_319                                         |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_178/RSTn_OUT                                  |
+| 2050   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_net_2414             |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/ram_data_vld             |
+| 2049   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/MSC_net_4448    |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/read_en_fe      |
+| 1026   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_net_1265           |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/ram_data_vld           |
+| 1025   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/MSC_net_2270 |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/read_en_fe   |
+| 778    | INT_NET | Net   : Video_Pipeline_0/dff_arst_0                                                                                       |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C1_0/CORERESET_PF_C1_0/dff_15_rep                                   |
+| 702    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_50MHz_CORERESET_PF_C5_0_dff                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_50MHz/CORERESET_PF_C5_0/dff_15                                             |
+| 666    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_INIT_MONITOR_0_INIT_MONITOR_0_DEVICE_INIT_DONE                                           |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/INIT_MONITOR_0/INIT_MONITOR_0/I_INIT                                                     |
+| 541    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_125MHz_CORERESET_0_dff                                                     |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_125MHz/CORERESET_0/dff_15                                                  |
+| 541    | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy_Y[0]    |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy[0]      |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                      |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+| 16267  | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_net_319                                         |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_178/RSTn_OUT                                  |
+| 2050   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_net_2414             |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/ram_data_vld             |
+| 2049   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/MSC_net_4448    |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/read_en_fe      |
+| 1026   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_net_1265           |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/ram_data_vld           |
+| 1025   | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/MSC_net_2270 |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/read_en_fe   |
+| 778    | INT_NET | Net   : Video_Pipeline_0/dff_arst_0                                                                                       |
+|        |         | Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C1_0/CORERESET_PF_C1_0/dff_15_rep                                   |
+| 702    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_50MHz_CORERESET_PF_C5_0_dff                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_50MHz/CORERESET_PF_C5_0/dff_15                                             |
+| 666    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_INIT_MONITOR_0_INIT_MONITOR_0_DEVICE_INIT_DONE                                           |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/INIT_MONITOR_0/INIT_MONITOR_0/I_INIT                                                     |
+| 541    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_125MHz_CORERESET_0_dff                                                     |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_125MHz/CORERESET_0/dff_15                                                  |
+| 541    | INT_NET | Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy_Y[0]    |
+|        |         | Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy[0]      |
++--------+---------+---------------------------------------------------------------------------------------------------------------------------+
+

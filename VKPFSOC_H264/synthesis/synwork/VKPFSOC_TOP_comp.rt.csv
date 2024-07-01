@@ -1,0 +1,5 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+CORERXIODBITALIGN_LIB, CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z20_layer0,0h:00m:02s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   241 MB,    24 MB,     0 MB,     8 MB,    16 MB
+work, mipicsi2rxdecoderPF_10s_4s_1s_0s_12s_1s_0s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   241 MB,    10 MB,    10 MB,     0 MB,     0 MB
+work, CAVLC_H264,0h:00m:01s,0h:00m:00s,0h:00m:00s,0h:00m:01s,   241 MB,    21 MB,     4 MB,     8 MB,     9 MB
+work, DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_0s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   255 MB,     1 MB,     1 MB,     0 MB,     0 MB

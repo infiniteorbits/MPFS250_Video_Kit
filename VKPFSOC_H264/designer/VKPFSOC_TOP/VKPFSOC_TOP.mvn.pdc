@@ -1,0 +1,62 @@
+# Microchip Physical design constraints file
+
+# Version: 2023.2 2023.2.0.8
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS250TS , Package: FCG1152 , Speed grade: -1 
+
+# Date generated: Fri Jun 28 20:07:03 2024 
+
+
+#
+# IO banks setting
+#
+
+set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name CLK -DIRECTION INOUT -pin_name H7
+set_io -port_name DI -DIRECTION INPUT -pin_name K12
+set_io -port_name DO -DIRECTION OUTPUT -pin_name G7
+set_io -port_name FLASH -DIRECTION INPUT -pin_name K13
+set_io -port_name IFACE -DIRECTION INPUT -pin_name K11
+set_io -port_name SS -DIRECTION INOUT -pin_name H11
+
+#
+# Ports using Dedicated Pins
+#
+
+set_io -port_name CLK  \
+    -pin_name H7       \
+    -DIRECTION INOUT
+set_io -port_name DI  \
+    -pin_name K12     \
+    -DIRECTION INPUT
+set_io -port_name DO   \
+    -pin_name G7       \
+    -DIRECTION OUTPUT
+set_io -port_name FLASH  \
+    -pin_name K13        \
+    -DIRECTION INPUT
+set_io -port_name IFACE  \
+    -pin_name K11        \
+    -DIRECTION INPUT
+set_io -port_name SS  \
+    -pin_name H11     \
+    -DIRECTION INOUT
+
+#
+# Core cell constraints
+#
+

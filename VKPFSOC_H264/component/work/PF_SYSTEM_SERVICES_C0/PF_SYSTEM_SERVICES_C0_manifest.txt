@@ -1,0 +1,17 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 12:05:16 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  PF_SYSTEM_SERVICES_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/SgCore/PF_SYSTEM_SERVICES/3.0.101/rtl/vlog/core/CoreSysServices_PF_APBS.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/SgCore/PF_SYSTEM_SERVICES/3.0.101/rtl/vlog/core/CoreSysServices_PF_Ctrl.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/SgCore/PF_SYSTEM_SERVICES/3.0.101/rtl/vlog/core/CoreSysServices_PF_ReqArbiter.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/SgCore/PF_SYSTEM_SERVICES/3.0.101/rtl/vlog/core/CoreSysServices_PF_MBXIF.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/SgCore/PF_SYSTEM_SERVICES/3.0.101/rtl/vlog/core/CoreSysServices_PF_SSIIF.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/PF_SYSTEM_SERVICES_C0/PF_SYSTEM_SERVICES_C0_0/rtl/vlog/core/PF_System_Services.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/PF_SYSTEM_SERVICES_C0/PF_SYSTEM_SERVICES_C0.v
+

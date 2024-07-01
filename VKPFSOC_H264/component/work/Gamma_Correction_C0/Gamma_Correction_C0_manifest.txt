@@ -1,0 +1,16 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 10:31:31 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  Gamma_Correction_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/Gamma_Correction/4.3.0/Encrypted/Gamma_Correction.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/Gamma_Correction_C0/Gamma_Correction_C0.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/Gamma_Correction/4.3.0/Stimulus/CFA_RGB_in.txt
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/Gamma_Correction/4.3.0/Stimulus/Gamma_Correction_tb.v
+

@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Fri Jun 28 20:19:31 2024
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0</cell>
+ <cell>(1305, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_Y</cell>
+ <cell>9340</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_GB0</cell>
+ <cell>(1317, 163)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_gbs_1</cell>
+ <cell>8980</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0</cell>
+ <cell>(1297, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0_Y</cell>
+ <cell>4918</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0</cell>
+ <cell>(1298, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0_Y</cell>
+ <cell>3078</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0</cell>
+ <cell>(1305, 163)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0_Y</cell>
+ <cell>892</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>(1296, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0_Y</cell>
+ <cell>774</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>(1299, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y</cell>
+ <cell>670</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0</cell>
+ <cell>(1301, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0_Y</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CAM1_RX_CLK_P</cell>
+ <cell>M14</cell>
+ <cell>GPIO167PB7/CLKIN_W_0/CCC_SW_CLKIN_W_0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLK_0/U_IOPADP:Y</cell>
+ <cell>(0, 55)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLK_0_Y</cell>
+ <cell>HARDWIRED</cell>
+ <cell>2</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0:Y</cell>
+ <cell>(757, 165)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_Y</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep:Q</cell>
+ <cell>(867, 154)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_Z</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_OSC_C0_0/PF_OSC_C0_0/I_OSC_2:CLK</cell>
+ <cell>(655, 2)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_OSC_C0_0_RCOSC_2MHZ_CLK_DIV</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0:OUT0</cell>
+ <cell>(1, 5)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0:OUT0</cell>
+ <cell>(1, 5)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_GB0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT1</cell>
+ <cell>(0, 5)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_4</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:OUT0</cell>
+ <cell>(0, 5)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_clkint_0</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> CCC Location </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CAM1_RX_CLK_P</cell>
+ <cell>M14</cell>
+ <cell>GPIO167PB7/CLKIN_W_0/CCC_SW_CLKIN_W_0</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLK_0/U_IOPADP:Y</cell>
+ <cell>(0, 55)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0:REF_CLK_0</cell>
+ <cell>(1, 5)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLK_0_Y</cell>
+ <cell>ROUTED</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>-</cell>
+ <cell>-</cell>
+ <cell>-</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_XCVR_REF_CLK_C0_0/PF_XCVR_REF_CLK_C0_0/I_IO:Y[0]</cell>
+ <cell>(2467, 371)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:REF_CLK_0</cell>
+ <cell>(0, 5)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_XCVR_REF_CLK_C0_0_FAB_REF_CLK</cell>
+ <cell>ROUTED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Local Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Global Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+ <cell> </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0</cell>
+ <cell>(1305, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_Y</cell>
+ <cell>9340</cell>
+ <cell>1</cell>
+ <cell>(723, 122)</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(723, 149)</cell>
+ <cell>81</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(729, 149)</cell>
+ <cell>48</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(729, 179)</cell>
+ <cell>1054</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(729, 206)</cell>
+ <cell>1970</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(729, 233)</cell>
+ <cell>1570</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(729, 260)</cell>
+ <cell>1404</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(729, 287)</cell>
+ <cell>1484</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>9</cell>
+ <cell>(729, 314)</cell>
+ <cell>1506</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>10</cell>
+ <cell>(729, 341)</cell>
+ <cell>219</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_GB0</cell>
+ <cell>(1317, 163)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_gbs_1</cell>
+ <cell>8980</cell>
+ <cell>1</cell>
+ <cell>(1888, 178)</cell>
+ <cell>119</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1888, 205)</cell>
+ <cell>2060</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1888, 232)</cell>
+ <cell>2420</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(1888, 259)</cell>
+ <cell>1513</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(1888, 286)</cell>
+ <cell>1943</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(1888, 313)</cell>
+ <cell>925</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0</cell>
+ <cell>(1297, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0_Y</cell>
+ <cell>4918</cell>
+ <cell>1</cell>
+ <cell>(723, 12)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(723, 39)</cell>
+ <cell>651</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(723, 66)</cell>
+ <cell>1549</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(723, 93)</cell>
+ <cell>1275</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(723, 120)</cell>
+ <cell>1108</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(723, 147)</cell>
+ <cell>294</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(729, 147)</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>8</cell>
+ <cell>(729, 177)</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0</cell>
+ <cell>(1298, 162)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0_Y</cell>
+ <cell>3078</cell>
+ <cell>1</cell>
+ <cell>(721, 41)</cell>
+ <cell>316</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(721, 68)</cell>
+ <cell>1221</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(721, 95)</cell>
+ <cell>1044</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(721, 122)</cell>
+ <cell>497</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0</cell>
+ <cell>(1305, 163)</cell>
+ <cell>Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0_Y</cell>
+ <cell>892</cell>
+ <cell>1</cell>
+ <cell>(724, 94)</cell>
+ <cell>231</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(724, 121)</cell>
+ <cell>315</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(724, 148)</cell>
+ <cell>298</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(730, 148)</cell>
+ <cell>48</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0</cell>
+ <cell>(1296, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0_Y</cell>
+ <cell>774</cell>
+ <cell>1</cell>
+ <cell>(720, 12)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(720, 147)</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(726, 147)</cell>
+ <cell>89</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(726, 177)</cell>
+ <cell>205</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>5</cell>
+ <cell>(726, 204)</cell>
+ <cell>264</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>6</cell>
+ <cell>(726, 231)</cell>
+ <cell>179</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>7</cell>
+ <cell>(726, 258)</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0</cell>
+ <cell>(1299, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_Y</cell>
+ <cell>670</cell>
+ <cell>1</cell>
+ <cell>(730, 233)</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(730, 260)</cell>
+ <cell>108</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(730, 287)</cell>
+ <cell>512</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4</cell>
+ <cell>(730, 314)</cell>
+ <cell>32</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0</cell>
+ <cell>(1301, 162)</cell>
+ <cell>CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0_Y</cell>
+ <cell>1</cell>
+ <cell> </cell>
+ <cell>(729, 232)</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Clock Signals Summary</name>
+<table>
+<header>
+</header>
+<row>
+ <cell>The number of clock signals through  H-Chip Global resources</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>The number of clock signals through     Row Global resources</cell>
+ <cell>33</cell>
+</row>
+<row>
+ <cell>The number of clock signals through  Sector Global resources</cell>
+ <cell>151</cell>
+</row>
+<row>
+ <cell>The number of clock signals through Cluster Global resources</cell>
+ <cell>3136</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Warning: Local Clock Nets</name>
+<text>The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing have less predictable amounts of clock jitter versus the dedicated global resources. Microchip recommends using clock input and clock generation paths that maximize the usage of dedicated global routing resources, as well as promoting these signals below to dedicated global resources. Refer to the PolarFire and PolarFire SoC Clocking Resources User Guide for more information
+</text>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> Driving Net </cell>
+ <cell> To </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_14:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1077</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_20_rs:CLK</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_16:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1065</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_8_rs:CLK</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_3:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1045</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_21_rs:CLK</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_11:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1087</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_3_rs:CLK</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_8:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1043</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_22_rs:CLK</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_2:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1039</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_16_rs:CLK</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_18:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1069</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_10_rs:CLK</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_11:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1051</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_25_rs:CLK</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_1:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1081</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_24_rs:CLK</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_5:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1041</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_19_rs:CLK</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_13:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1059</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_5_rs:CLK</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_12:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1073</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_1_rs:CLK</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_14:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1061</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_6_rs:CLK</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_13:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1079</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_15_rs:CLK</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_15:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1063</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_7_rs:CLK</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1047</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_12_rs:CLK</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_17:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1067</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_9_rs:CLK</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_7:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1053</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_18_rs:CLK</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_4:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1055</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_14_rs:CLK</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_12:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1057</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_4_rs:CLK</cell>
+</row>
+<row>
+ <cell>21</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_9:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1049</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_23_rs:CLK</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_6:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1075</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_13_rs:CLK</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_10:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1083</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_17_rs:CLK</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_19:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1071</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_11_rs:CLK</cell>
+</row>
+<row>
+ <cell>25</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_10:Y</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1085</cell>
+ <cell>Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_resetn_i_2_rs:CLK</cell>
+</row>
+</table>
+</section>
+</doc>

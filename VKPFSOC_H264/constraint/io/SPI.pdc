@@ -1,0 +1,5 @@
+set_io  -port_name  CLK        -pin_name H7
+set_io  -port_name  DI         -pin_name K12
+set_io  -port_name  DO         -pin_name G7
+set_io  -port_name  IFACE      -pin_name K11
+set_io  -port_name  SS         -pin_name H11

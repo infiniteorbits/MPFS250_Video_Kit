@@ -1,0 +1,28 @@
+
+fsm_encoding {6351391051394} onehot
+
+fsm_state_encoding {6351391051394} 000000 {000001}
+
+fsm_state_encoding {6351391051394} 000001 {000010}
+
+fsm_state_encoding {6351391051394} 000010 {000100}
+
+fsm_state_encoding {6351391051394} 000011 {001000}
+
+fsm_state_encoding {6351391051394} 000100 {010000}
+
+fsm_state_encoding {6351391051394} 000101 {100000}
+
+fsm_registers {6351391051394} {genblk2®state_FS[5]}  {genblk2®state_FS[4]}  {genblk2®state_FS[3]}  {genblk2®state_FS[2]}  {genblk2®state_FS[1]}  {genblk2®state_FS[0]} 
+
+fsm_encoding {6381701281703} original
+
+fsm_state_encoding {6381701281703} S0 {000}
+
+fsm_state_encoding {6381701281703} S1 {001}
+
+fsm_state_encoding {6381701281703} S2 {010}
+
+fsm_state_encoding {6381701281703} S3 {011}
+
+fsm_registers {6381701281703} {genblk7®pix_distribute_4lane[2]}  {genblk7®pix_distribute_4lane[1]}  {genblk7®pix_distribute_4lane[0]} 

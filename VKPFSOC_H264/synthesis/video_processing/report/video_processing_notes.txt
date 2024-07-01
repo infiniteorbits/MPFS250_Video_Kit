@@ -1,0 +1,42 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\component\work\video_processing\video_processing.v":9:7:9:22|Found compile point of type hard on View view:work.video_processing(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.video_processing(verilog) 
+@N: MF106 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\component\work\video_processing\video_processing.v":9:7:9:22|Mapping Compile point view:work.video_processing(verilog) because 
+@N: BZ173 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|Found ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) with 80 words by 20 bits.
+@N: BZ173 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|Found ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) with 80 words by 8 bits.
+@N: MO231 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":253:0:253:5|Found counter in view:work.HV_COUNTER(verilog) instance s_v_counter[15:0] 
+@N: MO231 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":243:0:243:5|Found counter in view:work.HV_COUNTER(verilog) instance s_h_counter[15:0] 
+@N: MO231 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Found counter in view:work.obj_generator(verilog) instance s_addr_counter[9:0] 
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":348:9:348:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":348:42:348:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i (in view: work.obj_generator(verilog))
+@N: MO231 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Found counter in view:work.obj_generator_num(verilog) instance s_addr_offset[9:0] 
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":425:8:425:39|Found 17 by 17 bit equality operator ('==') s_addr_counter17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":427:13:427:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":429:13:429:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_19 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":439:42:439:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i_16 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":439:9:439:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\frame_controls_gen.v":156:9:156:27|Found 16 by 16 bit equality operator ('==') un1_hres_i_16 (in view: work.frame_controls_gen(verilog))
+@N: MF179 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\frame_controls_gen.v":156:33:156:51|Found 16 by 16 bit equality operator ('==') un1_vres_i_16 (in view: work.frame_controls_gen(verilog))
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":88:0:88:5|Removing sequential instance CR_OSD_0.coordinate_r2[10] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":88:0:88:5|Removing sequential instance CR_OSD_0.coordinate_r[10] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance CR_OSD_0.obj_generator_num_0.s_addr_offset[9] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance CR_OSD_0.obj_generator_num_0.s_addr_offset[8] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance CR_OSD_0.obj_generator_num_0.s_addr_offset[7] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_counter[9] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_counter[8] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_counter[7] (in view: work.video_processing(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_offset[9] (in view: work.video_processing(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_offset[8] (in view: work.video_processing(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: BN362 :"c:\users\katia\documents\work\video-kit\video-kit\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance CR_OSD_0.obj_generator_0.s_addr_offset[7] (in view: work.video_processing(verilog)) of type view:ACG4.SLE(PRIM) because it does not drive other instances.
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.73ns 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 with period 20.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

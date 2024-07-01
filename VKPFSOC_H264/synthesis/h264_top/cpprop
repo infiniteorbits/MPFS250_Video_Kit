@@ -1,0 +1,9 @@
+n work h264_top verilog;
+av .compile_point_summary_status "Remapped";
+av .compile_point_summary_reason "Design changed";
+av .compile_point_update_model 1;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 8.625;
+av .compile_point_starttime_stamp "Fri Jun 28 20:03:42 2024";
+av .compile_point_endtime_stamp "Fri Jun 28 20:03:50 2024";
+av .compile_point_realtime_used 8.597;

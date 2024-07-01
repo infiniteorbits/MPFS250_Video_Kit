@@ -1,0 +1,10 @@
+**** Begin Compile Point : CAVLC_H264_CAVLC_C ****
+**** End Compile Point : CAVLC_H264_CAVLC_C ****
+**** Begin Compile Point : CAVLC_H264_CAVLC_Y_0 ****
+**** End Compile Point : CAVLC_H264_CAVLC_Y_0 ****
+**** Begin Compile Point : h264_top ****
+**** End Compile Point : h264_top ****
+**** Begin Compile Point : VKPFSOC_TOP ****
+**** End Compile Point : VKPFSOC_TOP ****
+**** Begin Compile Point : IMX334_IF_TOP ****
+**** End Compile Point : IMX334_IF_TOP ****

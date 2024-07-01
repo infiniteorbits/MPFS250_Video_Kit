@@ -1,0 +1,1165 @@
+----------------------------------------------------------------
+-Pin Report - Date: Fri Jun 28 20:22:16 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2023.2
+-Version: 2023.2.0.8
+-Design Name: VKPFSOC_TOP
+-Family: PolarFireSoC
+-Die: MPFS250TS
+-Package: FCG1152
+-----------------------------------------------------------------
+
+Number |Port                        |Function                                                |State         |I/O Std  |Direction |Used I/O Reg |User I/O Lock Down |Clamp Diode |Resistor Pull |Use I/O Calibration from the lane |Schmitt Trigger |Vcm Input Range |On Die Termination |Odt Value (Ohm) |Input Delay |Slew |Output Drive (mA) |Impedance (ohm) |Output Load (pF) |Source Termination (Ohm) |Output Delay |MSS Resistor Pull |MSS Clamp Diode |MSS Persist |MSS User I/O Lock Down |MSS Odt (Ohm) |MSS Thevenin (Ohm) |MSS Schmitt Trigger |MSS Vcm Input Range |MSS Low Power Mode Input Receiver |MSS Low Power Mode Output Buffer |MSS Output Drive (mA) |MSS Source Termination (Ohm) |
+-------|----------------------------|--------------------------------------------------------|--------------|---------|----------|-------------|-------------------|------------|--------------|----------------------------------|----------------|----------------|-------------------|----------------|------------|-----|------------------|----------------|-----------------|-------------------------|-------------|------------------|----------------|------------|-----------------------|--------------|-------------------|--------------------|--------------------|----------------------------------|---------------------------------|----------------------|-----------------------------|
+A2                                   GPIO172NB1                                               Unassigned     
+A3                                   GPIO173PB1/CLKIN_S_3/CCC_SW_CLKIN_S_3                    Unassigned     
+A4                                   GPIO173NB1                                               Unassigned     
+A5                                   GPIO184NB1                                               Unassigned     
+A6                                   VDDI1                                                    Reserved       
+A7      VSC_8662_SRESET              GPIO185PB1                                               Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+A8      VSC_8662_RESETN              GPIO185NB1                                               Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+A9                                   GPIO13NB1                                                Unassigned     
+A10                                  GPIO15NB1                                                Unassigned     
+A11                                  VSS                                                      Reserved       
+A12                                  GPIO27PB9                                                Unassigned     
+A13                                  GPIO27NB9                                                Unassigned     
+A14                                  GPIO29NB9                                                Unassigned     
+A15                                  GPIO32NB9/DQS                                            Unassigned     
+A16                                  VDDI9                                                    Reserved       
+A17                                  GPIO35NB9                                                Unassigned     
+A18                                  GPIO37PB9                                                Unassigned     
+A19                                  GPIO37NB9                                                Unassigned     
+A20                                  GPIO41PB9                                                Unassigned     
+A21                                  VSS                                                      Reserved       
+A22                                  GPIO50PB9/DQS                                            Unassigned     
+A23                                  GPIO50NB9/DQS                                            Unassigned     
+A24                                  GPIO52NB9                                                Unassigned     
+A25                                  GPIO53PB9                                                Unassigned     
+A26                                  VDDI9                                                    Reserved       
+A27                                  GPIO56PB9/DQS/CCC_SE_PLL0_OUT0                           Unassigned     
+A28                                  GPIO55PB9                                                Unassigned     
+A29                                  GPIO57PB9/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0  Unassigned     
+A30                                  GPIO59PB9/CLKIN_S_13/CCC_SE_CLKIN_S_13                   Unassigned     
+A31                                  GPIO59NB9                                                Unassigned     
+A32                                  VSS                                                      Reserved       
+A33                                  VSS                                                      Reserved       
+AA1                                  VSS                                                      Reserved       
+AA2     CA[4]                        MSS_DDR_A4                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AA3     CA[5]                        MSS_DDR_A5                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AA4                                  MSS_DDR_A8                                               Special        
+AA5     SGMII_TX0_N                  MSS_SGMII_TXN0                                           Special        LVDS33    Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               6                      100                           
+AA6                                  VDDI5                                                    Reserved       
+AA7     SD_DATA0_EMMC_DATA0          MSSIO2B4                                                 Special        LVCMOS18  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                OFF                               8                      ---                           
+AA8     SD_CLK_EMMC_CLK              MSSIO0B4                                                 Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+AA9     SD_CMD_EMMC_CMD              MSSIO1B4                                                 Special        LVCMOS18  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                OFF                               8                      ---                           
+AA10    SD_DATA2_EMMC_DATA2          MSSIO4B4                                                 Special        LVCMOS18  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                OFF                               8                      ---                           
+AA11                                 VSS                                                      Reserved       
+AA12    SD_VOLT_DIR_0_EMMC_UNUSED    MSSIO12B4                                                Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+AA13    SD_DATA3_EMMC_DATA3          MSSIO5B4                                                 Special        LVCMOS18  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                OFF                               8                      ---                           
+AA14                                 VDDI4                                                    Reserved       
+AA15                                 VSS                                                      Reserved       
+AA16                                 VDDAUX4                                                  Reserved       
+AA17                                 VSS                                                      Reserved       
+AA18                                 VDD18                                                    Reserved       
+AA19                                 VSS                                                      Reserved       
+AA20                                 VDD                                                      Reserved       
+AA21                                 VSS                                                      Reserved       
+AA22                                 VDD18                                                    Reserved       
+AA23                                 VSS                                                      Reserved       
+AA24                                 VDD                                                      Reserved       
+AA25                                 VSS                                                      Reserved       
+AA26                                 VSS                                                      Reserved       
+AA27                                 XCVR_2C_REFCLK_P                                         Reserved       
+AA28                                 XCVR_2C_REFCLK_N                                         Reserved       
+AA29                                 VDDA                                                     Reserved       
+AA30                                 VSS                                                      Reserved       
+AA31                                 XCVR_2_TX0_N                                             Reserved       
+AA32                                 XCVR_2_TX0_P                                             Reserved       
+AA33                                 VSS                                                      Reserved       
+AA34                                 VSS                                                      Reserved       
+AB1     CA[0]                        MSS_DDR_A0                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AB2     CA[1]                        MSS_DDR_A1                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AB3                                  VDDI6                                                    Reserved       
+AB4                                  MSS_DDR_A6                                               Special        
+AB5                                  MSS_DDR_A11                                              Special        
+AB6                                  MSS_DDR_A12                                              Special        
+AB7                                  MSS_DDR_A13                                              Special        
+AB8                                  VSS                                                      Reserved       
+AB9                                  MSS_DDR_PARITY                                           Special        
+AB10                                 MSS_DDR_ODT1                                             Special        
+AB11    ODT                          MSS_DDR_ODT0                                             Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AB12    RESET_N                      MSS_DDR_RAM_RST_N/DDR_PLL0_OUT1                          Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AB13                                 VDDI6                                                    Reserved       
+AB14                                 MSS_DDR_CKE1                                             Special        
+AB15                                 VDDI6                                                    Reserved       
+AB16                                 VSS                                                      Reserved       
+AB17                                 VDD18                                                    Reserved       
+AB18                                 VSS                                                      Reserved       
+AB19                                 VDD18                                                    Reserved       
+AB20                                 VSS                                                      Reserved       
+AB21                                 VDD18                                                    Reserved       
+AB22                                 VSS                                                      Reserved       
+AB23                                 VDD18                                                    Reserved       
+AB24                                 VSS                                                      Reserved       
+AB25                                 VDD_XCVR_CLK                                             Reserved       
+AB26                                 VSS                                                      Reserved       
+AB27                                 VDDA                                                     Reserved       
+AB28                                 VSS                                                      Reserved       
+AB29                                 XCVR_2_RX1_N                                             Reserved       
+AB30                                 XCVR_2_RX1_P                                             Reserved       
+AB31                                 VSS                                                      Reserved       
+AB32                                 VSS                                                      Reserved       
+AB33                                 XCVR_2_TX1_N                                             Reserved       
+AB34                                 XCVR_2_TX1_P                                             Reserved       
+AC1     CK                           MSS_DDR_CK0/DDR_PLL0_OUT0                                Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AC2     CK_N                         MSS_DDR_CK_N0                                            Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AC3                                  MSS_DDR_A7                                               Special        
+AC4                                  MSS_DDR_A16                                              Special        
+AC5                                  VSS                                                      Reserved       
+AC6                                  MSS_DDR_A10                                              Special        
+AC7                                  MSS_DDR_CK1/DDR_PLL0_OUT0                                Special        
+AC8                                  MSS_DDR_CK_N1                                            Special        
+AC9                                  MSS_DDR_ACT_N                                            Special        
+AC10                                 VDDI6                                                    Reserved       
+AC11    CKE                          MSS_DDR_CKE0                                             Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AC12                                 MSS_DDR_BG0                                              Special        
+AC13                                 MSS_DDR_CS1                                              Special        
+AC14    CS                           MSS_DDR_CS0                                              Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AC15                                 VSS                                                      Reserved       
+AC16                                 VDD25                                                    Reserved       
+AC17                                 VSS                                                      Reserved       
+AC18                                 VDD18                                                    Reserved       
+AC19                                 VSS                                                      Reserved       
+AC20                                 VDDI0                                                    Reserved       
+AC21                                 VSS                                                      Reserved       
+AC22                                 VDDI0                                                    Reserved       
+AC23                                 VSS                                                      Reserved       
+AC24                                 VDD25                                                    Reserved       
+AC25                                 VSS                                                      Reserved       
+AC26                                 VSS                                                      Reserved       
+AC27                                 XCVR_2A_REFCLK_P                                         Reserved       
+AC28                                 XCVR_2A_REFCLK_N                                         Reserved       
+AC29                                 VDDA                                                     Reserved       
+AC30                                 VSS                                                      Reserved       
+AC31                                 XCVR_2_RX2_N                                             Reserved       
+AC32                                 XCVR_2_RX2_P                                             Reserved       
+AC33                                 VSS                                                      Reserved       
+AC34                                 VSS                                                      Reserved       
+AD1     CA[3]                        MSS_DDR_A3                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AD2                                  VSS                                                      Reserved       
+AD3                                  MSS_DDR_A9                                               Special        
+AD4                                  MSS_DDR_BA0                                              Special        
+AD5                                  MSS_DDR_BA1                                              Special        
+AD6                                  MSS_DDR3_WE_N                                            Special        
+AD7                                  VDDI6                                                    Reserved       
+AD8                                  MSS_DDR_A14                                              Special        
+AD9                                  MSS_DDR_A15                                              Special        
+AD10                                 MSS_DDR_ALERT_N                                          Special        
+AD11                                 MSS_DDR_DM4                                              Special        
+AD12                                 VSS                                                      Reserved       
+AD13                                 MSS_DDR_BG1                                              Special        
+AD14                                 HSIO121NB8                                               Unassigned     
+AD15                                 HSIO121PB8                                               Unassigned     
+AD16                                 HSIO120NB8                                               Unassigned     
+AD17                                 VDDI8                                                    Reserved       
+AD18                                 NC                                                       Reserved       
+AD19                                 NC                                                       Reserved       
+AD20                                 NC                                                       Reserved       
+AD21                                 HSIO89PB0                                                Unassigned     
+AD22                                 VSS                                                      Reserved       
+AD23                                 HSIO87NB0/DQS                                            Unassigned     
+AD24                                 HSIO85PB0                                                Unassigned     
+AD25                                 HSIO85NB0                                                Unassigned     
+AD26                                 VSS                                                      Reserved       
+AD27                                 VSS                                                      Reserved       
+AD28                                 VSS                                                      Reserved       
+AD29                                 XCVR_2_RX3_N                                             Reserved       
+AD30                                 XCVR_2_RX3_P                                             Reserved       
+AD31                                 VSS                                                      Reserved       
+AD32                                 VDDA                                                     Reserved       
+AD33                                 XCVR_2_TX2_N                                             Reserved       
+AD34                                 XCVR_2_TX2_P                                             Reserved       
+AE1     DQ[11]                       MSS_DDR_DQ11                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE2     DQ[10]                       MSS_DDR_DQ10                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE3     CA[2]                        MSS_DDR_A2                                               Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               34                     ---                           
+AE4                                  VDDI6                                                    Reserved       
+AE5     DQS_N[0]                     MSS_DDR_DQS_N0                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE6     DQS[0]                       MSS_DDR_DQS_P0                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE7     DQ[3]                        MSS_DDR_DQ3                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE8     DQ[2]                        MSS_DDR_DQ2                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AE9                                  VSS                                                      Reserved       
+AE10                                 MSS_DDR_DQ32                                             Special        
+AE11                                 MSS_DDR_DQ33                                             Special        
+AE12                                 MSS_DDR_VREF_IN                                          Special        
+AE13                                 HSIO122PB8                                               Unassigned     
+AE14                                 VDDI8                                                    Reserved       
+AE15                                 HSIO125PB8                                               Unassigned     
+AE16                                 HSIO120PB8                                               Unassigned     
+AE17                                 NC                                                       Reserved       
+AE18                                 NC                                                       Reserved       
+AE19                                 VSS                                                      Reserved       
+AE20                                 NC                                                       Reserved       
+AE21                                 HSIO89NB0                                                Unassigned     
+AE22                                 HSIO86PB0/CLKIN_N_4                                      Unassigned     
+AE23                                 HSIO87PB0/DQS                                            Unassigned     
+AE24                                 VDDI0                                                    Reserved       
+AE25                                 HSIO83PB0                                                Unassigned     
+AE26                                 HSIO80NB0                                                Unassigned     
+AE27                                 HSIO80PB0/CLKIN_N_6                                      Unassigned     
+AE28                                 VSS                                                      Reserved       
+AE29                                 VDDA                                                     Reserved       
+AE30                                 VSS                                                      Reserved       
+AE31                                 XCVR_2_TX3_N                                             Reserved       
+AE32                                 XCVR_2_TX3_P                                             Reserved       
+AE33                                 VSS                                                      Reserved       
+AE34                                 VSS                                                      Reserved       
+AF1                                  VDDI6                                                    Reserved       
+AF2     DQ[9]                        MSS_DDR_DQ9                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF3     DQ[8]                        MSS_DDR_DQ8                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF4     DQ[7]                        MSS_DDR_DQ7                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF5     DQ[6]                        MSS_DDR_DQ6                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF6                                  VSS                                                      Reserved       
+AF7     DQ[1]                        MSS_DDR_DQ1                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF8     DQ[0]                        MSS_DDR_DQ0                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AF9                                  MSS_DDR_DQS_N4                                           Special        
+AF10                                 MSS_DDR_DQ35                                             Special        
+AF11                                 VDDI6                                                    Reserved       
+AF12                                 HSIO115PB8                                               Unassigned     
+AF13                                 HSIO122NB8                                               Unassigned     
+AF14                                 HSIO124PB8                                               Unassigned     
+AF15                                 HSIO125NB8                                               Unassigned     
+AF16                                 VSS                                                      Reserved       
+AF17                                 NC                                                       Reserved       
+AF18                                 NC                                                       Reserved       
+AF19                                 NC                                                       Reserved       
+AF20                                 NC                                                       Reserved       
+AF21                                 VDDI0                                                    Reserved       
+AF22                                 HSIO86NB0                                                Unassigned     
+AF23                                 HSIO84NB0                                                Unassigned     
+AF24                                 HSIO84PB0/CLKIN_N_5                                      Unassigned     
+AF25                                 HSIO83NB0                                                Unassigned     
+AF26                                 VSS                                                      Reserved       
+AF27                                 HSIO79PB0                                                Unassigned     
+AF28                                 VSS                                                      Reserved       
+AF29    REF_CLK_PAD_P                XCVR_2B_REFCLK_P                                         Dedicated      
+AF30    REF_CLK_PAD_N                XCVR_2B_REFCLK_N                                         Dedicated      
+AF31                                 VSS                                                      Reserved       
+AF32                                 VSS                                                      Reserved       
+AF33                                 NC                                                       Reserved       
+AF34                                 NC                                                       Reserved       
+AG1     DQ[12]                       MSS_DDR_DQ12                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG2     DQS[1]                       MSS_DDR_DQS_P1                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG3                                  VSS                                                      Reserved       
+AG4     DQ[21]                       MSS_DDR_DQ21                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG5     DQ[17]                       MSS_DDR_DQ17                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG6     DQ[20]                       MSS_DDR_DQ20                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG7     DM[0]                        MSS_DDR_DM0                                              Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AG8                                  VDDI6                                                    Reserved       
+AG9                                  MSS_DDR_DQS_P4                                           Special        
+AG10                                 MSS_DDR_DQ34                                             Special        
+AG11                                 HSIO119PB8                                               Unassigned     
+AG12                                 HSIO115NB8                                               Unassigned     
+AG13                                 VSS                                                      Reserved       
+AG14                                 HSIO124NB8                                               Unassigned     
+AG15                                 HSIO123NB8/DQS                                           Unassigned     
+AG16                                 HSIO123PB8/DQS                                           Unassigned     
+AG17                                 NC                                                       Reserved       
+AG18                                 VDDI0                                                    Reserved       
+AG19                                 NC                                                       Reserved       
+AG20                                 NC                                                       Reserved       
+AG21                                 HSIO88NB0                                                Unassigned     
+AG22                                 HSIO88PB0                                                Unassigned     
+AG23                                 VSS                                                      Reserved       
+AG24                                 HSIO81NB0/DQS                                            Unassigned     
+AG25                                 HSIO82NB0                                                Unassigned     
+AG26                                 HSIO82PB0                                                Unassigned     
+AG27                                 HSIO79NB0                                                Unassigned     
+AG28                                 VSS                                                      Reserved       
+AG29                                 VDDA                                                     Reserved       
+AG30                                 VSS                                                      Reserved       
+AG31                                 NC                                                       Reserved       
+AG32                                 NC                                                       Reserved       
+AG33                                 VSS                                                      Reserved       
+AG34                                 VSS                                                      Reserved       
+AH1     DQ[13]                       MSS_DDR_DQ13                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH2     DQS_N[1]                     MSS_DDR_DQS_N1                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH3     DQ[14]                       MSS_DDR_DQ14                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH4     DQ[19]                       MSS_DDR_DQ19                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH5                                  VDDI6                                                    Reserved       
+AH6     DQ[18]                       MSS_DDR_DQ18                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH7     DQ[4]                        MSS_DDR_DQ4                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH8     DQ[5]                        MSS_DDR_DQ5                                              Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AH9                                  HSIO127PB8/CCC_NW_PLL0_OUT1                              Unassigned     
+AH10                                 VSS                                                      Reserved       
+AH11                                 HSIO119NB8                                               Unassigned     
+AH12                                 HSIO117PB8/DQS                                           Unassigned     
+AH13                                 HSIO117NB8/DQS                                           Unassigned     
+AH14                                 HSIO118PB8                                               Unassigned     
+AH15                                 VDDI8                                                    Reserved       
+AH16                                 NC                                                       Reserved       
+AH17                                 NC                                                       Reserved       
+AH18                                 NC                                                       Reserved       
+AH19                                 HSIO92PB0/CLKIN_N_2/CCC_NW_CLKIN_N_2                     Unassigned     
+AH20                                 VSS                                                      Reserved       
+AH21                                 HSIO93NB0/DQS                                            Unassigned     
+AH22                                 HSIO93PB0/DQS                                            Unassigned     
+AH23                                 HSIO90PB0/CLKIN_N_3/CCC_NW_CLKIN_N_3                     Unassigned     
+AH24                                 HSIO81PB0/DQS                                            Unassigned     
+AH25                                 VDDI0                                                    Reserved       
+AH26                                 HSIO78NB0                                                Unassigned     
+AH27                                 HSIO78PB0/CLKIN_N_7                                      Unassigned     
+AH28                                 VSS                                                      Reserved       
+AH29                                 NC                                                       Reserved       
+AH30                                 NC                                                       Reserved       
+AH31                                 VSS                                                      Reserved       
+AH32                                 VDDA                                                     Reserved       
+AH33                                 NC                                                       Reserved       
+AH34                                 NC                                                       Reserved       
+AJ1     DM[1]                        MSS_DDR_DM1                                              Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AJ2                                  VDDI6                                                    Reserved       
+AJ3     DQ[15]                       MSS_DDR_DQ15                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AJ4     DQS[2]                       MSS_DDR_DQS_P2                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AJ5     DQS_N[2]                     MSS_DDR_DQS_N2                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AJ6     DQ[16]                       MSS_DDR_DQ16                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AJ7                                  VSS                                                      Reserved       
+AJ8                                  HSIO128PB8/CCC_NW_PLL0_OUT0                              Unassigned     
+AJ9                                  HSIO127NB8                                               Unassigned     
+AJ10                                 HSIO129PB8/DQS/CCC_NW_PLL0_OUT0                          Unassigned     
+AJ11                                 HSIO131NB8                                               Unassigned     
+AJ12                                 VDDI8                                                    Reserved       
+AJ13                                 HSIO116PB8                                               Unassigned     
+AJ14                                 HSIO118NB8                                               Unassigned     
+AJ15                                 NC                                                       Reserved       
+AJ16                                 NC                                                       Reserved       
+AJ17                                 VSS                                                      Reserved       
+AJ18                                 NC                                                       Reserved       
+AJ19                                 HSIO92NB0                                                Unassigned     
+AJ20                                 HSIO94NB0                                                Unassigned     
+AJ21                                 HSIO95PB0/CCC_NW_CLKIN_N_0                               Unassigned     
+AJ22                                 VDDI0                                                    Reserved       
+AJ23                                 HSIO90NB0                                                Unassigned     
+AJ24                                 HSIO76NB0                                                Unassigned     
+AJ25                                 HSIO76PB0                                                Unassigned     
+AJ26                                 HSIO73PB0/CCC_NE_PLL1_OUT1                               Unassigned     
+AJ27                                 HSIO73NB0                                                Unassigned     
+AJ28                                 VSS                                                      Reserved       
+AJ29                                 VDDA                                                     Reserved       
+AJ30                                 VSS                                                      Reserved       
+AJ31                                 NC                                                       Reserved       
+AJ32                                 NC                                                       Reserved       
+AJ33                                 VSS                                                      Reserved       
+AJ34                                 VSS                                                      Reserved       
+AK1     DQ[27]                       MSS_DDR_DQ27                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AK2     DQ[26]                       MSS_DDR_DQ26                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AK3     DQ[24]                       MSS_DDR_DQ24                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AK4                                  VSS                                                      Reserved       
+AK5     DQ[22]                       MSS_DDR_DQ22                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AK6     DM[2]                        MSS_DDR_DM2                                              Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AK7                                  HSIO130NB8                                               Unassigned     
+AK8                                  HSIO128NB8                                               Unassigned     
+AK9                                  VDDI8                                                    Reserved       
+AK10                                 HSIO129NB8/DQS                                           Unassigned     
+AK11                                 HSIO131PB8                                               Unassigned     
+AK12                                 HSIO114NB8                                               Unassigned     
+AK13                                 HSIO116NB8                                               Unassigned     
+AK14                                 VSS                                                      Reserved       
+AK15                                 NC                                                       Reserved       
+AK16                                 NC                                                       Reserved       
+AK17                                 NC                                                       Reserved       
+AK18                                 NC                                                       Reserved       
+AK19                                 VDDI0                                                    Reserved       
+AK20                                 HSIO94PB0/CCC_NW_CLKIN_N_1                               Unassigned     
+AK21                                 HSIO95NB0                                                Unassigned     
+AK22                                 HSIO91PB0                                                Unassigned     
+AK23                                 HSIO91NB0                                                Unassigned     
+AK24                                 VSS                                                      Reserved       
+AK25                                 HSIO77PB0                                                Unassigned     
+AK26                                 HSIO77NB0                                                Unassigned     
+AK27                                 HSIO75NB0/DQS                                            Unassigned     
+AK28                                 VSS                                                      Reserved       
+AK29                                 NC                                                       Reserved       
+AK30                                 NC                                                       Reserved       
+AK31                                 VSS                                                      Reserved       
+AK32                                 VSS                                                      Reserved       
+AK33                                 NC                                                       Reserved       
+AK34                                 NC                                                       Reserved       
+AL1                                  VSS                                                      Reserved       
+AL2     DQ[28]                       MSS_DDR_DQ28                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AL3     DQ[25]                       MSS_DDR_DQ25                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AL4     DQS[3]                       MSS_DDR_DQS_P3                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AL5     DQ[23]                       MSS_DDR_DQ23                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AL6                                  VDDI8                                                    Reserved       
+AL7                                  HSIO134PB8/CCC_NW_CLKIN_N_14/CCC_NW_PLL1_OUT0            Unassigned     
+AL8                                  HSIO130PB8                                               Unassigned     
+AL9                                  HSIO126NB8                                               Unassigned     
+AL10                                 HSIO126PB8                                               Unassigned     
+AL11                                 VSS                                                      Reserved       
+AL12                                 HSIO114PB8                                               Unassigned     
+AL13                                 NC                                                       Reserved       
+AL14                                 NC                                                       Reserved       
+AL15                                 NC                                                       Reserved       
+AL16                                 VDDI0                                                    Reserved       
+AL17                                 HSIO107NB0                                               Unassigned     
+AL18                                 HSIO107PB0                                               Unassigned     
+AL19                                 HSIO104PB0                                               Unassigned     
+AL20                                 HSIO102PB0                                               Unassigned     
+AL21                                 VSS                                                      Reserved       
+AL22                                 HSIO97PB0                                                Unassigned     
+AL23                                 HSIO97NB0                                                Unassigned     
+AL24                                 HSIO74PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0    Unassigned     
+AL25                                 HSIO72PB0/CLKIN_N_9/CCC_NE_CLKIN_N_9                     Unassigned     
+AL26                                 VDDI0                                                    Reserved       
+AL27                                 HSIO75PB0/DQS/CCC_NE_PLL1_OUT0                           Unassigned     
+AL28                                 VSS                                                      Reserved       
+AL29                                 VSS                                                      Reserved       
+AL30                                 VSS                                                      Reserved       
+AL31                                 NC                                                       Reserved       
+AL32                                 NC                                                       Reserved       
+AL33                                 VSS                                                      Reserved       
+AL34                                 VSS                                                      Reserved       
+AM1     DQ[29]                       MSS_DDR_DQ29                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AM2     DQ[30]                       MSS_DDR_DQ30                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AM3                                  VDDI6                                                    Reserved       
+AM4     DQS_N[3]                     MSS_DDR_DQS_N3                                           Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     40             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AM5     TEN                          HSIO137PB8/CLKIN_N_12/CCC_NW_CLKIN_N_12                  Fixed          HSTL12I   Output     None          No                  ON           None           No                                 ---              ---              ---                 50               ---          OFF   ---                50               5                 ---                       OFF           
+AM6                                  HSIO137NB8                                               Unassigned     
+AM7                                  HSIO134NB8                                               Unassigned     
+AM8                                  VSS                                                      Reserved       
+AM9                                  HSIO113PB8                                               Unassigned     
+AM10                                 HSIO113NB8                                               Unassigned     
+AM11                                 HSIO110PB8                                               Unassigned     
+AM12                                 HSIO110NB8                                               Unassigned     
+AM13                                 VDDI0                                                    Reserved       
+AM14                                 NC                                                       Reserved       
+AM15                                 NC                                                       Reserved       
+AM16                                 NC                                                       Reserved       
+AM17                                 HSIO106PB0                                               Unassigned     
+AM18                                 VSS                                                      Reserved       
+AM19                                 HSIO104NB0                                               Unassigned     
+AM20                                 HSIO102NB0                                               Unassigned     
+AM21                                 HSIO101NB0                                               Unassigned     
+AM22                                 HSIO99NB0/DQS                                            Unassigned     
+AM23                                 VDDI0                                                    Reserved       
+AM24                                 HSIO74NB0                                                Unassigned     
+AM25                                 HSIO72NB0                                                Unassigned     
+AM26                                 HSIO71PB0                                                Unassigned     
+AM27                                 HSIO71NB0                                                Unassigned     
+AM28                                 HSIO68NB0                                                Unassigned     
+AM29                                 HSIO66NB0                                                Unassigned     
+AM30                                 VSS                                                      Reserved       
+AM31                                 VSS                                                      Reserved       
+AM32                                 VDDA                                                     Reserved       
+AM33                                 NC                                                       Reserved       
+AM34                                 NC                                                       Reserved       
+AN1     DM[3]                        MSS_DDR_DM3                                              Special        LVSTL11I  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AN2     DQ[31]                       MSS_DDR_DQ31                                             Special        LVSTL11I  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     80             ---                 ---                  ---                  ---                                ---                               40                     ---                           
+AN3                                  HSIO136PB8/CLKIN_N_13/CCC_NW_CLKIN_N_13                  Unassigned     
+AN4                                  HSIO135PB8/DQS/CCC_NW_PLL1_OUT0                          Unassigned     
+AN5                                  VSS                                                      Reserved       
+AN6                                  HSIO132PB8/CCC_NW_CLKIN_N_15                             Unassigned     
+AN7                                  HSIO132NB8                                               Unassigned     
+AN8                                  HSIO112PB8                                               Unassigned     
+AN9                                  HSIO111PB8/DQS                                           Unassigned     
+AN10                                 VDDI8                                                    Reserved       
+AN11                                 HSIO108PB8                                               Unassigned     
+AN12                                 HSIO108NB8                                               Unassigned     
+AN13                                 NC                                                       Reserved       
+AN14                                 NC                                                       Reserved       
+AN15                                 VSS                                                      Reserved       
+AN16                                 NC                                                       Reserved       
+AN17                                 HSIO106NB0                                               Unassigned     
+AN18                                 HSIO105PB0/DQS                                           Unassigned     
+AN19                                 HSIO103PB0                                               Unassigned     
+AN20                                 VDDI0                                                    Reserved       
+AN21                                 HSIO101PB0                                               Unassigned     
+AN22                                 HSIO99PB0/DQS                                            Unassigned     
+AN23                                 HSIO98NB0                                                Unassigned     
+AN24                                 HSIO96NB0                                                Unassigned     
+AN25                                 VSS                                                      Reserved       
+AN26                                 HSIO69PB0/DQS/CCC_NE_PLL0_OUT0                           Unassigned     
+AN27                                 HSIO69NB0/DQS                                            Unassigned     
+AN28                                 HSIO68PB0/CCC_NE_CLKIN_N_10/CCC_NE_PLL0_OUT0             Unassigned     
+AN29                                 HSIO66PB0/CCC_NE_CLKIN_N_11                              Unassigned     
+AN30                                 VSS                                                      Reserved       
+AN31                                 NC                                                       Reserved       
+AN32                                 NC                                                       Reserved       
+AN33                                 VSS                                                      Reserved       
+AN34                                 VSS                                                      Reserved       
+AP2                                  VSS                                                      Reserved       
+AP3                                  HSIO136NB8                                               Unassigned     
+AP4                                  HSIO135NB8/DQS                                           Unassigned     
+AP5                                  HSIO133PB8/CCC_NW_PLL1_OUT1                              Unassigned     
+AP6                                  HSIO133NB8                                               Unassigned     
+AP7                                  VDDI8                                                    Reserved       
+AP8                                  HSIO112NB8                                               Unassigned     
+AP9                                  HSIO111NB8/DQS                                           Unassigned     
+AP10                                 HSIO109PB8                                               Unassigned     
+AP11                                 HSIO109NB8                                               Unassigned     
+AP12                                 VSS                                                      Reserved       
+AP13                                 NC                                                       Reserved       
+AP14                                 NC                                                       Reserved       
+AP15                                 NC                                                       Reserved       
+AP16                                 NC                                                       Reserved       
+AP17                                 VDDI0                                                    Reserved       
+AP18                                 HSIO105NB0/DQS                                           Unassigned     
+AP19                                 HSIO103NB0                                               Unassigned     
+AP20                                 HSIO100PB0                                               Unassigned     
+AP21                                 HSIO100NB0                                               Unassigned     
+AP22                                 VSS                                                      Reserved       
+AP23                                 HSIO98PB0                                                Unassigned     
+AP24                                 HSIO96PB0                                                Unassigned     
+AP25                                 HSIO70PB0                                                Unassigned     
+AP26                                 HSIO70NB0                                                Unassigned     
+AP27                                 VDDI0                                                    Reserved       
+AP28    LED2                         HSIO67PB0/CCC_NE_PLL0_OUT1                               Fixed          LVCMOS12  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+AP29    LED3                         HSIO67NB0                                                Fixed          LVCMOS12  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+AP30                                 VSS                                                      Reserved       
+AP31                                 VSS                                                      Reserved       
+AP32                                 VSS                                                      Reserved       
+AP33                                 VSS                                                      Reserved       
+B1                                   GPIO169NB1                                               Unassigned     
+B2                                   GPIO172PB1/CCC_SW_PLL1_OUT1                              Unassigned     
+B3                                   VDDI1                                                    Reserved       
+B4                                   GPIO177PB1/CCC_SW_PLL0_OUT0                              Unassigned     
+B5                                   GPIO177NB1                                               Unassigned     
+B6                                   GPIO184PB1                                               Unassigned     
+B7      MMUART_0_TXD_M2F             GPIO182NB1/DQS                                           Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+B8                                   VSS                                                      Reserved       
+B9                                   GPIO13PB1                                                Unassigned     
+B10                                  GPIO15PB1/CCC_SE_CLKIN_S_10                              Unassigned     
+B11                                  GPIO17NB1                                                Unassigned     
+B12                                  GPIO25NB9                                                Unassigned     
+B13                                  VDDI9                                                    Reserved       
+B14                                  GPIO29PB9                                                Unassigned     
+B15                                  GPIO32PB9/DQS                                            Unassigned     
+B16                                  GPIO34NB9                                                Unassigned     
+B17                                  GPIO35PB9                                                Unassigned     
+B18                                  VSS                                                      Reserved       
+B19                                  GPIO39NB9                                                Unassigned     
+B20                                  GPIO41NB9                                                Unassigned     
+B21                                  GPIO49NB9                                                Unassigned     
+B22                                  GPIO48NB9                                                Unassigned     
+B23                                  VDDI9                                                    Reserved       
+B24                                  GPIO52PB9                                                Unassigned     
+B25                                  GPIO53NB9                                                Unassigned     
+B26                                  GPIO54PB9                                                Unassigned     
+B27                                  GPIO56NB9/DQS                                            Unassigned     
+B28                                  GPIO55NB9                                                Unassigned     
+B29                                  GPIO57NB9                                                Unassigned     
+B30                                  VSS                                                      Reserved       
+B31                                  VSS                                                      Reserved       
+B32                                  VSS                                                      Reserved       
+B33                                  XCVR_3_TX0_N                                             Reserved       
+B34                                  XCVR_3_TX0_P                                             Reserved       
+C1                                   GPIO169PB1/CCC_SW_CLKIN_S_1                              Unassigned     
+C2                                   GPIO170PB1/DQS/CCC_SW_PLL1_OUT0                          Unassigned     
+C3                                   GPIO170NB1/DQS                                           Unassigned     
+C4      MMUART_1_TXD_M2F             GPIO175NB1                                               Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+C5                                   VSS                                                      Reserved       
+C6                                   GPIO179NB1                                               Unassigned     
+C7      MMUART_0_RXD_F2M             GPIO182PB1/DQS                                           Fixed          LVCMOS33  Input      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+C8                                   GPIO181NB1                                               Unassigned     
+C9                                   GPIO16NB1                                                Unassigned     
+C10                                  VDDI1                                                    Reserved       
+C11                                  GPIO17PB1/CCC_SE_CLKIN_S_11                              Unassigned     
+C12                                  GPIO25PB9                                                Unassigned     
+C13                                  GPIO26NB9/DQS                                            Unassigned     
+C14                                  GPIO28NB9                                                Unassigned     
+C15                                  VSS                                                      Reserved       
+C16                                  GPIO34PB9                                                Unassigned     
+C17                                  GPIO33NB9                                                Unassigned     
+C18                                  GPIO40NB9                                                Unassigned     
+C19                                  GPIO39PB9                                                Unassigned     
+C20                                  VDDI9                                                    Reserved       
+C21                                  GPIO49PB9                                                Unassigned     
+C22                                  GPIO48PB9                                                Unassigned     
+C23                                  GPIO51PB9                                                Unassigned     
+C24                                  GPIO51NB9                                                Unassigned     
+C25                                  VSS                                                      Reserved       
+C26                                  GPIO54NB9                                                Unassigned     
+C27                                  GPIO58NB9                                                Unassigned     
+C28                                  VSS                                                      Reserved       
+C29                                  VSS                                                      Reserved       
+C30                                  VSS                                                      Reserved       
+C31                                  XCVR_3_RX0_N                                             Reserved       
+C32                                  XCVR_3_RX0_P                                             Reserved       
+C33                                  VSS                                                      Reserved       
+C34                                  VSS                                                      Reserved       
+D1                                   GPIO168NB1                                               Unassigned     
+D2                                   VSS                                                      Reserved       
+D3                                   GPIO171NB1                                               Unassigned     
+D4      MMUART_1_RXD_F2M             GPIO175PB1                                               Fixed          LVCMOS33  Input      None          No                  ON           Up             No                                 OFF              ---              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+D5                                   GPIO178NB1                                               Unassigned     
+D6                                   GPIO179PB1                                               Unassigned     
+D7                                   VDDI1                                                    Reserved       
+D8                                   GPIO181PB1                                               Unassigned     
+D9                                   GPIO16PB1                                                Unassigned     
+D10                                  GPIO14NB1/DQS                                            Unassigned     
+D11                                  GPIO11NB1                                                Unassigned     
+D12                                  VSS                                                      Reserved       
+D13                                  GPIO26PB9/DQS                                            Unassigned     
+D14                                  GPIO28PB9                                                Unassigned     
+D15                                  GPIO31NB9                                                Unassigned     
+D16                                  GPIO31PB9                                                Unassigned     
+D17                                  VDDI9                                                    Reserved       
+D18                                  GPIO33PB9                                                Unassigned     
+D19                                  GPIO40PB9                                                Unassigned     
+D20                                  GPIO38NB9/DQS                                            Unassigned     
+D21                                  GPIO43NB9                                                Unassigned     
+D22                                  VSS                                                      Reserved       
+D23                                  GPIO47NB9                                                Unassigned     
+D24                                  GPIO44PB9/DQS                                            Unassigned     
+D25                                  GPIO44NB9/DQS                                            Unassigned     
+D26                                  GPIO58PB9/CCC_SE_PLL0_OUT1                               Unassigned     
+D27                                  VDDI9                                                    Reserved       
+D28                                  VSS                                                      Reserved       
+D29                                  XCVR_3C_REFCLK_P                                         Reserved       
+D30                                  XCVR_3C_REFCLK_N                                         Reserved       
+D31                                  VSS                                                      Reserved       
+D32                                  VDDA                                                     Reserved       
+D33                                  XCVR_3_TX1_N                                             Reserved       
+D34                                  XCVR_3_TX1_P                                             Reserved       
+E1                                   GPIO160NB7                                               Unassigned     
+E2                                   GPIO168PB1/CCC_SW_CLKIN_S_0                              Unassigned     
+E3                                   GPIO171PB1/CLKIN_S_2/CCC_SW_CLKIN_S_2/CCC_SW_PLL1_OUT0   Unassigned     
+E4                                   VDDI1                                                    Reserved       
+E5                                   GPIO176NB1/DQS                                           Unassigned     
+E6                                   GPIO178PB1/CCC_SW_PLL0_OUT1                              Unassigned     
+E7                                   GPIO180NB1                                               Unassigned     
+E8                                   GPIO183NB1                                               Unassigned     
+E9                                   VSS                                                      Reserved       
+E10                                  GPIO14PB1/DQS                                            Unassigned     
+E11                                  GPIO11PB1/CLKIN_S_9/CCC_SE_CLKIN_S_9                     Unassigned     
+E12     VSC_8662_CMODE6              GPIO7NB1                                                 Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+E13                                  GPIO24NB9                                                Unassigned     
+E14                                  VDDI9                                                    Reserved       
+E15                                  GPIO19NB9                                                Unassigned     
+E16                                  GPIO19PB9                                                Unassigned     
+E17                                  GPIO30NB9                                                Unassigned     
+E18                                  GPIO30PB9                                                Unassigned     
+E19                                  VSS                                                      Reserved       
+E20                                  GPIO38PB9/DQS                                            Unassigned     
+E21                                  GPIO43PB9                                                Unassigned     
+E22                                  GPIO45NB9                                                Unassigned     
+E23                                  GPIO47PB9                                                Unassigned     
+E24                                  VDDI9                                                    Reserved       
+E25                                  GPIO60PB9                                                Unassigned     
+E26                                  GPIO61PB9                                                Unassigned     
+E27                                  GPIO61NB9                                                Unassigned     
+E28                                  VSS                                                      Reserved       
+E29                                  VDDA                                                     Reserved       
+E30                                  VSS                                                      Reserved       
+E31                                  XCVR_3_RX1_N                                             Reserved       
+E32                                  XCVR_3_RX1_P                                             Reserved       
+E33                                  VSS                                                      Reserved       
+E34                                  VSS                                                      Reserved       
+F1                                   VDDI7                                                    Reserved       
+F2                                   GPIO160PB7                                               Unassigned     
+F3                                   GPIO161PB7                                               Unassigned     
+F4                                   GPIO176PB1/DQS/CCC_SW_PLL0_OUT0                          Unassigned     
+F5                                   GPIO174NB1                                               Unassigned     
+F6                                   VSS                                                      Reserved       
+F7                                   GPIO180PB1                                               Unassigned     
+F8                                   GPIO183PB1                                               Unassigned     
+F9                                   GPIO12NB1                                                Unassigned     
+F10                                  GPIO12PB1                                                Unassigned     
+F11                                  VDDI1                                                    Reserved       
+F12     VSC_8662_CMODE5              GPIO7PB1                                                 Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+F13                                  GPIO10PB1                                                Unassigned     
+F14                                  GPIO24PB9                                                Unassigned     
+F15                                  GPIO20NB9/DQS                                            Unassigned     
+F16                                  VSS                                                      Reserved       
+F17                                  GPIO23NB9                                                Unassigned     
+F18                                  GPIO23PB9                                                Unassigned     
+F19                                  GPIO36NB9                                                Unassigned     
+F20                                  GPIO36PB9                                                Unassigned     
+F21                                  VDDI9                                                    Reserved       
+F22                                  GPIO45PB9                                                Unassigned     
+F23                                  GPIO42NB9                                                Unassigned     
+F24                                  GPIO46PB9                                                Unassigned     
+F25                                  GPIO60NB9                                                Unassigned     
+F26                                  VSS                                                      Reserved       
+F27                                  GPIO62PB9/DQS/CCC_SE_PLL1_OUT0                           Unassigned     
+F28                                  VSS                                                      Reserved       
+F29                                  XCVR_3A_REFCLK_P                                         Reserved       
+F30                                  XCVR_3A_REFCLK_N                                         Reserved       
+F31                                  VSS                                                      Reserved       
+F32                                  VSS                                                      Reserved       
+F33                                  XCVR_3_TX2_N                                             Reserved       
+F34                                  XCVR_3_TX2_P                                             Reserved       
+G1                                   GPIO158PB7                                               Unassigned     
+G2                                   GPIO161NB7                                               Unassigned     
+G3                                   VSS                                                      Reserved       
+G4                                   GPIO152PB7                                               Unassigned     
+G5                                   GPIO155NB7                                               Unassigned     
+G6                                   GPIO174PB1                                               Unassigned     
+G7      DO                           SDO                                                      Dedicated      
+G8                                   VDDI3                                                    Reserved       
+G9                                   DEVRST_N                                                 Reserved       
+G10                                  GPIO8NB1/DQS                                             Unassigned     
+G11                                  GPIO8PB1/DQS                                             Unassigned     
+G12     VSC_8662_CMODE4              GPIO6NB1                                                 Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+G13                                  VSS                                                      Reserved       
+G14     VSC_8662_CMODE7              GPIO10NB1                                                Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+G15                                  GPIO20PB9/DQS                                            Unassigned     
+G16                                  GPIO18NB9                                                Unassigned     
+G17                                  GPIO22PB9                                                Unassigned     
+G18                                  VDDI9                                                    Reserved       
+G19                                  NC                                                       Reserved       
+G20                                  NC                                                       Reserved       
+G21                                  NC                                                       Reserved       
+G22                                  GPIO42PB9                                                Unassigned     
+G23                                  VSS                                                      Reserved       
+G24                                  GPIO46NB9                                                Unassigned     
+G25                                  GPIO63PB9/CCC_SE_CLKIN_S_14/CCC_SE_PLL1_OUT0             Unassigned     
+G26                                  GPIO63NB9                                                Unassigned     
+G27                                  GPIO62NB9/DQS                                            Unassigned     
+G28                                  VSS                                                      Reserved       
+G29                                  VDDA                                                     Reserved       
+G30                                  VSS                                                      Reserved       
+G31                                  XCVR_3_RX2_N                                             Reserved       
+G32                                  XCVR_3_RX2_P                                             Reserved       
+G33                                  VSS                                                      Reserved       
+G34                                  VSS                                                      Reserved       
+H1                                   GPIO158NB7                                               Unassigned     
+H2                                   GPIO159NB7/DQS                                           Unassigned     
+H3                                   GPIO159PB7/DQS                                           Unassigned     
+H4                                   GPIO152NB7                                               Unassigned     
+H5                                   VDDI7                                                    Reserved       
+H6                                   GPIO155PB7                                               Unassigned     
+H7      CLK                          SCK                                                      Dedicated      
+H8                                   TDO                                                      Reserved       
+H9                                   TRSTB                                                    Reserved       
+H10                                  VSS                                                      Reserved       
+H11     SS                           SS                                                       Dedicated      
+H12     VSC_8662_CMODE3              GPIO6PB1                                                 Fixed          LVCMOS33  Output     None          No                  ON           None           No                                 ---              ---              ---                 ---              ---          OFF   8                  ---              5                 ---                       OFF           
+H13                                  GPIO9NB1                                                 Unassigned     
+H14                                  GPIO1NB1                                                 Unassigned     
+H15                                  VDDI1                                                    Reserved       
+H16                                  GPIO18PB9                                                Unassigned     
+H17                                  GPIO22NB9                                                Unassigned     
+H18                                  GPIO21PB9                                                Unassigned     
+H19                                  NC                                                       Reserved       
+H20                                  VSS                                                      Reserved       
+H21                                  NC                                                       Reserved       
+H22                                  NC                                                       Reserved       
+H23                                  NC                                                       Reserved       
+H24                                  NC                                                       Reserved       
+H25                                  VDDI9                                                    Reserved       
+H26                                  GPIO64NB9                                                Unassigned     
+H27                                  GPIO65NB9                                                Unassigned     
+H28                                  VSS                                                      Reserved       
+H29                                  XCVR_1C_REFCLK_P                                         Reserved       
+H30                                  XCVR_1C_REFCLK_N                                         Reserved       
+H31                                  VSS                                                      Reserved       
+H32                                  VDDA                                                     Reserved       
+H33                                  XCVR_3_TX3_N                                             Reserved       
+H34                                  XCVR_3_TX3_P                                             Reserved       
+J1                                   GPIO156PB7                                               Unassigned     
+J2                                   VDDI7                                                    Reserved       
+J3                                   GPIO157PB7                                               Unassigned     
+J4      cam1xmaster                  GPIO150PB7                                               Fixed          LVCMOS25  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+J5      cam1inck                     GPIO151PB7                                               Fixed          LVCMOS25  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+J6                                   GPIO153PB7/DQS                                           Unassigned     
+J7                                   VSS                                                      Reserved       
+J8      CAM1_SDA                     GPIO154NB7                                               Fixed          LVCMOS25  Inout      None          No                  ON           Up             No                                 OFF              ---              OFF                 120              OFF          OFF   8                  ---              5                 ---                       OFF           
+J9                                   TMS                                                      Reserved       
+J10                                  TCK                                                      Reserved       
+J11                                  TDI                                                      Reserved       
+J12                                  VDDI3                                                    Reserved       
+J13                                  GPIO9PB1/CLKIN_S_8/CCC_SE_CLKIN_S_8                      Unassigned     
+J14                                  GPIO1PB1/CLKIN_S_5                                       Unassigned     
+J15                                  GPIO3PB1/CLKIN_S_6                                       Unassigned     
+J16                                  GPIO5NB1                                                 Unassigned     
+J17                                  VSS                                                      Reserved       
+J18                                  GPIO21NB9                                                Unassigned     
+J19                                  NC                                                       Reserved       
+J20                                  NC                                                       Reserved       
+J21                                  NC                                                       Reserved       
+J22                                  VDDI9                                                    Reserved       
+J23                                  NC                                                       Reserved       
+J24                                  NC                                                       Reserved       
+J25                                  NC                                                       Reserved       
+J26                                  GPIO64PB9/CCC_SE_PLL1_OUT1                               Unassigned     
+J27                                  GPIO65PB9/CCC_SE_CLKIN_S_15                              Unassigned     
+J28                                  VSS                                                      Reserved       
+J29                                  VDDA                                                     Reserved       
+J30                                  VSS                                                      Reserved       
+J31                                  XCVR_3_RX3_N                                             Reserved       
+J32                                  XCVR_3_RX3_P                                             Reserved       
+J33                                  VSS                                                      Reserved       
+J34                                  VSS                                                      Reserved       
+K1                                   GPIO156NB7                                               Unassigned     
+K2                                   GPIO157NB7                                               Unassigned     
+K3      CAM1_RST                     GPIO150NB7                                               Fixed          LVCMOS25  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+K4                                   VSS                                                      Reserved       
+K5      CAM_CLK_EN                   GPIO151NB7                                               Fixed          LVCMOS25  Output     None          No                  ON           None           No                                 ---              ---              ---                 120              ---          OFF   8                  ---              5                 ---                       OFF           
+K6                                   GPIO153NB7/DQS                                           Unassigned     
+K7      CAM1_SCL                     GPIO154PB7                                               Fixed          LVCMOS25  Inout      None          No                  ON           Up             No                                 OFF              ---              OFF                 120              OFF          OFF   8                  ---              5                 ---                       OFF           
+K8                                   GPIO148PB7                                               Unassigned     
+K9                                   VDDI7                                                    Reserved       
+K10     CAM1_RXD_N[1]                GPIO163NB7                                               Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+K11     IFACE                        IO_CFG_INTF                                              Dedicated      
+K12     DI                           SDI                                                      Dedicated      
+K13     FLASH                        SPI_EN                                                   Dedicated      
+K14                                  VSS                                                      Reserved       
+K15                                  GPIO3NB1                                                 Unassigned     
+K16                                  GPIO5PB1/CLKIN_S_7                                       Unassigned     
+K17                                  GPIO2NB1/DQS                                             Unassigned     
+K18                                  GPIO4PB1/LPRB_A                                          User Reserved  
+K19                                  VDDI9                                                    Reserved       
+K20                                  NC                                                       Reserved       
+K21                                  NC                                                       Reserved       
+K22                                  NC                                                       Reserved       
+K23                                  NC                                                       Reserved       
+K24                                  VSS                                                      Reserved       
+K25                                  NC                                                       Reserved       
+K26                                  VSS                                                      Reserved       
+K27                                  VSS                                                      Reserved       
+K28                                  VSS                                                      Reserved       
+K29                                  XCVR_1_RX0_N                                             Reserved       
+K30                                  XCVR_1_RX0_P                                             Reserved       
+K31                                  VSS                                                      Reserved       
+K32                                  VSS                                                      Reserved       
+K33                                  XCVR_1_TX0_N                                             Reserved       
+K34                                  XCVR_1_TX0_P                                             Reserved       
+L1                                   VSS                                                      Reserved       
+L2                                   NC                                                       Reserved       
+L3                                   NC                                                       Reserved       
+L4                                   NC                                                       Reserved       
+L5                                   GPIO146PB7                                               Unassigned     
+L6                                   VDDI7                                                    Reserved       
+L7                                   GPIO149PB7                                               Unassigned     
+L8                                   GPIO148NB7                                               Unassigned     
+L9                                   GPIO162PB7/CLKIN_W_3/CCC_SW_CLKIN_W_3                    Unassigned     
+L10     CAM1_RXD[1]                  GPIO163PB7/CLKIN_W_2/CCC_SW_CLKIN_W_2/CCC_SW_PLL0_OUT0   Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+L11                                  VSS                                                      Reserved       
+L12     CAM1_RXD[0]                  GPIO166PB7                                               Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+L13                                  FF_EXIT_N                                                Reserved       
+L14                                  GPIO0NB1                                                 Unassigned     
+L15                                  GPIO0PB1/CLKIN_S_4                                       Unassigned     
+L16                                  VDDI1                                                    Reserved       
+L17                                  GPIO2PB1/DQS                                             Unassigned     
+L18                                  GPIO4NB1/LPRB_B                                          User Reserved  
+L19                                  NC                                                       Reserved       
+L20                                  NC                                                       Reserved       
+L21                                  VSS                                                      Reserved       
+L22                                  NC                                                       Reserved       
+L23                                  NC                                                       Reserved       
+L24                                  VDDI9                                                    Reserved       
+L25                                  NC                                                       Reserved       
+L26                                  VSS                                                      Reserved       
+L27                                  XCVR_1A_REFCLK_P                                         Reserved       
+L28                                  XCVR_1A_REFCLK_N                                         Reserved       
+L29                                  VDDA                                                     Reserved       
+L30                                  VSS                                                      Reserved       
+L31                                  XCVR_1_RX1_N                                             Reserved       
+L32                                  XCVR_1_RX1_P                                             Reserved       
+L33                                  VSS                                                      Reserved       
+L34                                  VSS                                                      Reserved       
+M1                                   NC                                                       Reserved       
+M2                                   NC                                                       Reserved       
+M3                                   VDDI7                                                    Reserved       
+M4                                   NC                                                       Reserved       
+M5                                   GPIO146NB7                                               Unassigned     
+M6                                   GPIO144PB7                                               Unassigned     
+M7                                   GPIO149NB7                                               Unassigned     
+M8                                   VSS                                                      Reserved       
+M9                                   GPIO147NB7/DQS                                           Unassigned     
+M10                                  GPIO162NB7                                               Unassigned     
+M11     CAM1_RXD[2]                  GPIO165PB7/DQS/CCC_SW_PLL0_OUT0                          Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+M12     CAM1_RXD_N[0]                GPIO166NB7                                               Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+M13                                  VDDI7                                                    Reserved       
+M14     CAM1_RX_CLK_P                GPIO167PB7/CLKIN_W_0/CCC_SW_CLKIN_W_0                    Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+M15                                  VDD25                                                    Reserved       
+M16                                  VSS                                                      Reserved       
+M17                                  VDDAUX1                                                  Reserved       
+M18                                  VSS                                                      Reserved       
+M19                                  VDDAUX1                                                  Reserved       
+M20                                  VSS                                                      Reserved       
+M21                                  VDDI9                                                    Reserved       
+M22                                  VSS                                                      Reserved       
+M23                                  VDDAUX9                                                  Reserved       
+M24                                  VSS                                                      Reserved       
+M25                                  VDD25                                                    Reserved       
+M26                                  XCVR_VREF                                                Reserved       
+M27                                  VDDA                                                     Reserved       
+M28                                  VSS                                                      Reserved       
+M29                                  XCVR_1_RX2_N                                             Reserved       
+M30                                  XCVR_1_RX2_P                                             Reserved       
+M31                                  VSS                                                      Reserved       
+M32                                  VDDA                                                     Reserved       
+M33                                  XCVR_1_TX1_N                                             Reserved       
+M34                                  XCVR_1_TX1_P                                             Reserved       
+N1                                   NC                                                       Reserved       
+N2                                   NC                                                       Reserved       
+N3                                   NC                                                       Reserved       
+N4                                   NC                                                       Reserved       
+N5                                   VSS                                                      Reserved       
+N6                                   GPIO144NB7                                               Unassigned     
+N7                                   GPIO145PB7                                               Unassigned     
+N8                                   GPIO145NB7                                               Unassigned     
+N9                                   GPIO147PB7/DQS                                           Unassigned     
+N10                                  VDDI7                                                    Reserved       
+N11     CAM1_RXD_N[2]                GPIO165NB7/DQS                                           Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+N12     CAM1_RXD_N[3]                GPIO164NB7                                               Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+N13     CAM1_RXD[3]                  GPIO164PB7/CLKIN_W_1/CCC_SW_CLKIN_W_1                    Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           
+N14     CAM1_RX_CLK_N                GPIO167NB7                                               Fixed          MIPI25    Input      None          No                  OFF          None           No                                 OFF              MID              ---                 ---              OFF          ---   ---                ---              ---               ---                       ---           
+N15                                  VSS                                                      Reserved       
+N16                                  VDDAUX1                                                  Reserved       
+N17                                  VSS                                                      Reserved       
+N18                                  VDDAUX1                                                  Reserved       
+N19                                  VSS                                                      Reserved       
+N20                                  VDDAUX9                                                  Reserved       
+N21                                  VSS                                                      Reserved       
+N22                                  VDDAUX9                                                  Reserved       
+N23                                  VSS                                                      Reserved       
+N24                                  VDDAUX9                                                  Reserved       
+N25                                  VDD_XCVR_CLK                                             Reserved       
+N26                                  VSS                                                      Reserved       
+N27                                  XCVR_1B_REFCLK_P                                         Reserved       
+N28                                  XCVR_1B_REFCLK_N                                         Reserved       
+N29                                  VDDA                                                     Reserved       
+N30                                  VSS                                                      Reserved       
+N31                                  XCVR_1_TX2_N                                             Reserved       
+N32                                  XCVR_1_TX2_P                                             Reserved       
+N33                                  VSS                                                      Reserved       
+N34                                  VSS                                                      Reserved       
+P1                                   GPIO141PB7/DQS                                           Unassigned     
+P2                                   VSS                                                      Reserved       
+P3                                   NC                                                       Reserved       
+P4                                   NC                                                       Reserved       
+P5                                   NC                                                       Reserved       
+P6                                   NC                                                       Reserved       
+P7                                   VDDI7                                                    Reserved       
+P8                                   NC                                                       Reserved       
+P9                                   NC                                                       Reserved       
+P10                                  NC                                                       Reserved       
+P11                                  NC                                                       Reserved       
+P12                                  VSS                                                      Reserved       
+P13                                  NC                                                       Reserved       
+P14                                  NC                                                       Reserved       
+P15                                  VDDAUX7                                                  Reserved       
+P16                                  VSS                                                      Reserved       
+P17                                  VDD                                                      Reserved       
+P18                                  VSS                                                      Reserved       
+P19                                  VDD                                                      Reserved       
+P20                                  VSS                                                      Reserved       
+P21                                  VDD                                                      Reserved       
+P22                                  VSS                                                      Reserved       
+P23                                  VDD                                                      Reserved       
+P24                                  VSS                                                      Reserved       
+P25                                  VDDA25                                                   Reserved       
+P26                                  XCVR_VREF                                                Reserved       
+P27                                  VDDA                                                     Reserved       
+P28                                  VSS                                                      Reserved       
+P29                                  XCVR_1_RX3_N                                             Reserved       
+P30                                  XCVR_1_RX3_P                                             Reserved       
+P31                                  VSS                                                      Reserved       
+P32                                  VSS                                                      Reserved       
+P33                                  XCVR_1_TX3_N                                             Reserved       
+P34                                  XCVR_1_TX3_P                                             Reserved       
+R1                                   GPIO141NB7/DQS                                           Unassigned     
+R2                                   GPIO142NB7                                               Unassigned     
+R3                                   GPIO142PB7/CLKIN_W_5                                     Unassigned     
+R4                                   VDDI7                                                    Reserved       
+R5                                   NC                                                       Reserved       
+R6                                   NC                                                       Reserved       
+R7                                   NC                                                       Reserved       
+R8                                   NC                                                       Reserved       
+R9                                   VSS                                                      Reserved       
+R10                                  NC                                                       Reserved       
+R11                                  NC                                                       Reserved       
+R12                                  NC                                                       Reserved       
+R13                                  NC                                                       Reserved       
+R14                                  VDDI7                                                    Reserved       
+R15                                  VSS                                                      Reserved       
+R16                                  VDDAUX7                                                  Reserved       
+R17                                  VSS                                                      Reserved       
+R18                                  VDD                                                      Reserved       
+R19                                  VSS                                                      Reserved       
+R20                                  VDD                                                      Reserved       
+R21                                  VSS                                                      Reserved       
+R22                                  VDD                                                      Reserved       
+R23                                  VSS                                                      Reserved       
+R24                                  VDD                                                      Reserved       
+R25                                  VSS                                                      Reserved       
+R26                                  VSS                                                      Reserved       
+R27                                  XCVR_0C_REFCLK_P                                         Reserved       
+R28                                  XCVR_0C_REFCLK_N                                         Reserved       
+R29                                  VDDA                                                     Reserved       
+R30                                  VSS                                                      Reserved       
+R31                                  XCVR_0_RX0_N                                             Reserved       
+R32                                  XCVR_0_RX0_P                                             Reserved       
+R33                                  VSS                                                      Reserved       
+R34                                  VSS                                                      Reserved       
+T1                                   VDDI7                                                    Reserved       
+T2                                   GPIO143NB7                                               Unassigned     
+T3                                   GPIO143PB7/CLKIN_W_4                                     Unassigned     
+T4                                   GPIO140PB7/CLKIN_W_6                                     Unassigned     
+T5                                   NC                                                       Reserved       
+T6                                   VSS                                                      Reserved       
+T7                                   NC                                                       Reserved       
+T8                                   NC                                                       Reserved       
+T9                                   NC                                                       Reserved       
+T10                                  NC                                                       Reserved       
+T11                                  VDDI7                                                    Reserved       
+T12                                  NC                                                       Reserved       
+T13                                  NC                                                       Reserved       
+T14                                  NC                                                       Reserved       
+T15                                  VDDAUX7                                                  Reserved       
+T16                                  VSS                                                      Reserved       
+T17                                  VDD                                                      Reserved       
+T18                                  VSS                                                      Reserved       
+T19                                  VDD                                                      Reserved       
+T20                                  VSS                                                      Reserved       
+T21                                  VDD                                                      Reserved       
+T22                                  VSS                                                      Reserved       
+T23                                  VDD                                                      Reserved       
+T24                                  VSS                                                      Reserved       
+T25                                  VDDA25                                                   Reserved       
+T26                                  VSS                                                      Reserved       
+T27                                  VDDA                                                     Reserved       
+T28                                  VSS                                                      Reserved       
+T29                                  XCVR_0_RX1_N                                             Reserved       
+T30                                  XCVR_0_RX1_P                                             Reserved       
+T31                                  VSS                                                      Reserved       
+T32                                  VDDA                                                     Reserved       
+T33                                  XCVR_0_TX0_N                                             Reserved       
+T34                                  XCVR_0_TX0_P                                             Reserved       
+U1                                   GPIO139NB7                                               Unassigned     
+U2                                   GPIO139PB7/CLKIN_W_7                                     Unassigned     
+U3                                   VSS                                                      Reserved       
+U4                                   GPIO140NB7                                               Unassigned     
+U5      USB_DATA1                    MSSIO19B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+U6      USB_DATA4                    MSSIO22B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+U7      USB_DATA3                    MSSIO21B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+U8                                   VDDI2                                                    Reserved       
+U9      USB_DATA7                    MSSIO25B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+U10     MAC_0_MDC                    MSSIO35B2                                                Special        LVCMOS33  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+U11                                  MSSIO32B2                                                Special        
+U12                                  MSSIO33B2                                                Special        
+U13                                  VSS                                                      Reserved       
+U14     MAC_0_MDIO                   MSSIO36B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+U15                                  VSS                                                      Reserved       
+U16                                  VDDAUX7                                                  Reserved       
+U17                                  VSS                                                      Reserved       
+U18                                  VDD25                                                    Reserved       
+U19                                  VSS                                                      Reserved       
+U20                                  VDD                                                      Reserved       
+U21                                  VSS                                                      Reserved       
+U22                                  VDD                                                      Reserved       
+U23                                  VSS                                                      Reserved       
+U24                                  VDD                                                      Reserved       
+U25                                  VDD_XCVR_CLK                                             Reserved       
+U26                                  VSS                                                      Reserved       
+U27                                  XCVR_0A_REFCLK_P                                         Reserved       
+U28                                  XCVR_0A_REFCLK_N                                         Reserved       
+U29                                  VDDA                                                     Reserved       
+U30                                  VSS                                                      Reserved       
+U31                                  XCVR_0_TX1_N                                             Reserved       
+U32                                  XCVR_0_TX1_P                                             Reserved       
+U33                                  VSS                                                      Reserved       
+U34                                  VSS                                                      Reserved       
+V1                                   GPIO138NB7                                               Unassigned     
+V2                                   GPIO138PB7                                               Unassigned     
+V3      REFCLK                       MSS_REFCLK_IN_P                                          Special        LVDS25    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     100            ---                 ---                  ---                  ---                                ---                               ---                    ---                           
+V4      USB_DATA0                    MSSIO18B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+V5                                   VDDI2                                                    Reserved       
+V6      USB_DIR                      MSSIO15B2                                                Special        LVCMOS33  Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                ---                               ---                    ---                           
+V7      USB_DATA5                    MSSIO23B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+V8      USB_STP                      MSSIO17B2                                                Special        LVCMOS33  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+V9      USB_DATA6                    MSSIO24B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+V10                                  VSS                                                      Reserved       
+V11     SDIO_SW_SEL1                 MSSIO34B2                                                Special        LVCMOS33  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+V12     SDIO_SW_EN_N                 MSSIO37B2                                                Special        LVCMOS33  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+V13                                  MSSIO27B2                                                Special        
+V14     USB_ULPI_RESET_N             MSSIO26B2                                                Special        LVCMOS33  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+V15                                  VDDAUX2                                                  Reserved       
+V16                                  VSS                                                      Reserved       
+V17                                  VDD                                                      Reserved       
+V18                                  VSS                                                      Reserved       
+V19                                  VDD                                                      Reserved       
+V20                                  VSS                                                      Reserved       
+V21                                  VDD                                                      Reserved       
+V22                                  VSS                                                      Reserved       
+V23                                  VDD                                                      Reserved       
+V24                                  VSS                                                      Reserved       
+V25                                  VDDA25                                                   Reserved       
+V26                                  VSS                                                      Reserved       
+V27                                  VDDA                                                     Reserved       
+V28                                  VSS                                                      Reserved       
+V29                                  XCVR_0_RX2_N                                             Reserved       
+V30                                  XCVR_0_RX2_P                                             Reserved       
+V31                                  VSS                                                      Reserved       
+V32                                  VSS                                                      Reserved       
+V33                                  XCVR_0_TX2_N                                             Reserved       
+V34                                  XCVR_0_TX2_P                                             Reserved       
+W1      SGMII_RX0_P                  MSS_SGMII_RXP0                                           Special        LVDS33    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     100            ---                 ---                  MID                  ---                                ---                               ---                    ---                           
+W2                                   VDDI5                                                    Reserved       
+W3      REFCLK_N                     MSS_REFCLK_IN_N                                          Special        LVDS25    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           ---                ---              ---          OFF                     100            ---                 ---                  ---                  ---                                ---                               ---                    ---                           
+W4      SGMII_TX1_P                  MSS_SGMII_TXP1                                           Special        LVDS33    Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               6                      100                           
+W5      SGMII_TX1_N                  MSS_SGMII_TXN1                                           Special        LVDS33    Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               6                      100                           
+W6      USB_CLK                      MSSIO14B2                                                Special        LVCMOS33  Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                ---                               ---                    ---                           
+W7                                   VSS                                                      Reserved       
+W8      USB_NXT                      MSSIO16B2                                                Special        LVCMOS33  Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                ---                               ---                    ---                           
+W9      USB_DATA2                    MSSIO20B2                                                Special        LVCMOS33  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 OFF                  ---                  OFF                                OFF                               8                      ---                           
+W10                                  MSSIO28B2                                                Special        
+W11                                  MSSIO29B2                                                Special        
+W12                                  VDDI2                                                    Reserved       
+W13                                  MSSIO31B2                                                Special        
+W14                                  MSSIO30B2                                                Special        
+W15                                  VSS                                                      Reserved       
+W16                                  VDDAUX2                                                  Reserved       
+W17                                  VSS                                                      Reserved       
+W18                                  VDD                                                      Reserved       
+W19                                  VSS                                                      Reserved       
+W20                                  VDD                                                      Reserved       
+W21                                  VSS                                                      Reserved       
+W22                                  VDD                                                      Reserved       
+W23                                  VSS                                                      Reserved       
+W24                                  VDD                                                      Reserved       
+W25                                  VDD_XCVR_CLK                                             Reserved       
+W26                                  VSS                                                      Reserved       
+W27                                  XCVR_0B_REFCLK_P                                         Reserved       
+W28                                  XCVR_0B_REFCLK_N                                         Reserved       
+W29                                  VDDA                                                     Reserved       
+W30                                  VSS                                                      Reserved       
+W31                                  XCVR_0_RX3_N                                             Reserved       
+W32                                  XCVR_0_RX3_P                                             Reserved       
+W33                                  VSS                                                      Reserved       
+W34                                  VSS                                                      Reserved       
+Y1      SGMII_RX0_N                  MSS_SGMII_RXN0                                           Special        LVDS33    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     100            ---                 ---                  MID                  ---                                ---                               ---                    ---                           
+Y2      SGMII_RX1_P                  MSS_SGMII_RXP1                                           Special        LVDS33    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     100            ---                 ---                  MID                  ---                                ---                               ---                    ---                           
+Y3      SGMII_RX1_N                  MSS_SGMII_RXN1                                           Special        LVDS33    Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     100            ---                 ---                  MID                  ---                                ---                               ---                    ---                           
+Y4                                   VSS                                                      Reserved       
+Y5      SGMII_TX0_P                  MSS_SGMII_TXP0                                           Special        LVDS33    Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           None               ---              ---          OFF                     ---            ---                 ---                  ---                  ---                                ---                               6                      100                           
+Y6      SD_DATA1_EMMC_DATA1          MSSIO3B4                                                 Special        LVCMOS18  Inout      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                OFF                               8                      ---                           
+Y7      SD_WP_EMMC_RSTN              MSSIO7B4                                                 Special        LVCMOS18  Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                ---                               ---                    ---                           
+Y8      SD_VOLT_EN_EMMC_DATA6        MSSIO10B4                                                Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+Y9                                   VDDI4                                                    Reserved       
+Y10     SD_CD_EMMC_STRB              MSSIO6B4                                                 Special        LVCMOS18  Input      ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ON                   ---                  OFF                                ---                               ---                    ---                           
+Y11     SD_VOLT_CMD_DIR_EMMC_DATA7   MSSIO11B4                                                Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+Y12     SD_VOLT_DIR_1_3_EMMC_UNUSED  MSSIO13B4                                                Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+Y13     SD_VOLT_SEL_EMMC_DATA5       MSSIO9B4                                                 Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+Y14     SD_POW_EMMC_DATA4            MSSIO8B4                                                 Special        LVCMOS18  Output     ---           ---                 ---          ---            ---                                ---              ---              ---                 ---              ---          ---   ---                ---              ---               ---                       ---           Up                 OFF              OFF          OFF                     ---            ---                 ---                  ---                  ---                                OFF                               8                      ---                           
+Y15                                  VDDAUX4                                                  Reserved       
+Y16                                  VSS                                                      Reserved       
+Y17                                  VDD                                                      Reserved       
+Y18                                  VSS                                                      Reserved       
+Y19                                  VDD                                                      Reserved       
+Y20                                  VSS                                                      Reserved       
+Y21                                  VDD                                                      Reserved       
+Y22                                  VSS                                                      Reserved       
+Y23                                  VDD                                                      Reserved       
+Y24                                  VSS                                                      Reserved       
+Y25                                  VDDA25                                                   Reserved       
+Y26                                  VSS                                                      Reserved       
+Y27                                  VDDA                                                     Reserved       
+Y28                                  VSS                                                      Reserved       
+Y29                                  XCVR_2_RX0_N                                             Reserved       
+Y30                                  XCVR_2_RX0_P                                             Reserved       
+Y31                                  VSS                                                      Reserved       
+Y32                                  VDDA                                                     Reserved       
+Y33                                  XCVR_0_TX3_N                                             Reserved       
+Y34                                  XCVR_0_TX3_P                                             Reserved       

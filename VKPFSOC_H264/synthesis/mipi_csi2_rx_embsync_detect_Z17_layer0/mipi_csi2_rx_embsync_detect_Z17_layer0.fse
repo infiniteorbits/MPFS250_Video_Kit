@@ -1,0 +1,52 @@
+
+fsm_encoding {6381448149} sequential
+
+fsm_state_encoding {6381448149} ST_IDLE {00}
+
+fsm_state_encoding {6381448149} ST_WAIT {01}
+
+fsm_state_encoding {6381448149} ST_WCNT0 {10}
+
+fsm_state_encoding {6381448149} ST_ACTIVE {11}
+
+fsm_registers {6381448149} {state_enb[1]}  {state_enb[0]} 
+
+fsm_encoding {632004220045} sequential
+
+fsm_state_encoding {632004220045} ST_IDLE3 {00}
+
+fsm_state_encoding {632004220045} ST_WAIT3 {01}
+
+fsm_state_encoding {632004220045} ST_RUN3 {10}
+
+fsm_registers {632004220045} {genblk4®state_3[1]}  {genblk4®state_3[0]} 
+
+fsm_encoding {631778217786} sequential
+
+fsm_state_encoding {631778217786} ST_IDLE2 {00}
+
+fsm_state_encoding {631778217786} ST_WAIT2 {01}
+
+fsm_state_encoding {631778217786} ST_RUN2 {10}
+
+fsm_registers {631778217786} {genblk3®state_2[1]}  {genblk3®state_2[0]} 
+
+fsm_encoding {631554215547} sequential
+
+fsm_state_encoding {631554215547} ST_IDLE1 {00}
+
+fsm_state_encoding {631554215547} ST_WAIT1 {01}
+
+fsm_state_encoding {631554215547} ST_RUN1 {10}
+
+fsm_registers {631554215547} {genblk2®state_1[1]}  {genblk2®state_1[0]} 
+
+fsm_encoding {631337213378} sequential
+
+fsm_state_encoding {631337213378} ST_IDLE0 {00}
+
+fsm_state_encoding {631337213378} ST_WAIT0 {01}
+
+fsm_state_encoding {631337213378} ST_RUN0 {10}
+
+fsm_registers {631337213378} {genblk1®state_0[1]}  {genblk1®state_0[0]} 

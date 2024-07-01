@@ -1,0 +1,48 @@
+
+fsm_encoding {8643090430913} sequential
+
+fsm_state_encoding {8643090430913} IDLE {00}
+
+fsm_state_encoding {8643090430913} MB_CB {01}
+
+fsm_state_encoding {8643090430913} MB_CR {10}
+
+fsm_registers {8643090430913} {state[1]}  {state[0]} 
+
+fsm_encoding {8645190451912} onehot
+
+fsm_state_encoding {8645190451912} IDLE {00001}
+
+fsm_state_encoding {8645190451912} MB1 {00010}
+
+fsm_state_encoding {8645190451912} MB2 {00100}
+
+fsm_state_encoding {8645190451912} MB3 {01000}
+
+fsm_state_encoding {8645190451912} MB4 {10000}
+
+fsm_registers {8645190451912} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {8661190611916} sequential
+
+fsm_state_encoding {8661190611916} COL1 {00}
+
+fsm_state_encoding {8661190611916} COL2 {01}
+
+fsm_state_encoding {8661190611916} COL3 {10}
+
+fsm_state_encoding {8661190611916} COL4 {11}
+
+fsm_registers {8661190611916} {state[1]}  {state[0]} 
+
+fsm_encoding {8653140531417} original
+
+fsm_state_encoding {8653140531417} ROW1 {00}
+
+fsm_state_encoding {8653140531417} ROW2 {01}
+
+fsm_state_encoding {8653140531417} ROW3 {10}
+
+fsm_state_encoding {8653140531417} ROW4 {11}
+
+fsm_registers {8653140531417} {state[1]}  {state[0]} 

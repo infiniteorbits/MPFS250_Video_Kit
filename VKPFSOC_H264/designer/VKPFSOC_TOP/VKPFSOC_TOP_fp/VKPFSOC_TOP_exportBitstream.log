@@ -1,0 +1,17 @@
+Software Version: 2023.2.0.8
+Opened 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\VKPFSOC_TOP_fp\VKPFSOC_TOP.pro'
+PDB file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\VKPFSOC_TOP.pdb' has been loaded successfully.
+DESIGN : VKPFSOC_TOP;  CHECKSUM : 77C2;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version will be programmed to 5 with this bitstream.
+File/Folder 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\export\IAP_IMAGE.spi' will be overwritten.
+Successfully exported SPI master file: 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\export\IAP_IMAGE.spi'; file programs Fabric and sNVM.
+BITS component bitstream digest: aee355e728bed157183d65b414803ca9422e59d42b06365e61ddf1ed5ec41d74
+Fabric component bitstream digest: c50ab2156883aae60db757120a8a8fc8c9faa93d809f3741f718abf293e7b36f
+sNVM component bitstream digest: 04a30a98a3c46e70baa11927254378c3837d8a5bdd22b6d4226df65de9dde2c6
+EOB component bitstream digest: 83f2c03ce573cd92c73c2eb7c45ce842c12bf9f37f2209496ad3a2e6b9717cab
+Entire bitstream digest: a655f877d2babdba50b66d69657736cfbc96d4234a0190c72a2755a5acc8c34f
+Finished: Sun Jun 30 12:27:30 2024 (Elapsed time 00:00:20)
+
+Project saved.
+Project closed.

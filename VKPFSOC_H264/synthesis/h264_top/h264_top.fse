@@ -1,0 +1,68 @@
+
+fsm_encoding {78356135625} sequential
+
+fsm_state_encoding {78356135625} 00 {00}
+
+fsm_state_encoding {78356135625} 01 {01}
+
+fsm_state_encoding {78356135625} 10 {10}
+
+fsm_state_encoding {78356135625} 11 {11}
+
+fsm_registers {78356135625} {local_wbus_state[1]}  {local_wbus_state[0]} 
+
+fsm_encoding {78449144924} onehot
+
+fsm_state_encoding {78449144924} 000 {00001}
+
+fsm_state_encoding {78449144924} 001 {00010}
+
+fsm_state_encoding {78449144924} 010 {00100}
+
+fsm_state_encoding {78449144924} 101 {01000}
+
+fsm_state_encoding {78449144924} 110 {10000}
+
+fsm_registers {78449144924} {video_bus_state[4]}  {video_bus_state[3]}  {video_bus_state[2]}  {video_bus_state[1]}  {video_bus_state[0]} 
+
+fsm_encoding {13253122531} onehot
+
+fsm_state_encoding {13253122531} idle {000001}
+
+fsm_state_encoding {13253122531} scan {000010}
+
+fsm_state_encoding {13253122531} assign_req {000100}
+
+fsm_state_encoding {13253122531} assign_req_1 {001000}
+
+fsm_state_encoding {13253122531} wait_for_ack {010000}
+
+fsm_state_encoding {13253122531} wait_for_done {100000}
+
+fsm_registers {13253122531} {s_state[0]}  {s_state[1]}  {s_state[2]}  {s_state[3]}  {s_state[4]}  {s_state[5]} 
+
+fsm_encoding {13253122531} onehot
+
+fsm_state_encoding {13253122531} idle {000001}
+
+fsm_state_encoding {13253122531} scan {000010}
+
+fsm_state_encoding {13253122531} assign_req {000100}
+
+fsm_state_encoding {13253122531} assign_req_1 {001000}
+
+fsm_state_encoding {13253122531} wait_for_ack {010000}
+
+fsm_state_encoding {13253122531} wait_for_done {100000}
+
+fsm_registers {13253122531} {s_state[0]}  {s_state[1]}  {s_state[2]}  {s_state[3]}  {s_state[4]}  {s_state[5]} 
+
+fsm_encoding {84168216823} sequential
+
+fsm_state_encoding {84168216823} 00 {00}
+
+fsm_state_encoding {84168216823} 01 {01}
+
+fsm_state_encoding {84168216823} 10 {10}
+
+fsm_registers {84168216823} {s_state[1]}  {s_state[0]} 

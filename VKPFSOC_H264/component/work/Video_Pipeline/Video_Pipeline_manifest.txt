@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 10:33:49 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  Video_Pipeline
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/Video_Pipeline/Video_Pipeline.v
+

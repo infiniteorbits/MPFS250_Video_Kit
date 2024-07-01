@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>VKPFSOC_TOP</design>
+	<target_verilog>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\VKPFSOC_TOP.vm</target_verilog>
+</SynplifyOutput>

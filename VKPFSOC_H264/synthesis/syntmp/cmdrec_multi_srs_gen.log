@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  VKPFSOC_TOP  -multisrs  C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\synwork\VKPFSOC_TOP_comp.srs  -osyn  C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\synwork\VKPFSOC_TOP_mult.srs  -log  C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\synlog\VKPFSOC_TOP_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe -link -top VKPFSOC_TOP -multisrs ..\synwork\VKPFSOC_TOP_comp.srs -osyn ..\synwork\VKPFSOC_TOP_mult.srs -log ..\synlog\VKPFSOC_TOP_multi_srs_gen.srr
+rc:0 success:1 runtime:6
+file:..\synwork\VKPFSOC_TOP_comp.srs|io:i|time:1719597773|size:3190502|exec:0|csum:FFDC8541CA4805A7F9B2F7F384C40C31
+file:..\synwork\VKPFSOC_TOP_mult.srs|io:o|time:1719597780|size:20140|exec:0|csum:
+file:..\synlog\VKPFSOC_TOP_multi_srs_gen.srr|io:o|time:1719597780|size:1196|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1691490330|size:10452480|exec:1|csum:C2B49D9CC1CC5913A59BA97F5F9B52BC

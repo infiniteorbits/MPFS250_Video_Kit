@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 10:31:48 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  RGBtoYCbCr_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/RGBtoYCbCr/4.4.0/Encrypted/RGBtoYCbCr.vhd
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/RGBtoYCbCr_C0/RGBtoYCbCr_C0.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Microsemi/SolutionCore/RGBtoYCbCr/4.4.0/Stimulus/RGBtoYCbCr_tb.vhd
+

@@ -1,0 +1,378 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\intensity_average.vhd":53:7:53:23|Top entity is set to intensity_average.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\RGBtoYCbCr\4.4.0\Encrypted\RGBtoYCbCr.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\apb_wrapper.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\data_packer_h264.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ram2port.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\intensity_average.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\RGBtoYCbCr_C0\RGBtoYCbCr_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\video_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Gamma_Correction_C0\Gamma_Correction_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG334 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":115:16:115:28|Read directive translate_off.
+@N: CG333 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":118:16:118:27|Read directive translate_on.
+@N: CG334 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":130:16:130:28|Read directive translate_off.
+@N: CG333 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":151:16:151:27|Read directive translate_on.
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@N: CG347 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@N: CG334 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":115:16:115:28|Read directive translate_off.
+@N: CG333 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":118:16:118:27|Read directive translate_on.
+@N: CG334 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":130:16:130:28|Read directive translate_off.
+@N: CG333 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":151:16:151:27|Read directive translate_on.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET_PF_C5\CORERESET_PF_C5_0\core\corereset_pf.v":21:7:21:52|Synthesizing module CORERESET_PF_C5_CORERESET_PF_C5_0_CORERESET_PF in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET_PF_C5\CORERESET_PF_C5.v":21:7:21:21|Synthesizing module CORERESET_PF_C5 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET\CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":107:7:107:19|Synthesizing module BANKCTRL_GPIO in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":156:7:156:19|Synthesizing module BANKCTRL_HSIO in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\INIT_MONITOR\INIT_MONITOR_0\INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\INIT_MONITOR\INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_CCC_C0\PF_CCC_C0.v":264:7:264:15|Synthesizing module PF_CCC_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":1553:7:1553:16|Synthesizing module ICB_CLKDIV in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_CLK_DIV_C0\PF_CLK_DIV_C0_0\PF_CLK_DIV_C0_PF_CLK_DIV_C0_0_PF_CLK_DIV.v":5:7:5:46|Synthesizing module PF_CLK_DIV_C0_PF_CLK_DIV_C0_0_PF_CLK_DIV in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_CLK_DIV_C0\PF_CLK_DIV_C0.v":24:7:24:19|Synthesizing module PF_CLK_DIV_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":2231:7:2231:16|Synthesizing module OSC_RC2MHZ in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v":5:7:5:34|Synthesizing module PF_OSC_C0_PF_OSC_C0_0_PF_OSC in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_OSC_C0\PF_OSC_C0.v":27:7:27:15|Synthesizing module PF_OSC_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":10811:7:10811:18|Synthesizing module XCVR_REF_CLK in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_XCVR_REF_CLK_C0\PF_XCVR_REF_CLK_C0_0\PF_XCVR_REF_CLK_C0_PF_XCVR_REF_CLK_C0_0_PF_XCVR_REF_CLK.v":5:7:5:61|Synthesizing module PF_XCVR_REF_CLK_C0_PF_XCVR_REF_CLK_C0_0_PF_XCVR_REF_CLK in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_XCVR_REF_CLK_C0\PF_XCVR_REF_CLK_C0.v":27:7:27:24|Synthesizing module PF_XCVR_REF_CLK_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CLOCKS_AND_RESETS\CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+@N: CG775 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CoreAPB3_C1\CoreAPB3_C1.v":57:7:57:17|Synthesizing module CoreAPB3_C1 in library work.
+@N: CG775 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Component CORESPI not found in library "work" or "__hyper__lib__", but found in library CORESPI_LIB
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORESPI_C1\CORESPI_C1.v":32:7:32:16|Synthesizing module CORESPI_C1 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":223:7:223:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v":449:7:449:16|Synthesizing module BIBUF_DIFF in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\MSS_VIDEO_KIT_H264\MSS_BYP_NOBYP_BYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\MSS_VIDEO_KIT_H264\MSS_VIDEO_KIT_H264.v":5:7:5:24|Synthesizing module MSS_VIDEO_KIT_H264 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":3643:7:3643:12|Synthesizing module PF_SPI in library work.
+@N: CG775 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_SYSTEM_SERVICES_C0\PF_SYSTEM_SERVICES_C0_0\rtl\vlog\core\PF_System_Services.v":43:7:43:70|Component PF_SYSTEM_SERVICES_C0_PF_SYSTEM_SERVICES_C0_0_PF_SYSTEM_SERVICES not found in library "work" or "__hyper__lib__", but found in library CORESYSSERVICES_PF_LIB
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_APBS.v":31:7:31:29|Synthesizing module CoreSysServices_PF_APBS in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_ReqArbiter.v":38:7:38:35|Synthesizing module CoreSysServices_PF_ReqArbiter in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_SSIIF.v":30:7:30:30|Synthesizing module CoreSysServices_PF_SSIIF in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_MBXIF.v":32:7:32:30|Synthesizing module CoreSysServices_PF_MBXIF in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\polarfire_syn_comps.v":3937:7:3937:18|Synthesizing module SYS_SERVICES in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_Ctrl.v":45:7:45:29|Synthesizing module CoreSysServices_PF_Ctrl in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_SYSTEM_SERVICES_C0\PF_SYSTEM_SERVICES_C0_0\rtl\vlog\core\PF_System_Services.v":43:7:43:70|Synthesizing module PF_SYSTEM_SERVICES_C0_PF_SYSTEM_SERVICES_C0_0_PF_SYSTEM_SERVICES in library CORESYSSERVICES_PF_LIB.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_SYSTEM_SERVICES_C0\PF_SYSTEM_SERVICES_C0.v":45:7:45:27|Synthesizing module PF_SYSTEM_SERVICES_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":4:7:4:25|Synthesizing module DDR_AXI4_ARBITER_PF in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\video_axi_fifo.v":15:7:15:58|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_sync_scntr.v":16:7:16:63|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":16:7:16:57|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft in library work.
+@N: CG179 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":181:38:181:55|Removing redundant assignment.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_LSRAM_top.v":14:7:14:53|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top in library work.
+@N: CL134 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_LSRAM_top.v":50:0:50:5|Found RAM pf_ram, depth=512, width=64
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":17:7:17:55|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\video_axi_fifo.v":15:7:15:58|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_sync_scntr.v":16:7:16:63|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":16:7:16:57|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_LSRAM_top.v":14:7:14:53|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top in library work.
+@N: CL134 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_LSRAM_top.v":50:0:50:5|Found RAM pf_ram, depth=8, width=8
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":17:7:17:55|Synthesizing module ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":22:7:22:20|Synthesizing module ddr_rw_arbiter in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_top.v":9:7:9:14|Synthesizing module read_top in library work.
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_top.v":283:11:283:22|Using module read_demux from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_top.v":320:4:320:13|Using module read_mux from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_top.v":345:18:345:36|Using module request_scheduler from library work
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_top.v":9:7:9:15|Synthesizing module write_top in library work.
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_top.v":313:12:313:24|Using module write_demux from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_top.v":342:4:342:14|Using module write_mux from library work
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF_Native.v":9:7:9:32|Synthesizing module DDR_AXI4_ARBITER_PF_Native in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\DDR_AXI4_ARBITER_PF_C0\DDR_AXI4_ARBITER_PF_C0.v":28:7:28:28|Synthesizing module DDR_AXI4_ARBITER_PF_C0 in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ddr_write_controller_enc.v":43:7:43:30|Synthesizing module ddr_write_controller_enc in library work.
+@N: CG364 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\H264_DDR_WRITE\H264_DDR_WRITE.v":9:7:9:20|Synthesizing module H264_DDR_WRITE in library work.
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\H264_DDR_WRITE\H264_DDR_WRITE.v":145:0:145:17|Using module data_packer_h264 from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\H264_DDR_WRITE\H264_DDR_WRITE.v":189:0:189:11|Using module video_fifo from library work
+@N: CG775 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign_top.v":2:7:2:67|Component CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN not found in library "work" or "__hyper__lib__", but found in library CORERXIODBITALIGN_LIB
+@N: CG179 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign.v":631:36:631:47|Removing redundant assignment.
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\video_processing\video_processing.v":189:23:189:46|Using module Bayer_Interpolation_C0 from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\video_processing\video_processing.v":255:20:255:40|Using module Gamma_Correction_C0 from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\video_processing\video_processing.v":271:21:271:42|Using module Image_Enhancement_C0 from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\video_processing\video_processing.v":292:16:292:32|Using module IMAGE_SCALER_C0 from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\video_processing\video_processing.v":315:18:315:36|Using module intensity_average from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Video_Pipeline\Video_Pipeline.v":341:0:341:8|Using module apb3_if from library work
+@N: CG794 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Video_Pipeline\Video_Pipeline.v":466:14:466:28|Using module RGBtoYCbCr_C0 from library work
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\COREBCLKSCLKALIGN\2.0.111\rtl\vlog\core\ICB_BclkSclkAlign.v":214:3:214:8|Trying to extract state machine for register clkalign_curr_state.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_IOD_GENERIC_RX_C0_TR\PF_IOD_GENERIC_RX_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":89:17:89:34|Input PLL_BCLKPHS_OFFSET is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\PF_IOD_GENERIC_RX_C0_TR\PF_IOD_GENERIC_RX_C0_TR_0\rtl\vlog\core\CoreBclkSclkAlign.v":103:33:103:45|Input BCLK_IGEAR_RX is unused.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign.v":269:3:269:8|Trying to extract state machine for register bitalign_curr_state.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\rtl\vlog\core\CoreRxIODBitAlign.v":94:10:94:25|Input rx_BIT_ALGN_SKIP is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":58:47:58:58|Input L1_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":59:47:59:58|Input L2_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":60:47:60:58|Input L3_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":61:47:61:58|Input L4_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":62:47:62:58|Input L5_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":63:47:63:58|Input L6_LP_DATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microchip\SolutionCore\mipicsi2rxdecoderPF\4.7.0\Encrypted\mipicsi2rxdecoderPF.v":64:47:64:58|Input L7_LP_DATA_I is unused.
+@N: CL135 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET_PF_C2\CORERESET_PF_C2_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL135 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET_PF_C1\CORERESET_PF_C1_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ddr_write_controller_enc.v":168:2:168:7|Trying to extract state machine for register s_state.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":449:1:449:6|Trying to extract state machine for register video_bus_state.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":356:1:356:6|Trying to extract state machine for register local_wbus_state.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":65:37:65:39|Input bid is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":66:39:66:43|Input bresp is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":87:39:87:41|Input rid is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\ddr_rw_arbiter.v":89:39:89:43|Input rresp is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":54:25:54:31|Input RESET_N is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":55:25:55:30|Input WCLOCK is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":56:25:56:30|Input RCLOCK is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":61:26:61:31|Input wr_clk is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":62:26:62:31|Input rd_clk is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":65:26:65:39|Input reset_wclk_top is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":66:26:66:30|Input wr_en is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":72:26:72:28|Input din is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\video_axi_fifo.v":148:36:148:40|Input MEMRD is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":54:25:54:31|Input RESET_N is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":55:25:55:30|Input WCLOCK is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_ram_wrapper.v":56:25:56:30|Input RCLOCK is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":61:26:61:31|Input wr_clk is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":62:26:62:31|Input rd_clk is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":65:26:65:39|Input reset_wclk_top is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":66:26:66:30|Input wr_en is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\axi_lbus_corefifo_fwft.v":72:26:72:28|Input din is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\video_axi_fifo.v":148:36:148:40|Input MEMRD is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":93:29:93:37|Input WDATA_I_0 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":94:15:94:24|Input WVALID_I_0 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":95:29:95:38|Input AWADDR_I_0 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":96:15:96:25|Input AWVALID_I_0 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":97:15:97:24|Input AWSIZE_I_0 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":98:29:98:37|Input WDATA_I_1 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":99:15:99:24|Input WVALID_I_1 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":100:29:100:38|Input AWADDR_I_1 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":101:15:101:25|Input AWVALID_I_1 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":102:15:102:24|Input AWSIZE_I_1 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":103:29:103:37|Input WDATA_I_2 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":104:15:104:24|Input WVALID_I_2 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":105:29:105:38|Input AWADDR_I_2 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":106:15:106:25|Input AWVALID_I_2 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":107:15:107:24|Input AWSIZE_I_2 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":108:29:108:37|Input WDATA_I_3 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":109:15:109:24|Input WVALID_I_3 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":110:29:110:38|Input AWADDR_I_3 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":111:15:111:25|Input AWVALID_I_3 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":112:15:112:24|Input AWSIZE_I_3 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":113:29:113:37|Input WDATA_I_4 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":114:15:114:24|Input WVALID_I_4 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":115:29:115:38|Input AWADDR_I_4 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":116:15:116:25|Input AWVALID_I_4 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":117:15:117:24|Input AWSIZE_I_4 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":118:29:118:37|Input WDATA_I_5 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":119:15:119:24|Input WVALID_I_5 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":120:29:120:38|Input AWADDR_I_5 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":121:15:121:25|Input AWVALID_I_5 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":122:15:122:24|Input AWSIZE_I_5 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":123:29:123:37|Input WDATA_I_6 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":124:15:124:24|Input WVALID_I_6 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":125:29:125:38|Input AWADDR_I_6 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":126:15:126:25|Input AWVALID_I_6 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":127:15:127:24|Input AWSIZE_I_6 is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\DDR_AXI4_ARBITER_PF.v":128:29:128:37|Input WDATA_I_7 is unused.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_Ctrl.v":419:3:419:8|Trying to extract state machine for register main_curr_state.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_MBXIF.v":198:3:198:8|Trying to extract state machine for register mbx_curr_state.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_SSIIF.v":155:3:155:8|Trying to extract state machine for register ssi_curr_state.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_ReqArbiter.v":130:3:130:8|Trying to extract state machine for register arb_curr_state.
+@N: CL135 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\SgCore\PF_SYSTEM_SERVICES\3.0.101\rtl\vlog\core\CoreSysServices_PF_APBS.v":510:3:510:8|Found sequential shift ca_mbx_ren_r4 with address depth of 4 words and data bit width of 1.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL134 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=1
+@N: CL134 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=32, width=8
+@N: CL135 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET\CORERESET_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL135 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\CORERESET_PF_C5\CORERESET_PF_C5_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N:"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_demux.vhd":26:7:26:16|Top entity is set to read_demux.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\RGBtoYCbCr\4.4.0\Encrypted\RGBtoYCbCr.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\apb_wrapper.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_demux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_mux.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\data_packer_h264.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ram2port.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\intensity_average.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\RGBtoYCbCr_C0\RGBtoYCbCr_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\video_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Gamma_Correction_C0\Gamma_Correction_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\RGBtoYCbCr_C0\RGBtoYCbCr_C0.vhd":31:7:31:19|Synthesizing work.rgbtoycbcr_c0.rtl.
+@N: Setting default value for generic g_apb3_if_data_width to 32;
+@N: Setting default value for generic g_const_width to 12;
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\apb_wrapper.vhd":53:7:53:13|Synthesizing work.apb3_if.apb3_if.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\intensity_average.vhd":53:7:53:23|Synthesizing work.intensity_average.architecture_intensity_average.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0.vhd":32:7:32:21|Synthesizing work.image_scaler_c0.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":21:7:21:18|Synthesizing work.image_scaler.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd":31:7:31:26|Synthesizing work.image_enhancement_c0.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":24:7:24:23|Synthesizing work.image_enhancement.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Gamma_Correction_C0\Gamma_Correction_C0.vhd":30:7:30:25|Synthesizing work.gamma_correction_c0.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":24:7:24:22|Synthesizing work.gamma_correction.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd":32:7:32:28|Synthesizing work.bayer_interpolation_c0.rtl.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":24:7:24:25|Synthesizing work.bayer_interpolation.rtl.
+@N: Setting default value for generic g_video_fifo_awidth to 12;
+@N: Setting default value for generic g_input_video_data_bit_width to 64;
+@N: Setting default value for generic g_half_empty_threshold to 1280;
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\video_fifo.vhd":55:7:55:16|Synthesizing work.video_fifo.video_fifo.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ram2port.vhd":54:7:54:14|Synthesizing work.ram2port.ram2port.
+@N: CL134 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\ram2port.vhd":71:7:71:10|Found RAM io1l, depth=4096, width=64
+@N: Setting default value for generic g_ip_dw to 16;
+@N: Setting default value for generic g_op_dw to 64;
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\hdl\data_packer_h264.vhd":55:7:55:22|Synthesizing work.data_packer_h264.data_packer_h264.
+@N: Setting default value for generic g_data_width to 64;
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_mux.vhd":26:7:26:15|Synthesizing work.write_mux.write_mux.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_demux.vhd":26:7:26:17|Synthesizing work.write_demux.write_demux.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":26:7:26:23|Synthesizing work.request_scheduler.request_scheduler.
+@N: CD231 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":75:25:75:26|Using onehot encoding for type scheduler_states. For example, enumeration idle is mapped to "100000".
+@N: CD604 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":337:20:337:33|OTHERS clause is not synthesized.
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_mux.vhd":26:7:26:14|Synthesizing work.read_mux.read_mux.
+@N: CD630 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_demux.vhd":26:7:26:16|Synthesizing work.read_demux.read_demux.
+@N: CL201 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":253:12:253:13|Trying to extract state machine for register s_state.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":52:4:52:10|Input TDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":55:4:55:11|Input TVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":59:4:59:10|Input TUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":71:4:71:15|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":73:4:73:12|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":76:4:76:16|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":80:4:80:15|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":82:4:82:15|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":84:4:84:16|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":86:4:86:14|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":88:4:88:15|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":92:4:92:14|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":96:4:96:15|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":100:4:100:16|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":104:4:104:15|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":106:4:106:15|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":108:4:108:16|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":114:4:114:15|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":118:4:118:13|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":120:4:120:14|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":122:4:122:15|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":124:4:124:15|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":126:4:126:16|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":128:4:128:15|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":130:4:130:14|Input AXI_AWQOS_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":132:4:132:17|Input AXI_AWREGION_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":134:4:134:14|Input AXI_WLAST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":136:4:136:14|Input AXI_WUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":140:4:140:15|Input AXI_ARUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":150:4:150:13|Input AXI_ARID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":152:4:152:14|Input AXI_ARLEN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":154:4:154:15|Input AXI_ARSIZE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":156:4:156:15|Input AXI_ARLOCK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":158:4:158:16|Input AXI_ARCACHE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":160:4:160:14|Input AXI_ARQOS_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":162:4:162:17|Input AXI_ARREGION_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":45:4:45:10|Input TDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":48:4:48:11|Input TVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":50:1:50:7|Input TUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":51:4:51:10|Input TDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":54:4:54:11|Input TVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":58:1:58:7|Input TUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":71:1:71:12|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":73:1:73:9|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":76:1:76:13|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":80:1:80:12|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":82:1:82:12|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":84:1:84:13|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":86:1:86:11|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":88:1:88:12|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":92:1:92:11|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":96:1:96:12|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":100:1:100:13|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":104:1:104:12|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":106:1:106:12|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":108:1:108:13|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":114:1:114:12|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":118:1:118:10|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":120:1:120:11|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":122:1:122:12|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":124:1:124:12|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":126:1:126:13|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":128:1:128:12|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":130:1:130:11|Input AXI_AWQOS_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":132:1:132:14|Input AXI_AWREGION_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":134:1:134:11|Input AXI_WLAST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":136:1:136:11|Input AXI_WUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":140:1:140:12|Input AXI_ARUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":150:1:150:10|Input AXI_ARID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":152:1:152:11|Input AXI_ARLEN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":154:1:154:12|Input AXI_ARSIZE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":156:1:156:12|Input AXI_ARLOCK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":158:1:158:13|Input AXI_ARCACHE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":160:1:160:11|Input AXI_ARQOS_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":162:1:162:14|Input AXI_ARREGION_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":49:4:49:10|Input TDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":52:4:52:11|Input TVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":54:1:54:7|Input TUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":73:4:73:15|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":75:4:75:12|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":78:1:78:13|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":82:1:82:12|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":84:1:84:12|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":86:1:86:13|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":88:1:88:11|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":90:1:90:12|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":94:1:94:11|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":98:4:98:15|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":102:1:102:13|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":106:1:106:12|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":108:1:108:12|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":110:4:110:16|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":116:1:116:12|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":120:4:120:13|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":122:1:122:11|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":124:1:124:12|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":126:1:126:12|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":128:1:128:13|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":130:1:130:12|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":132:1:132:11|Input AXI_AWQOS_I is unused.
+@N|Running in 64-bit mode
+

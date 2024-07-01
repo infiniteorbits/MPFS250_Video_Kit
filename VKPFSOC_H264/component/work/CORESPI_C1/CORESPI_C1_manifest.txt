@@ -1,0 +1,31 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Jun 27 16:35:13 2024
+Project   :  C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit
+Component :  CORESPI_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/work/CORESPI_C1/CORESPI_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec.exe
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec.lin
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/mti/bfmtovec_compile.do
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/mti/user_tb.bfm
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/mti/wave.do
+
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/amba_bfm/bfm_package.v
+    C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/test/user/testbench.v
+

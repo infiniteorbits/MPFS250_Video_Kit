@@ -1,0 +1,66 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-LP86E50
+
+Implementation : synthesis
+
+# Written on Fri Jun 28 20:03:04 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                                              Requested     Requested     Clock                              Clock                Clock
+Level     Clock                                                                                              Frequency     Period        Type                               Group                Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       CAM1_RX_CLK_P                                                                                      250.0 MHz     4.000         declared                           default_clkgroup     13   
+1 .         Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     62.5 MHz      16.000        generated (from CAM1_RX_CLK_P)     default_clkgroup     5116 
+2 ..          Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                       170.0 MHz     5.882         generated (from CAM1_RX_CLK_P)     default_clkgroup     21397
+                                                                                                                                                                                                      
+0 -       REF_CLK_PAD_P                                                                                      148.5 MHz     6.734         declared                           default_clkgroup     1    
+1 .         CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1                                 50.0 MHz      20.000        generated (from REF_CLK_PAD_P)     default_clkgroup     874  
+1 .         CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                 125.0 MHz     8.000         generated (from REF_CLK_PAD_P)     default_clkgroup     851  
+                                                                                                                                                                                                      
+0 -       osc_rc2mhz                                                                                         2.0 MHz       500.000       declared                           default_clkgroup     1    
+                                                                                                                                                                                                      
+0 -       System                                                                                             100.0 MHz     10.000        system                             system_clkgroup      0    
+======================================================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                                                 Clock     Source                                                                                                            Clock Pin                                                                                                       Non-clock Pin     Non-clock Pin                                                                                   
+Clock                                                                                            Load      Pin                                                                                                               Seq Example                                                                                                     Seq Example       Comb Example                                                                                    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAM1_RX_CLK_P                                                                                    13        CAM1_RX_CLK_P(port)                                                                                               Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_LANECTRL_0.I_LANECTRL.HS_IO_CLK[1]          -                 Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.HS_IO_CLK_CASCADED.A(HS_IO_CLK)
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     5116      Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_CLK_DIV_FIFO.I_CDD.Y_DIV(ICB_CLKDIVDELAY)     Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_LANECTRL_0.I_LANECTRL.FAB_CLK               -                 Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.CLKINT_0.I(BUFG)               
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                         21397     Video_Pipeline_0.IMX334_IF_TOP_0.PF_CCC_C2_0.PF_CCC_C2_0.pll_inst_0.OUT0(PLL)                                     Video_Pipeline_0.RGBtoYCbCr_C0_0.RGBtoYCbCr_C0_0.YCbCr_Native_FORMAT\.YCbCr_444to422_Native_INST.s_dvalid.C     -                 Video_Pipeline_0.IMX334_IF_TOP_0.PF_CCC_C2_0.PF_CCC_C2_0.clkint_0.I(BUFG)                       
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+REF_CLK_PAD_P                                                                                    1         REF_CLK_PAD_P(port)                                                                                               CLOCKS_AND_RESETS_inst_0.PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.REF_CLK_0                                           -                 CLOCKS_AND_RESETS_inst_0.PF_XCVR_REF_CLK_C0_0.PF_XCVR_REF_CLK_C0_0.I_IO.PAD_P(XCVR_REF_CLK)     
+CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1                                 874       CLOCKS_AND_RESETS_inst_0.PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.OUT1(PLL)                                             Video_Pipeline_0.apb3_if_0.s_frame_valid_dly1.C                                                                 -                 CLOCKS_AND_RESETS_inst_0.PF_CCC_C0_0.PF_CCC_C0_0.clkint_4.I(BUFG)                               
+CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                 851       CLOCKS_AND_RESETS_inst_0.PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)                                             Video_Pipeline_0.h264_top_0.H264_DDR_WRITE_64.video_fifo_0.s_ren.C                                              -                 CLOCKS_AND_RESETS_inst_0.PF_CCC_C0_0.PF_CCC_C0_0.clkint_0.I(BUFG)                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+osc_rc2mhz                                                                                       1         CLOCKS_AND_RESETS_inst_0.PF_OSC_C0_0.PF_OSC_C0_0.I_OSC_2.CLK(OSC_RC2MHZ)                                          CLOCKS_AND_RESETS_inst_0.PF_CLK_DIV_C0_0.PF_CLK_DIV_C0_0.I_CD.A                                                 -                 -                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+System                                                                                           0         -                                                                                                                 -                                                                                                               -                 -                                                                                               
+===============================================================================================================================================================================================================================================================================================================================================================================================================================================================

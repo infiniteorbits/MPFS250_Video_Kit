@@ -1,0 +1,40 @@
+Info: [127205812]:  CMPPF_148: Added 'ADLIB:CLKINT' instance type after 'CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1:A'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       7 
+      Globals that cannot be demoted:      5 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    18320  0      0      'Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0' 
+    4917   0      1      'Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0' 
+    774    0      0      'CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4' 
+    670    0      0      'CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0' 
+    1      0      0      'CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      3078   0      'Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7' 
+    0      892    0      'Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+Info: read prtition file C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/designer/VKPFSOC_TOP/VKPFSOC_TOP.nmatinit.pdc.
+INFO: Reading Partition PDC file C:/Users/katia/Documents/Work/SPI_ANN466_INSP/mpfs-videokit/designer/VKPFSOC_TOP/VKPFSOC_TOP.nmatinit.pdc. 0 error(s) and 0 warning(s)

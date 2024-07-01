@@ -1,0 +1,169 @@
+INFO: Reading User SDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\VKPFSOC_TOP_derived_constraints.sdc.
+INFO: Reading User SDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\user.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : OFF
+Global Pins Demotion     : ON
+Driver Replication       : ON
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\io\VIDEO_KIT_MAC.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\io\VIDEO_KIT_MMUART0.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\io\VIDEO_KIT_MMUART1.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\io\SPI.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\constraint\fp\user.pdc. 0 error(s) and 0 warning(s)
+
+ Running Timing based Global Demotion. 
+        Demoted 0 global pins.
+
+ Timing based Global Demotion completed successfully. 
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 35 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 5 seconds
+
+Placer V5.0 - 2023.2.0 
+Design: VKPFSOC_TOP                     Started: Fri Jun 28 20:09:25 2024
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Logic optimization identified and removed 146 redundant LUTs
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Logic Optimization       : 45 seconds
+Clustering (1 pass)      : 15 seconds
+Placement                : 74 seconds
+Improvement              : 211 seconds
+Physical Optimization    : 141 seconds
+
+Placer completed successfully.
+
+Design: VKPFSOC_TOP                     
+Finished: Fri Jun 28 20:19:19 2024
+Total CPU Time:     00:11:41            Total Elapsed Time: 00:09:54
+Total Memory Usage: 2536.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_14:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1077
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_16:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1065
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_3:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1045
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_11:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1087
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_8:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1043
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_2:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1039
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_18:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1069
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_11:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1051
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_1:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1081
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_5:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1041
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_13:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1059
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_12:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1073
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_14:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1061
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_13:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1079
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_15:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1063
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1047
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_17:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1067
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_7:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1053
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_4:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1055
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_12:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1057
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_9:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1049
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_6:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1075
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_pixeldy_10:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1083
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_19:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1071
+Clock pins: 1
+    Driver: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/un1_s_y_nearestpix10LS_10:Y
+       Net: Video_Pipeline_0/video_processing_0/IMAGE_SCALER_C0_0/IMAGE_SCALER_C0_0/MSC_i_17/MSC_i_25/MSC_net_1085
+Clock pins: 1
+
+Router 
+Design: C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\VKPFSOC_TOPStarted: Fri Jun 28 20:19:52 2024
+
+
+Router completed successfully.
+
+Design: C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\designer\VKPFSOC_TOP\VKPFSOC_TOP
+Finished: Fri Jun 28 20:21:57 2024
+Total CPU Time:     00:02:05            Total Elapsed Time: 00:02:05
+Total Memory Usage: 4435.1 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+-------+--------+------------+
+| Type          | Used  | Total  | Percentage |
++---------------+-------+--------+------------+
+| 4LUT          | 34327 | 254196 | 13.50      |
+| DFF           | 30643 | 254196 | 12.05      |
+| I/O Register  | 0     | 370    | 0.00       |
+| Logic Element | 43876 | 254196 | 17.26      |
++---------------+-------+--------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  30   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+
+Completed writing pin report files.

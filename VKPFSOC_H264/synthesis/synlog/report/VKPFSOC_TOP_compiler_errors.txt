@@ -1,0 +1,3 @@
+@E: CG389 :"D:\video-kit\video-kit\mpfs-videokit\component\work\VKPFSOC_TOP\VKPFSOC_TOP.v":660:19:660:21|Reference to undefined module MSS_VIDEO_KIT_H264
+@E::Errors while synthesizing top module VKPFSOC_TOP.
+

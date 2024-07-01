@@ -1,0 +1,27 @@
+********************************************************************
+Delay Instance Report - Date: Fri Jun 28 20:22:09 2024
+Product: Designer
+Release: v2023.2
+Version: 2023.2.0.8
+Design Name: VKPFSOC_TOP
+Family: PolarFireSoC
+Die: MPFS250TS
+Package: FCG1152
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+
++-----------------+-------------------------------------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+| Type            | Instance Name                                                                             | Param Name       | Delay Value | PDC Option Name | Editable? |
++-----------------+-------------------------------------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+| ICB_CLKDIVDELAY | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD    | DELAY_LINE_VAL   | 1           | DELAY           | Yes       |
+| ICB_CLKDIVDELAY | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD    | DELAY_VAL_X2     | 1           | DELAY           | Yes       |
+| ICB_CLKDIVDELAY | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_RXCLK/I_CDD   | DELAY_LINE_VAL   | 0           | DELAY           | Yes       |
+| ICB_CLKDIVDELAY | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_RXCLK/I_CDD   | DELAY_VAL_X2     | 1           | DELAY           | Yes       |
+| LANECTRL        | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_LANECTRL_0/I_LANECTRL | RX_DQS_DELAY_VAL | 1           | RX_DQS_DELAY    | No        |
+| LANECTRL        | Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_LANECTRL_0/I_LANECTRL | TX_DQS_DELAY_VAL | 1           | TX_DQS_DELAY    | No        |
+| PLL_DELAY       | Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0_DELAY                 | CDELAY0_SEL      | 0           | DELAY           | No        |
+| PLL_DELAY       | CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_DELAY                         | CDELAY0_SEL      | 0           | DELAY           | No        |
++-----------------+-------------------------------------------------------------------------------------------+------------------+-------------+-----------------+-----------+
+

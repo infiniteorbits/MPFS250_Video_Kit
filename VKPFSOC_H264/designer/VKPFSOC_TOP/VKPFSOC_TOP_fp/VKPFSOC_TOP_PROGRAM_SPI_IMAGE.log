@@ -1,0 +1,128 @@
+Software Version: 2023.2.0.8
+===============================================================
+Programmer: Embedded FP6 'F0BD713B' : Version = EF9B
+===============================================================
+programmer 'F0BD713B' : Embedded FlashPro6
+Opened 'C:\Users\katia\Documents\SPI_ANN466_INSP_2\mpfs-videokit\designer\VKPFSOC_TOP\VKPFSOC_TOP_fp\VKPFSOC_TOP.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS250TS'.
+The 'enable_device' command succeeded.
+The 'set_programming_file' command succeeded.
+programmer 'F0BD713B' : Scan Chain...
+programmer 'F0BD713B' : Check Chain...
+programmer 'F0BD713B' : Scan and Check Chain PASSED.
+programmer 'F0BD713B' : device 'MPFS250TS' : Executing action PROGRAM_SPI_IMAGE
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+Performing SPI-Flash action. Please wait...
+
+Warning: It is recommended that the target client addresses align to sector, subsector or block boundaries. Else, during erase or program actions, the software will erase and restore data that is partly outside of target memory regions. If restoring data operation fails, the user must reprogram the original clients covering the affected failed areas.
+
+Processing SPI-Flash Client 0: Target Address = 0x0. Size = 1024 Bytes
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 05.01
+Identifying device...
+ActID = 1F81A1CF
+Micron device is found.
+SPI-Flash IDCode = 0x21BA20
+Device size (MBytes) = 128
+Performing SPI Flash Program Action: 
+SPI-Flash memory target address = 0x00. Image byte size = 1024
+SPI Flash memory region to erase: 0x00 - 0x03FF. Please wait...
+
+Restoring data at address = 0x0400 - 0x0FFF
+Programming image from address = 0x00 - 0x03FF
+Programming data at address: 0x00 - 0x03FF
+Operation Status: Passed
+================================================================================
+
+Processing SPI-Flash Client 1: Target Address = 0x400. Size = 9478672 Bytes
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 05.01
+Identifying device...
+ActID = 1F81A1CF
+Micron device is found.
+SPI-Flash IDCode = 0x21BA20
+Device size (MBytes) = 128
+Performing SPI Flash Program Action: 
+SPI-Flash memory target address = 0x0400. Image byte size = 9478672
+SPI Flash memory region to erase: 0x0400 - 0x90A60F. Please wait...
+
+Restoring data at address = 0x00 - 0x03FF
+Restoring data at address = 0x90A610 - 0x90AFFF
+Programming image from address = 0x0400 - 0x90A60F
+Programming data at address: 0x0400 - 0x90A60F
+Operation Status: Passed
+================================================================================
+
+Processing SPI-Flash Client 2: Target Address = 0xA00000. Size = 9478672 Bytes
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 05.01
+Identifying device...
+ActID = 1F81A1CF
+Micron device is found.
+SPI-Flash IDCode = 0x21BA20
+Device size (MBytes) = 128
+Performing SPI Flash Program Action: 
+SPI-Flash memory target address = 0xA00000. Image byte size = 9478672
+SPI Flash memory region to erase: 0xA00000 - 0x0130A20F. Please wait...
+
+Restoring data at address = 0x0130A210 - 0x0130AFFF
+Programming image from address = 0xA00000 - 0x0130A20F
+Programming data at address: 0xA00000 - 0x0130A20F
+Operation Status: Passed
+================================================================================
+
+Processing SPI-Flash Client 3: Target Address = 0x1400000. Size = 9478672 Bytes
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 05.01
+Identifying device...
+ActID = 1F81A1CF
+Micron device is found.
+SPI-Flash IDCode = 0x21BA20
+Device size (MBytes) = 128
+Performing SPI Flash Program Action: 
+SPI-Flash memory target address = 0x01400000. Image byte size = 9478672
+SPI Flash memory region to erase: 0x01400000 - 0x01D0A20F. Please wait...
+
+Restoring data at address = 0x01D0A210 - 0x01D0AFFF
+Programming image from address = 0x01400000 - 0x01D0A20F
+Programming data at address: 0x01400000 - 0x01D0A20F
+Operation Status: Passed
+================================================================================
+
+programmer 'F0BD713B' : device 'MPFS250TS' : Executing action PROGRAM_SPI_IMAGE PASSED.
+programmer 'F0BD713B' : Chain programming PASSED.
+Chain Programming Finished: Sun Jun 30 14:19:58 2024 (Elapsed time 01:11:32)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

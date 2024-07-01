@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about all compile points from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="4" name="Compile Points Summary">
+<row>
+<data>Name</data>
+<data>Status</data>
+<data>Reason</data>
+<data>Real Time</data>
+<data>CPU Time</data>
+</row>
+<row>
+<data>
+<value>Intra420_luma_8s_1s</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\Intra420_luma_8s_1s\Intra420_luma_8s_1s.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:19s</data>
+<data>0h:00m:19s</data>
+</row>
+<row>
+<data>
+<value>H264_Intra420_8s_1s</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\H264_Intra420_8s_1s\H264_Intra420_8s_1s.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:24s</data>
+<data>0h:00m:24s</data>
+</row>
+<row>
+<data>
+<value>H264_Iframe_Encoder_8s_1s_1s_22s</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\H264_Iframe_Encoder_8s_1s_1s_22s\H264_Iframe_Encoder_8s_1s_1s_22s.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:17s</data>
+<data>0h:00m:17s</data>
+</row>
+<row>
+<data>
+<value>Intra420_chroma_8s</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\Intra420_chroma_8s\Intra420_chroma_8s.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:13s</data>
+<data>0h:00m:13s</data>
+</row>
+<row>
+<data>
+<value>video_processing</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\video_processing\video_processing.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:23s</data>
+<data>0h:00m:23s</data>
+</row>
+<row>
+<data>
+<value>CAVLC_H264_CAVLC_C</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\CAVLC_H264_CAVLC_C\CAVLC_H264_CAVLC_C.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:07s</data>
+<data>0h:00m:07s</data>
+</row>
+<row>
+<data>
+<value>CAVLC_H264_CAVLC_Y_0</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\CAVLC_H264_CAVLC_Y_0\CAVLC_H264_CAVLC_Y_0.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:06s</data>
+<data>0h:00m:06s</data>
+</row>
+<row>
+<data>
+<value>mipi_csi2_rx_embsync_detect_Z17_layer0</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\mipi_csi2_rx_embsync_detect_Z17_layer0\mipi_csi2_rx_embsync_detect_Z17_layer0.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:04s</data>
+<data>0h:00m:04s</data>
+</row>
+<row>
+<data>
+<value>mipi_csi2_rxdecoder_Z18_layer0</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\mipi_csi2_rxdecoder_Z18_layer0\mipi_csi2_rxdecoder_Z18_layer0.srr</data>
+</report_link>
+</data>
+<data>Unchanged</data>
+<data>-</data>
+<data>0h:00m:04s</data>
+<data>0h:00m:04s</data>
+</row>
+<row>
+<data>
+<value>h264_top</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\h264_top\h264_top.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:08s</data>
+<data>0h:00m:08s</data>
+</row>
+<row>
+<data>
+<value>VKPFSOC_TOP</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\VKPFSOC_TOP\VKPFSOC_TOP.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:17s</data>
+<data>0h:00m:17s</data>
+</row>
+<row>
+<data>
+<value>IMX334_IF_TOP</value>
+<report_link name="Report">
+<data>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\IMX334_IF_TOP\IMX334_IF_TOP.srr</data>
+</report_link>
+</data>
+<data>Remapped</data>
+<data>Design changed</data>
+<data>0h:00m:36s</data>
+<data>0h:00m:36s</data>
+</row>
+</report_table>

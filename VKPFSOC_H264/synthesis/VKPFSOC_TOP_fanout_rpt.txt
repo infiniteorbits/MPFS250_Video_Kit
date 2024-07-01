@@ -1,0 +1,20 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                                                        CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0_PARALLEL_CLOCK                                                 18320           0                   0              18320            YES                  
+Video_Pipeline_0.IMX334_IF_TOP_0.CAMERA_CLK                                                     4918            0                   0              4918             YES                  
+CLOCKS_AND_RESETS_CLK_50MHz                                                                     774             0                   0              774              YES                  
+CLOCKS_AND_RESETS_CLK_125MHz                                                                    670             0                   0              670              YES                  
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.HS_IO_CLK_FIFO_Y               6               0                   0              6                YES                  
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_LANECTRL_0_RX_DQS_90[0]     4               0                   0              4                YES                  
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.HS_IO_CLK_CASCADED_Y           2               0                   0              2                YES                  
+Video_Pipeline_0.h264_top_0.H264_Iframe_Encoder_C0_0.H264_Iframe_Encoder_C0_0.RSTn_OUT_arst     0               16134               133            16267            NO                   
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND2_0_Y_arst                           0               3078                0              3078             YES                  
+Video_Pipeline_0.IMX334_IF_TOP_0.dff_arst_0                                                     0               892                 0              892              YES                  
+=========================================================================================================================================================================================

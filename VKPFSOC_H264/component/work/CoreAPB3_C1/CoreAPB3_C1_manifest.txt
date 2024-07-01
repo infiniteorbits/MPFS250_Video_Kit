@@ -1,0 +1,29 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed May 22 12:06:54 2024
+Project   :  C:\Users\katia\Desktop\Work\video-kit\video-kit\VKPFSOC_H264
+Component :  CoreAPB3_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/work/CoreAPB3_C1/CoreAPB3_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/katia/Desktop/Work/video-kit/video-kit/VKPFSOC_H264/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

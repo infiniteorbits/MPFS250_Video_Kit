@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Fri Jun 28 20:06:52 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS250TS</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCG1152</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>IND</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>VKPFSOC_TOP</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Users\katia\Documents\Work\SPI_ANN466_INSP\mpfs-videokit\synthesis\VKPFSOC_TOP.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>34468</cell>
+ <cell>254196</cell>
+ <cell>13.56</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>30643</cell>
+ <cell>254196</cell>
+ <cell>12.05</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>1116</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>30</cell>
+ <cell>372</cell>
+ <cell>8.06</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>20</cell>
+ <cell>372</cell>
+ <cell>5.38</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>5</cell>
+ <cell>186</cell>
+ <cell>2.69</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>25</cell>
+ <cell>2352</cell>
+ <cell>1.06</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>122</cell>
+ <cell>812</cell>
+ <cell>15.02</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>47</cell>
+ <cell>784</cell>
+ <cell>5.99</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>7</cell>
+ <cell>48</cell>
+ <cell>14.58</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>2</cell>
+ <cell>8</cell>
+ <cell>25.00</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>BANKCTRL</cell>
+ <cell>1</cell>
+ <cell>6</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>CRN_INT</cell>
+ <cell>2</cell>
+ <cell>24</cell>
+ <cell>8.33</cell>
+</row>
+<row>
+ <cell>PF_SPI</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>INIT</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>SYS_SERVICES</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>OSC_RC2MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>16</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XCVR_REF_CLK</cell>
+ <cell>1</cell>
+ <cell>11</cell>
+ <cell>9.09</cell>
+</row>
+<row>
+ <cell>ICB_CLKDIV</cell>
+ <cell>3</cell>
+ <cell>24</cell>
+ <cell>12.50</cell>
+</row>
+<row>
+ <cell>ICB_CLKINT</cell>
+ <cell>5</cell>
+ <cell>72</cell>
+ <cell>6.94</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>MSS I/O</cell>
+ <cell>97</cell>
+ <cell>136</cell>
+ <cell>71.32</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>28084</cell>
+ <cell>24259</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>300</cell>
+ <cell>300</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>4392</cell>
+ <cell>4392</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>1692</cell>
+ <cell>1692</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>34468</cell>
+ <cell>30643</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>11</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>94</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>52</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>37</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>28</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>21</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>14</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>39</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>9</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>25</cell>
+ <cell>16</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>27</cell>
+ <cell>10</cell>
+</row>
+<row>
+ <cell>28</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell>29</cell>
+ <cell>9</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>12</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>63</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>441</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>672</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>57</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell>46</cell>
+ <cell>40</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>793</cell>
+</row>
+</table>
+<section><name>Detailed Math Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>41</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>44</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>16</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>5</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>18320</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/IMX334_IF_TOP_0_PARALLEL_CLOCK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/clkint_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>4918</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/IMX334_IF_TOP_0/NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/CLKINT_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>3078</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_Y_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/AND2_0_RNIPAQ7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>892</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/IMX334_IF_TOP_0/dff_arst_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C2_0/CORERESET_PF_C2_0/dff_15_rep_RNIVO8D/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>774</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_CLK_50MHz</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_4/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>670</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_CLK_125MHz</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_NET</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/PF_CLK_DIV_C0_0/PF_CLK_DIV_C0_0/I_CD_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>16267</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_net_319</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_178/RSTn_OUT</cell>
+</row>
+<row>
+ <cell>2050</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_net_2414</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/ram_data_vld</cell>
+</row>
+<row>
+ <cell>2049</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/MSC_net_4448</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/read_en_fe</cell>
+</row>
+<row>
+ <cell>1026</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_net_1265</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/ram_data_vld</cell>
+</row>
+<row>
+ <cell>1025</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/MSC_net_2270</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/read_en_fe</cell>
+</row>
+<row>
+ <cell>778</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/dff_arst_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C1_0/CORERESET_PF_C1_0/dff_15_rep</cell>
+</row>
+<row>
+ <cell>702</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_50MHz_CORERESET_PF_C5_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_50MHz/CORERESET_PF_C5_0/dff_15</cell>
+</row>
+<row>
+ <cell>666</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_INIT_MONITOR_0_INIT_MONITOR_0_DEVICE_INIT_DONE</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/INIT_MONITOR_0/INIT_MONITOR_0/I_INIT</cell>
+</row>
+<row>
+ <cell>541</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_125MHz_CORERESET_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_125MHz/CORERESET_0/dff_15</cell>
+</row>
+<row>
+ <cell>541</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy_Y[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy[0]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>16267</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_net_319</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_178/RSTn_OUT</cell>
+</row>
+<row>
+ <cell>2050</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_net_2414</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/ram_data_vld</cell>
+</row>
+<row>
+ <cell>2049</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/MSC_net_4448</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_55/MSC_i_57/MSC_i_74/read_en_fe</cell>
+</row>
+<row>
+ <cell>1026</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_net_1265</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/ram_data_vld</cell>
+</row>
+<row>
+ <cell>1025</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/MSC_net_2270</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_123/MSC_i_124/read_en_fe</cell>
+</row>
+<row>
+ <cell>778</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/dff_arst_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/IMX334_IF_TOP_0/CORERESET_PF_C1_0/CORERESET_PF_C1_0/dff_15_rep</cell>
+</row>
+<row>
+ <cell>702</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_50MHz_CORERESET_PF_C5_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_50MHz/CORERESET_PF_C5_0/dff_15</cell>
+</row>
+<row>
+ <cell>666</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_INIT_MONITOR_0_INIT_MONITOR_0_DEVICE_INIT_DONE</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/INIT_MONITOR_0/INIT_MONITOR_0/I_INIT</cell>
+</row>
+<row>
+ <cell>541</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CLOCKS_AND_RESETS_inst_0_CORERESET_CLK_125MHz_CORERESET_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CLOCKS_AND_RESETS_inst_0/CORERESET_CLK_125MHz/CORERESET_0/dff_15</cell>
+</row>
+<row>
+ <cell>541</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy_Y[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Video_Pipeline_0/h264_top_0/H264_Iframe_Encoder_C0_0/MSC_i_44/MSC_i_54/MSC_i_115/MSC_i_121/count64_cry_cy[0]</cell>
+</row>
+</table>
+</doc>
