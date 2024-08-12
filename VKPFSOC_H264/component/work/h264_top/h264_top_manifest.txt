@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Mon Aug 12 21:25:15 2024
+Project   :  C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264
+Component :  h264_top
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/h264_top/h264_top.v
+

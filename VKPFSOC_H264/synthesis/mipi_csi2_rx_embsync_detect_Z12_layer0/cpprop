@@ -1,0 +1,9 @@
+n work mipi_csi2_rx_embsync_detect_Z12_layer0 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 5;
+av .compile_point_starttime_stamp "Mon Aug 12 21:33:19 2024";
+av .compile_point_endtime_stamp "Mon Aug 12 21:33:24 2024";
+av .compile_point_realtime_used 4.842;

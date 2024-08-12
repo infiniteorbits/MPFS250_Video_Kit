@@ -1,0 +1,2 @@
+@W: BN114 :|Removing instance CP_fanout_cell_IMX334_IF_TOP_verilog_inst (in view: work.IMX334_IF_TOP_rtl_ilm(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":263:0:263:5|Removing instance Video_Pipeline_0.video_processing_0.CR_OSD_0.HV_COUNTER_0.s_data_en_dly because it is equivalent to instance Video_Pipeline_0.video_processing_0.CR_OSD_0.data_valid_o. To keep the instance, apply constraint syn_preserve=1 on the instance.

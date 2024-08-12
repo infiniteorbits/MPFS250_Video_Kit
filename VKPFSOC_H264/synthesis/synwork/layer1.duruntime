@@ -1,0 +1,79 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: read_demux, Architecture: read_demux
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: work_read_mux_read_mux_32_8_1_g_ADDR_WIDTH, Architecture: read_mux
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: request_scheduler, Architecture: request_scheduler
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: write_demux, Architecture: write_demux
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH, Architecture: write_mux
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW, Architecture: data_packer_h264
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ram2PORT_work_video_fifo_video_fifo_0layer1, Architecture: ram2port
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD, Architecture: video_fifo
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: WRITE_LSRAM_16, Architecture: write_lsram
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: READ_LSRAM_8_16, Architecture: read_lsram
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: BAYER_FILTER_8, Architecture: bayer_filter
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ramDualPort_bayer_8_16_2048, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Bayer_Interpolation_1p_8_2048, Architecture: bayer_interpolation_1p
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Bayer_Native_1_8_2048, Architecture: bayer_native_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Bayer_Interpolation_1_8_2048_0_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Bayer_Interpolation_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Gamma_Correction_Native_8, Architecture: gamma_correction_native
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Gamma_Correction_1_8_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Gamma_Correction_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Image_Enhancement_Native_8, Architecture: image_enhancement_native
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Image_Enhancement_8_1_0_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Image_Enhancement_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ram2port_scaler_11_24, Architecture: ram2port_scaler
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: video_fifo_scaler_11_24_100, Architecture: video_fifo_scaler
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PIXEL_ROUTER_8_11, Architecture: pixel_router
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: SCALE_FACTOR_GEN_8_11, Architecture: scale_factor_gen
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: BILINEAR_INTERP_8, Architecture: bilinear_interp
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ram2port_scaler_11_8, Architecture: ram2port_scaler
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: IMAGE_SCALER_Native_8_11_11, Architecture: image_scaler_native
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Image_Scaler_8_11_11_0_0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: IMAGE_SCALER_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: intensity_average, Architecture: architecture_intensity_average
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH, Architecture: apb3_if
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RGB2YCbCr_8_8, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: YCbCr_444to422_8_8, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RGBtoYCbCr_8_8_2_0_1, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RGBtoYCbCr_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time

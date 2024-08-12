@@ -1,0 +1,21 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Mon Aug 12 21:24:27 2024
+Project   :  C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264
+Component :  PF_IOD_GENERIC_RX_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_CLK_DIV_FIFO/PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_CLK_DIV_RXCLK/PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_IOD_CLK_TRAINING/PF_IOD_GENERIC_RX_C0_PF_IOD_CLK_TRAINING_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_IOD_RX/PF_IOD_GENERIC_RX_C0_PF_IOD_RX_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_LANECTRL_0/PF_IOD_GENERIC_RX_C0_PF_LANECTRL_0_PF_LANECTRL.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_LANECTRL_0/PF_LANECTRL_PAUSE_SYNC.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0/PF_IOD_GENERIC_RX_C0.v
+
+Constraint files:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0\PF_CLK_DIV_FIFO\PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.sdc
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0\PF_CLK_DIV_RXCLK\PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.sdc
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/PF_IOD_GENERIC_RX_C0\PF_IOD_GENERIC_RX_C0.sdc

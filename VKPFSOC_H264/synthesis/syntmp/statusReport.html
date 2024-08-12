@@ -1,0 +1,136 @@
+<html> 
+ 			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>Project Status Summary Page</title>
+			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
+			</head>
+
+ 			<body style="background-color:#f0f0ff;">
+ 			
+<table style="border:none;" width="100%" ><tr> <td class="outline">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> VKPFSOC_TOP_syn</td> <td class="optionTitle" align="left"> Device Name</td> <td> synthesis: Microchip PolarFireSoC : MPFS250T</td> </tr>
+<tr> <td class="optionTitle" align="left"> Implementation Name</td> <td> synthesis</td> <td class="optionTitle" align="left"> Top Module</td> <td> VKPFSOC_TOP</td> </tr>
+ 		 </thead> 
+		 <tbody> <tr> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> </tr>
+<tr> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 10000</td> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> <td class="optionTitle" align="left"> FSM Compiler</td> <td> 1</td> </tr>
+ 
+</tbody> 
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="9">Run Status</th></tr></thead>
+         <tbody>
+ 		<tr>
+ 			<th align="left" width="17%">Job Name</th>
+			<th align="left">Status</th>
+ 			<td class="lnote" align="center" title="Notes"></td>
+ 			<td class="lwarn" align="center" title="Warnings"></td>
+ 			<td class="lerror" align="center" title="Errors"></td>
+ 			<th align="left">CPU Time</th>
+ 			<th align="left">Real Time</th>
+ 			<th align="left">Memory</th>
+ 			<th align="left">Date/Time</th>
+         </tr>
+  <tr>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>345</td>
+ <td>738</td>
+<td>0</td>
+<td>-</td>
+<td>01m:11s</td>
+<td>-</td>
+<td><font size="-1">12/08/2024</font><br/><font size="-2">21:32:15</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>81</td>
+ <td>41</td>
+<td>0</td>
+<td>0m:17s</td>
+<td>0m:17s</td>
+<td>372MB</td>
+<td><font size="-1">12/08/2024</font><br/><font size="-2">21:32:41</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>248</td>
+ <td>1875</td>
+<td>0</td>
+<td>01m:18s</td>
+<td>02m:11s</td>
+<td>398MB</td>
+<td><font size="-1">12/08/2024</font><br/><font size="-2">21:34:52</font></td>
+</tr> 
+
+<tr>
+  <td class="optionTitle">Multi-srs Generator</td>
+  <td>Complete</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td>00m:06s</td><td class="empty"></td><td class="empty"></td><td><font size="-1">12/08/2024</font><br/><font size="-2">21:32:23</font></td> 		</tbody>
+     </table>
+ <br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Area Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="2"></td><td class="optionTitle" colspan="2"></td></tr> 
+ </tfoot> 
+ <tbody> <tr> 
+<td title ="Total Carry Cells used" class="optionTitle" align="left">Carry Cells</td> <td>10140</td>
+<td title ="Total Sequential Cells used" class="optionTitle" align="left">Sequential Cells</td> <td>23802</td>
+</tr>
+<tr> 
+<td title ="Total DSP Blocks used" class="optionTitle" align="left">DSP Blocks
+(dsp_used)</td> <td>47</td>
+<td title ="Total I/O Cells used" class="optionTitle" align="left">I/O Cells</td> <td>113</td>
+</tr>
+<tr> 
+<td title ="Total Global Clock Buffers used" class="optionTitle" align="left">Global Clock Buffers</td> <td>10</td>
+<td title ="Total RAM1K20 used" class="optionTitle" align="left">RAM1K20
+(v_ram)</td> <td>122</td>
+</tr>
+<tr> 
+<td title ="Total RAM64x12 used" class="optionTitle" align="left">RAM64x12
+(v_ram)</td> <td>23</td>
+<td title ="Total LUTs used" class="optionTitle" align="left">LUTs
+(total_luts)</td> <td>27523</td>
+</tr>
+ 
+</tbody>
+    </table><br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Timing Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
+ </tfoot> 
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
+<tr> <td  align="left">CAM1_RX_CLK_P</td><td  align="left">250.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0</td><td  align="left">125.0 MHz</td><td  align="left">8.1 MHz</td><td  align="left">-2.821</td></tr> 
+<tr> <td  align="left">CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1</td><td  align="left">50.0 MHz</td><td  align="left">8.9 MHz</td><td  align="left">-5.440</td></tr> 
+<tr> <td  align="left">REF_CLK_PAD_P</td><td  align="left">148.5 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0</td><td  align="left">170.0 MHz</td><td  align="left">11.0 MHz</td><td  align="left">-30.800</td></tr> 
+<tr> <td  align="left">Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV</td><td  align="left">62.5 MHz</td><td  align="left">5.1 MHz</td><td  align="left">-2.651</td></tr> 
+<tr> <td  align="left">osc_rc2mhz</td><td  align="left">2.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">System</td><td  align="left">100.0 MHz</td><td  align="left">96.1 MHz</td><td  align="left">-0.406</td></tr> 
+</tbody> 
+ </table>
+<br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="5">Compile Points Summary</th></tr></thead>
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Name</th><th class="optionTitle" align= "left ">Status</th><th class="optionTitle" align= "left ">Reason</th><th class="optionTitle" align= "left ">Real Time</th><th class="optionTitle" align= "left ">CPU Time</th></tr> 
+<tr> <td  align="left">CAVLC_H264_CAVLC_C</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:07s</td><td  align="left">0h:00m:07s</td></tr> 
+<tr> <td  align="left">CAVLC_H264_CAVLC_Y_0</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:07s</td><td  align="left">0h:00m:07s</td></tr> 
+<tr> <td  align="left">Intra420_luma_8s_1s</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:22s</td><td  align="left">0h:00m:22s</td></tr> 
+<tr> <td  align="left">IMX334_IF_TOP</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:28s</td><td  align="left">0h:00m:28s</td></tr> 
+<tr> <td  align="left">H264_Intra420_8s_1s</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:30s</td><td  align="left">0h:00m:29s</td></tr> 
+<tr> <td  align="left">mipi_csi2_rx_embsync_detect_Z12_layer0</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:04s</td><td  align="left">0h:00m:05s</td></tr> 
+<tr> <td  align="left">H264_Iframe_Encoder_8s_1s_1s_22s</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:21s</td><td  align="left">0h:00m:21s</td></tr> 
+<tr> <td  align="left">Intra420_chroma_8s</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:16s</td><td  align="left">0h:00m:16s</td></tr> 
+<tr> <td  align="left">mipi_csi2_rxdecoder_Z13_layer0</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:06s</td><td  align="left">0h:00m:06s</td></tr> 
+<tr> <td  align="left">h264_top</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:08s</td><td  align="left">0h:00m:09s</td></tr> 
+<tr> <td  align="left">VKPFSOC_TOP</td><td  align="left">Mapped</td><td  align="left">No database</td><td  align="left">0h:00m:29s</td><td  align="left">0h:00m:29s</td></tr> 
+</tbody> 
+ </table>
+<br>
+<br> 
+</td></tr></table></body> 
+ </html>

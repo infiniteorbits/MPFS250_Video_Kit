@@ -1,0 +1,41 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Mon Aug 12 21:23:47 2024
+Project   :  C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264
+Component :  CORERXIODBITALIGN_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/core/CoreRxIODBitAlign.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/core/CoreRxIODBitAlign_top.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/prbscheck_parallel_fab_x4.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/prbsgen_parallel_fab_x4.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/rev_bits_x4.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CCC_COMP_CCC_COMP_0_PF_CCC.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CCC_COMP.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CORERXIODBITALIGN_C0.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_CLK_TRAINING_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_IOD_RX_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_PF_LANECTRL_0_PF_LANECTRL.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PLL_BclkSclkAlign.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/ICB_BclkSclkAlign.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CoreBclkSclkAlign.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP_TR.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/RXIOD_COMP.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/PF_LANECTRL_PAUSE_SYNC1.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_LANECTRL_ADDR_CMD_0_PF_LANECTRL.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_CLK_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP_PF_IOD_TX_PF_IOD.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/TXIOD_COMP.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/CoreRxIODBitAlign_SD_wrap.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1/CORERXIODBITALIGN_C1_0/rtl/vlog/test/user/testbench.v
+
+Constraint files:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/CORERXIODBITALIGN_C1\CORERXIODBITALIGN_C1_0\CORERXIODBITALIGN_C1.sdc

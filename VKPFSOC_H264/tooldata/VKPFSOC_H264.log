@@ -1,0 +1,16 @@
+Project Name: VKPFSOC_H264
+Location: C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS250TS-1FCG1152I
+Family         : PolarFireSoC
+Die            : MPFS250TS
+Package        : FCG1152
+Speed          : -1
+Core Voltage   : 1.0
+Range          : IND

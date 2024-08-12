@@ -1,0 +1,16 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Mon Aug 12 21:23:39 2024
+Project   :  C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264
+Component :  Bayer_Interpolation_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/Microsemi/SolutionCore/Bayer_Interpolation/4.7.0/Encrypted/Bayer_Interpolation.vhd
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/work/Bayer_Interpolation_C0/Bayer_Interpolation_C0.vhd
+
+Stimulus files for all Simulation tools:
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/Microsemi/SolutionCore/Bayer_Interpolation/4.7.0/Stimulus/Bayer_Interpolation_tb.v
+    C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/component/Microsemi/SolutionCore/Bayer_Interpolation/4.7.0/Stimulus/CFA_in.txt
+

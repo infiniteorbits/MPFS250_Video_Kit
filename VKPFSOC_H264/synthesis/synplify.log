@@ -1,0 +1,100 @@
+
+                               Synplify Pro (R) 
+
+               Version T-2022.09M-SP2-1 for win64 - Jun 27, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+Hostname:    DESKTOP-LP86E50
+Date:        Mon Aug 12 21:31:04 2024
+Version:     T-2022.09M-SP2-1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log VKPFSOC_TOP_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server DESKTOP-LP86E50 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+Implementation not found: synthesis
+log file: "C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP.srr"
+Running: synthesis in foreground
+
+Running VKPFSOC_TOP_syn|synthesis
+
+Running Flow: compile (Compile) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:31:04 2024
+
+Running Flow: compile_flow (Compile Process) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:31:04 2024
+
+Running: compiler (Compile Input) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:31:04 2024
+Copied C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synwork\VKPFSOC_TOP_comp.srs to C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP.srs
+
+compiler completed
+# Mon Aug 12 21:32:17 2024
+
+Return Code: 0
+Run Time:00h:01m:11s
+
+Running: multi_srs_gen (Multi-srs Generator) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:32:17 2024
+
+multi_srs_gen completed
+# Mon Aug 12 21:32:23 2024
+
+Return Code: 0
+Run Time:00h:00m:06s
+Copied C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synwork\VKPFSOC_TOP_mult.srs to C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP.srs
+Complete: Compile Process on VKPFSOC_TOP_syn|synthesis
+
+Running: premap (Premap) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:32:23 2024
+
+premap completed with warnings
+# Mon Aug 12 21:32:41 2024
+
+Return Code: 1
+Run Time:00h:00m:18s
+Complete: Compile on VKPFSOC_TOP_syn|synthesis
+
+Running Flow: map (Map) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:32:41 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on VKPFSOC_TOP_syn|synthesis
+# Mon Aug 12 21:32:41 2024
+Copied C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synwork\VKPFSOC_TOP_m.srm to C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP.srm
+
+fpga_mapper completed with warnings
+# Mon Aug 12 21:34:53 2024
+
+Return Code: 1
+Run Time:00h:02m:12s
+Complete: Map on VKPFSOC_TOP_syn|synthesis
+Complete: Logic Synthesis on VKPFSOC_TOP_syn|synthesis
+Copied C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP.srr to C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\backup\VKPFSOC_TOP.srr
+TCL script complete: "VKPFSOC_TOP_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

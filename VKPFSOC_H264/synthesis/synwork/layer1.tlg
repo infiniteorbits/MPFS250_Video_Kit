@@ -1,0 +1,579 @@
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\RGBtoYCbCr_C0\RGBtoYCbCr_C0.vhd":31:7:31:19|Synthesizing work.rgbtoycbcr_c0.rtl.
+Post processing for work.ycbcr_444to422.rtl
+Running optimization stage 1 on YCbCr_444to422 .......
+Finished optimization stage 1 on YCbCr_444to422 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+Post processing for work.rgb2ycbcr.rtl
+Running optimization stage 1 on RGB2YCbCr .......
+Finished optimization stage 1 on RGB2YCbCr (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+Post processing for work.rgbtoycbcr.rtl
+Running optimization stage 1 on RGBtoYCbCr .......
+Finished optimization stage 1 on RGBtoYCbCr (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+Post processing for work.rgbtoycbcr_c0.rtl
+Running optimization stage 1 on RGBtoYCbCr_C0 .......
+Finished optimization stage 1 on RGBtoYCbCr_C0 (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 106MB)
+@N: Setting default value for generic g_apb3_if_data_width to 32;
+@N: Setting default value for generic g_const_width to 12;
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":53:7:53:13|Synthesizing work.apb3_if.apb3_if.
+@W: CG296 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":198:2:198:8|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":271:64:271:74|Referenced variable s_vert_resl is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":265:64:265:75|Referenced variable s_horiz_resl is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":277:75:277:82|Referenced variable osd_en_o is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":205:33:205:40|Referenced variable rconst_o is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":283:73:283:85|Referenced variable frame_bytes_i is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":283:59:283:71|Referenced variable frame_index_i is not in sensitivity list.
+@W: CG290 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":289:54:289:64|Referenced variable s_signature is not in sensitivity list.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":171:9:171:19|Signal s_signature is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.apb3_if.apb3_if
+Running optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
+@A: CL282 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":336:4:336:5|Feedback mux created for signal frame_tcount_o[3:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 109MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\intensity_average.vhd":53:7:53:23|Synthesizing work.intensity_average.architecture_intensity_average.
+Post processing for work.intensity_average.architecture_intensity_average
+Running optimization stage 1 on intensity_average .......
+Finished optimization stage 1 on intensity_average (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 109MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0.vhd":32:7:32:21|Synthesizing work.image_scaler_c0.rtl.
+@W: CD729 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\IMAGE_SCALER_C0\IMAGE_SCALER_C0.vhd":236:0:236:16|Component declaration has 6 generics but entity declares only 5 generics
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":21:7:21:18|Synthesizing work.image_scaler.rtl.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":326:7:326:18|Signal s_dvalid_tar is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":327:7:327:19|Signal s_dvalid_init is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":328:7:328:11|Signal s_eof is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Signal s_data_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":331:7:331:19|Signal s_horz_res_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":332:7:332:19|Signal s_vert_res_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":333:7:333:20|Signal s_horz_res_out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":334:7:334:20|Signal s_vert_res_out is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":335:7:335:25|Signal s_scale_factor_horz is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":336:7:336:25|Signal s_scale_factor_vert is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Signal s_red_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Signal s_green_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Signal s_blue_axi is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.ram2port_scaler.ram2port_scaler
+Running optimization stage 1 on ram2port_scaler .......
+Finished optimization stage 1 on ram2port_scaler (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 109MB)
+Post processing for work.bilinear_interp.bilinear_interp
+Running optimization stage 1 on BILINEAR_INTERP .......
+Finished optimization stage 1 on BILINEAR_INTERP (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 111MB)
+Post processing for work.scale_factor_gen.scale_factor_gen
+Running optimization stage 1 on SCALE_FACTOR_GEN .......
+Finished optimization stage 1 on SCALE_FACTOR_GEN (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 111MB)
+Post processing for work.pixel_router.pixel_router
+Running optimization stage 1 on PIXEL_ROUTER .......
+Finished optimization stage 1 on PIXEL_ROUTER (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 111MB)
+Post processing for work.ram2port_scaler.ram2port_scaler
+Running optimization stage 1 on ram2port_scaler .......
+Finished optimization stage 1 on ram2port_scaler (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 111MB)
+Post processing for work.video_fifo_scaler.video_fifo_scaler
+Running optimization stage 1 on video_fifo_scaler .......
+Finished optimization stage 1 on video_fifo_scaler (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 111MB)
+Post processing for work.image_scaler_native.image_scaler_native
+Running optimization stage 1 on IMAGE_SCALER_Native .......
+Finished optimization stage 1 on IMAGE_SCALER_Native (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Post processing for work.image_scaler.rtl
+Running optimization stage 1 on Image_Scaler .......
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 0 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 1 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 2 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 3 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 4 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 5 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 6 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":343:7:343:16|Bit 7 of signal s_blue_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 0 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 1 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 2 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 3 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 4 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 5 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 6 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":342:7:342:17|Bit 7 of signal s_green_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 0 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 1 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 2 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 3 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 4 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 5 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 6 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":341:7:341:15|Bit 7 of signal s_red_axi is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 0 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 1 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 2 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 3 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 4 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 5 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 6 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 7 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 8 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 9 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 10 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 11 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 12 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 13 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 14 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 15 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 16 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 17 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 18 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 19 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 20 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 21 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 22 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":329:7:329:14|Bit 23 of signal s_data_o is floating -- simulation mismatch possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":186:4:186:11|Signal TVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":183:1:183:7|Signal TLAST_O is floating; a simulation mismatch is possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":181:1:181:7|Bit 0 of signal TUSER_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":181:1:181:7|Bit 1 of signal TUSER_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":181:1:181:7|Bit 2 of signal TUSER_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":181:1:181:7|Bit 3 of signal TUSER_O is floating -- simulation mismatch possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":179:1:179:7|Signal TKEEP_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":177:1:177:7|Signal TSTRB_O is floating; a simulation mismatch is possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 0 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 1 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 2 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 3 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 4 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 5 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 6 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 7 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 8 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 9 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 10 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 11 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 12 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 13 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 14 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 15 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 16 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 17 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 18 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 19 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 20 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 21 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 22 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":175:4:175:10|Bit 23 of signal TDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":150:4:150:12|Bit 0 of signal AXI_BID_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":150:4:150:12|Bit 1 of signal AXI_BID_O is floating -- simulation mismatch possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":148:1:148:11|Signal AXI_RLAST_O is floating; a simulation mismatch is possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":146:1:146:9|Bit 0 of signal AXI_RID_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":146:1:146:9|Bit 1 of signal AXI_RID_O is floating -- simulation mismatch possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":144:4:144:14|Signal AXI_RUSER_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":140:4:140:14|Signal AXI_BUSER_O is floating; a simulation mismatch is possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":118:1:118:11|Bit 0 of signal AXI_RRESP_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":118:1:118:11|Bit 1 of signal AXI_RRESP_O is floating -- simulation mismatch possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":114:1:114:12|Signal AXI_RVALID_O is floating; a simulation mismatch is possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 0 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 1 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 2 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 3 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 4 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 5 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 6 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 7 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 8 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 9 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 10 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 11 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 12 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 13 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 14 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 15 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 16 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+@W: CL252 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":112:4:112:14|Bit 17 of signal AXI_RDATA_O is floating -- simulation mismatch possible.
+
+Only the first 100 messages of id 'CL252' are reported. To see all messages use 'report_messages -log C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synlog\VKPFSOC_TOP_compiler.srr -id CL252' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL252} -count unlimited' in the Tcl shell.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":104:1:104:13|Signal AXI_ARREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":96:4:96:15|Signal AXI_BVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":92:1:92:12|Signal AXI_WREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":80:1:80:13|Signal AXI_AWREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":56:1:56:8|Signal TREADY_O is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on Image_Scaler (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Post processing for work.image_scaler_c0.rtl
+Running optimization stage 1 on IMAGE_SCALER_C0 .......
+Finished optimization stage 1 on IMAGE_SCALER_C0 (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd":31:7:31:26|Synthesizing work.image_enhancement_c0.rtl.
+@W: CD276 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":180:4:180:9|Map for port data_o of component image_enhancement not found
+@W: CD730 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd":229:0:229:21|Component declaration has 71 ports but entity declares 72 ports
+@W: CD326 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Image_Enhancement_C0\Image_Enhancement_C0.vhd":229:0:229:21|Port data_o of entity work.image_enhancement is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":24:7:24:23|Synthesizing work.image_enhancement.rtl.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":351:7:351:11|Signal s_eof is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":352:7:352:18|Signal s_dvalid_slv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":353:7:353:19|Signal s_dvalid_mstr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":354:7:354:15|Signal s_data_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":355:7:355:17|Signal s_data_i_4k is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":356:7:356:16|Signal s_data_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":357:7:357:19|Signal s_data_4k_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":358:7:358:24|Signal s_r_constant_axi4l is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":359:7:359:24|Signal s_g_constant_axi4l is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":360:7:360:24|Signal s_b_constant_axi4l is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":361:7:361:24|Signal s_c_constant_axi4l is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.image_enhancement_native.image_enhancement_native
+Running optimization stage 1 on Image_Enhancement_Native .......
+Finished optimization stage 1 on Image_Enhancement_Native (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Post processing for work.image_enhancement.rtl
+Running optimization stage 1 on Image_Enhancement .......
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":200:1:200:7|Signal TKEEP_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":198:1:198:7|Signal TSTRB_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":196:4:196:11|Signal TVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":191:1:191:7|Signal TLAST_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":180:4:180:9|Signal DATA_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":146:1:146:11|Signal AXI_RLAST_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":142:1:142:11|Signal AXI_RUSER_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":138:1:138:11|Signal AXI_BUSER_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":112:1:112:12|Signal AXI_RVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":102:1:102:13|Signal AXI_ARREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":94:1:94:12|Signal AXI_BVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":90:1:90:12|Signal AXI_WREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":78:1:78:13|Signal AXI_AWREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":56:1:56:8|Signal TREADY_O is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on Image_Enhancement (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+Post processing for work.image_enhancement_c0.rtl
+Running optimization stage 1 on Image_Enhancement_C0 .......
+Finished optimization stage 1 on Image_Enhancement_C0 (CPU Time 0h:00m:00s, Memory Used current: 111MB peak: 112MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Gamma_Correction_C0\Gamma_Correction_C0.vhd":30:7:30:25|Synthesizing work.gamma_correction_c0.rtl.
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":24:7:24:22|Synthesizing work.gamma_correction.rtl.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":182:7:182:18|Signal s_dvalid_slv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":183:7:183:19|Signal s_dvalid_mstr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":184:7:184:11|Signal s_eof is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":185:7:185:14|Signal s_data_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":186:7:186:14|Signal s_red_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":187:7:187:16|Signal s_green_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":188:7:188:15|Signal s_blue_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":189:7:189:15|Signal s_red_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":190:7:190:17|Signal s_green_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":191:7:191:16|Signal s_blue_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":193:7:193:17|Signal s_data_4p_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":194:7:194:17|Signal s_red_4p_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":195:7:195:19|Signal s_green_4p_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":196:7:196:18|Signal s_blue_4p_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":197:7:197:18|Signal s_red_4p_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":198:7:198:20|Signal s_green_4p_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":199:7:199:19|Signal s_blue_4p_axi is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.gamma_correction_native.gamma_correction_native
+Running optimization stage 1 on Gamma_Correction_Native .......
+Finished optimization stage 1 on Gamma_Correction_Native (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.gamma_correction.rtl
+Running optimization stage 1 on Gamma_Correction .......
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":88:4:88:11|Signal TVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":85:4:85:10|Signal TLAST_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":83:4:83:10|Signal TKEEP_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":81:1:81:7|Signal TSTRB_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":53:1:53:8|Signal TREADY_O is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on Gamma_Correction (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.gamma_correction_c0.rtl
+Running optimization stage 1 on Gamma_Correction_C0 .......
+Finished optimization stage 1 on Gamma_Correction_C0 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd":32:7:32:28|Synthesizing work.bayer_interpolation_c0.rtl.
+@W: CD276 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":176:4:176:9|Map for port data_o of component bayer_interpolation not found
+@W: CD730 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd":227:0:227:23|Component declaration has 67 ports but entity declares 68 ports
+@W: CD326 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd":227:0:227:23|Port tdata_o of entity work.bayer_interpolation is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\work\Bayer_Interpolation_C0\Bayer_Interpolation_C0.vhd":227:0:227:23|Port data_o of entity work.bayer_interpolation is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":24:7:24:25|Synthesizing work.bayer_interpolation.rtl.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":321:9:321:17|Signal s_eof_slv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":322:9:322:18|Signal s_eof_mstr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":323:9:323:28|Signal s_bayer_format_axi4l is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":324:9:324:18|Signal s_data_slv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":325:9:325:20|Signal s_dvalid_slv is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":326:9:326:21|Signal s_dvalid_mstr is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":327:9:327:21|Signal s_bayer_red_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":328:9:328:23|Signal s_bayer_green_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":329:9:329:22|Signal s_bayer_blue_o is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":333:9:333:17|Signal s_red_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":334:9:334:19|Signal s_green_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":335:9:335:18|Signal s_blue_axi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":337:9:337:20|Signal s_data_o_axi is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.ramdualport_bayer.rtl
+Running optimization stage 1 on ramDualPort_bayer .......
+Finished optimization stage 1 on ramDualPort_bayer (CPU Time 0h:00m:00s, Memory Used current: 126MB peak: 126MB)
+Post processing for work.bayer_filter.bayer_filter
+Running optimization stage 1 on BAYER_FILTER .......
+Finished optimization stage 1 on BAYER_FILTER (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 141MB)
+Post processing for work.read_lsram.read_lsram
+Running optimization stage 1 on READ_LSRAM .......
+Finished optimization stage 1 on READ_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+Post processing for work.write_lsram.write_lsram
+Running optimization stage 1 on WRITE_LSRAM .......
+Finished optimization stage 1 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+Post processing for work.bayer_interpolation_1p.bayer_interpolation_1p
+Running optimization stage 1 on Bayer_Interpolation_1p .......
+Finished optimization stage 1 on Bayer_Interpolation_1p (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+Post processing for work.bayer_native.bayer_native_arch
+Running optimization stage 1 on Bayer_Native .......
+Finished optimization stage 1 on Bayer_Native (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+Post processing for work.bayer_interpolation.rtl
+Running optimization stage 1 on Bayer_Interpolation .......
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":191:4:191:11|Signal TVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":189:4:189:10|Signal TLAST_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":187:4:187:10|Signal TKEEP_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":185:4:185:10|Signal TSTRB_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":176:4:176:9|Signal DATA_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":146:4:146:14|Signal AXI_RLAST_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":142:4:142:14|Signal AXI_RUSER_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":138:4:138:14|Signal AXI_BUSER_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":112:4:112:15|Signal AXI_RVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":102:4:102:16|Signal AXI_ARREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":94:4:94:15|Signal AXI_BVALID_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":90:4:90:15|Signal AXI_WREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":78:4:78:16|Signal AXI_AWREADY_O is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":57:4:57:11|Signal TREADY_O is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on Bayer_Interpolation (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+Post processing for work.bayer_interpolation_c0.rtl
+Running optimization stage 1 on Bayer_Interpolation_C0 .......
+Finished optimization stage 1 on Bayer_Interpolation_C0 (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 141MB)
+@N: Setting default value for generic g_video_fifo_awidth to 12;
+@N: Setting default value for generic g_input_video_data_bit_width to 64;
+@N: Setting default value for generic g_half_empty_threshold to 1280;
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":55:7:55:16|Synthesizing work.video_fifo.video_fifo.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":151:9:151:9|Signal i is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":152:9:152:9|Signal j is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\ram2port.vhd":54:7:54:14|Synthesizing work.ram2port.ram2port.
+Post processing for work.ram2port.ram2port
+Running optimization stage 1 on ram2PORT .......
+@N: CL134 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\ram2port.vhd":71:7:71:10|Found RAM io1l, depth=4096, width=64
+Finished optimization stage 1 on ram2PORT (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 141MB)
+Post processing for work.video_fifo.video_fifo
+Running optimization stage 1 on work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD .......
+@W: CL265 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":404:4:404:5|Removing unused bit 12 of wdata_count_2(12 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL265 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":300:4:300:5|Removing unused bit 12 of rdata_count_2(12 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL260 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":251:4:251:5|Pruning register bit 12 of rptr(12 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\video_fifo.vhd":351:4:351:5|Pruning register bit 12 of wptr(12 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 141MB)
+@N: Setting default value for generic g_ip_dw to 16;
+@N: Setting default value for generic g_op_dw to 64;
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\data_packer_h264.vhd":55:7:55:22|Synthesizing work.data_packer_h264.data_packer_h264.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\data_packer_h264.vhd":116:9:116:26|Signal s_buf_wr_done_dly1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\data_packer_h264.vhd":117:9:117:26|Signal s_buf_wr_done_dly2 is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.data_packer_h264.data_packer_h264
+Running optimization stage 1 on work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW .......
+Finished optimization stage 1 on work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 141MB)
+@N: Setting default value for generic g_data_width to 64;
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_mux.vhd":26:7:26:15|Synthesizing work.write_mux.write_mux.
+Post processing for work.write_mux.write_mux
+Running optimization stage 1 on work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH .......
+Finished optimization stage 1 on work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\write_demux.vhd":26:7:26:17|Synthesizing work.write_demux.write_demux.
+Post processing for work.write_demux.write_demux
+Running optimization stage 1 on write_demux .......
+Finished optimization stage 1 on write_demux (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":26:7:26:23|Synthesizing work.request_scheduler.request_scheduler.
+@N: CD231 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":75:25:75:26|Using onehot encoding for type scheduler_states. For example, enumeration idle is mapped to "100000".
+@N: CD604 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":337:20:337:33|OTHERS clause is not synthesized.
+Post processing for work.request_scheduler.request_scheduler
+Running optimization stage 1 on request_scheduler .......
+Finished optimization stage 1 on request_scheduler (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+@N: Setting default value for generic g_addr_width to 32;
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_mux.vhd":26:7:26:14|Synthesizing work.read_mux.read_mux.
+Post processing for work.read_mux.read_mux
+Running optimization stage 1 on work_read_mux_read_mux_32_8_1_g_ADDR_WIDTH .......
+Finished optimization stage 1 on work_read_mux_read_mux_32_8_1_g_ADDR_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+@N: CD630 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\read_demux.vhd":26:7:26:16|Synthesizing work.read_demux.read_demux.
+Post processing for work.read_demux.read_demux
+Running optimization stage 1 on read_demux .......
+Finished optimization stage 1 on read_demux (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+Running optimization stage 2 on read_demux .......
+Finished optimization stage 2 on read_demux (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+Running optimization stage 2 on work_read_mux_read_mux_32_8_1_g_ADDR_WIDTH .......
+Finished optimization stage 2 on work_read_mux_read_mux_32_8_1_g_ADDR_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 130MB peak: 150MB)
+Running optimization stage 2 on request_scheduler .......
+@N: CL201 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\DDR_AXI4_ARBITER_PF\2.1.0\RTL\request_scheduler.vhd":253:12:253:13|Trying to extract state machine for register s_state.
+Extracted state machine for register s_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+Finished optimization stage 2 on request_scheduler (CPU Time 0h:00m:01s, Memory Used current: 132MB peak: 150MB)
+Running optimization stage 2 on write_demux .......
+Finished optimization stage 2 on write_demux (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 150MB)
+Running optimization stage 2 on work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH .......
+Finished optimization stage 2 on work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 153MB)
+Running optimization stage 2 on work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW .......
+Finished optimization stage 2 on work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 153MB)
+Running optimization stage 2 on ram2PORT_work_video_fifo_video_fifo_0layer1 .......
+Finished optimization stage 2 on ram2PORT_work_video_fifo_video_fifo_0layer1 (CPU Time 0h:00m:00s, Memory Used current: 133MB peak: 153MB)
+Running optimization stage 2 on work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD .......
+Finished optimization stage 2 on work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 153MB)
+Running optimization stage 2 on WRITE_LSRAM_16 .......
+Finished optimization stage 2 on WRITE_LSRAM_16 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 153MB)
+Running optimization stage 2 on READ_LSRAM_8_16 .......
+Extracted state machine for register s_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on READ_LSRAM_8_16 (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 153MB)
+Running optimization stage 2 on BAYER_FILTER_8 .......
+Finished optimization stage 2 on BAYER_FILTER_8 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on ramDualPort_bayer_8_16_2048 .......
+Finished optimization stage 2 on ramDualPort_bayer_8_16_2048 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Bayer_Interpolation_1p_8_2048 .......
+Finished optimization stage 2 on Bayer_Interpolation_1p_8_2048 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Bayer_Native_1_8_2048 .......
+Finished optimization stage 2 on Bayer_Native_1_8_2048 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Bayer_Interpolation_1_8_2048_0_0 .......
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":52:4:52:10|Input TDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":55:4:55:11|Input TVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":59:4:59:10|Input TUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":71:4:71:15|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":73:4:73:12|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":76:4:76:16|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":80:4:80:15|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":82:4:82:15|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":84:4:84:16|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":86:4:86:14|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":88:4:88:15|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":92:4:92:14|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":96:4:96:15|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":100:4:100:16|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":104:4:104:15|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":106:4:106:15|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":108:4:108:16|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":114:4:114:15|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":118:4:118:13|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":120:4:120:14|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":122:4:122:15|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":124:4:124:15|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":126:4:126:16|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":128:4:128:15|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":130:4:130:14|Input AXI_AWQOS_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":132:4:132:17|Input AXI_AWREGION_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":134:4:134:14|Input AXI_WLAST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":136:4:136:14|Input AXI_WUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":140:4:140:15|Input AXI_ARUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":150:4:150:13|Input AXI_ARID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":152:4:152:14|Input AXI_ARLEN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":154:4:154:15|Input AXI_ARSIZE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":156:4:156:15|Input AXI_ARLOCK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":158:4:158:16|Input AXI_ARCACHE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":160:4:160:14|Input AXI_ARQOS_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Bayer_Interpolation\4.7.0\Encrypted\Bayer_Interpolation.vhd":162:4:162:17|Input AXI_ARREGION_I is unused.
+Finished optimization stage 2 on Bayer_Interpolation_1_8_2048_0_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Bayer_Interpolation_C0 .......
+Finished optimization stage 2 on Bayer_Interpolation_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Gamma_Correction_Native_8 .......
+Finished optimization stage 2 on Gamma_Correction_Native_8 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Gamma_Correction_1_8_0 .......
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":45:4:45:10|Input TDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":48:4:48:11|Input TVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Gamma_Correction\4.3.0\Encrypted\Gamma_Correction.vhd":50:1:50:7|Input TUSER_I is unused.
+Finished optimization stage 2 on Gamma_Correction_1_8_0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Gamma_Correction_C0 .......
+Finished optimization stage 2 on Gamma_Correction_C0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 153MB)
+Running optimization stage 2 on Image_Enhancement_Native_8 .......
+Finished optimization stage 2 on Image_Enhancement_Native_8 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 153MB)
+Running optimization stage 2 on Image_Enhancement_8_1_0_0 .......
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":51:4:51:10|Input TDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":54:4:54:11|Input TVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":58:1:58:7|Input TUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":71:1:71:12|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":73:1:73:9|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":76:1:76:13|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":80:1:80:12|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":82:1:82:12|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":84:1:84:13|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":86:1:86:11|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":88:1:88:12|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":92:1:92:11|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":96:1:96:12|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":100:1:100:13|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":104:1:104:12|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":106:1:106:12|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":108:1:108:13|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":114:1:114:12|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":118:1:118:10|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":120:1:120:11|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":122:1:122:12|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":124:1:124:12|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":126:1:126:13|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":128:1:128:12|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":130:1:130:11|Input AXI_AWQOS_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":132:1:132:14|Input AXI_AWREGION_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":134:1:134:11|Input AXI_WLAST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":136:1:136:11|Input AXI_WUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":140:1:140:12|Input AXI_ARUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":150:1:150:10|Input AXI_ARID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":152:1:152:11|Input AXI_ARLEN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":154:1:154:12|Input AXI_ARSIZE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":156:1:156:12|Input AXI_ARLOCK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":158:1:158:13|Input AXI_ARCACHE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":160:1:160:11|Input AXI_ARQOS_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\Image_Enhancement\4.4.0\Encrypted\Image_Enhancement.vhd":162:1:162:14|Input AXI_ARREGION_I is unused.
+Finished optimization stage 2 on Image_Enhancement_8_1_0_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 153MB)
+Running optimization stage 2 on Image_Enhancement_C0 .......
+Finished optimization stage 2 on Image_Enhancement_C0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 153MB)
+Running optimization stage 2 on ram2port_scaler_11_24 .......
+Finished optimization stage 2 on ram2port_scaler_11_24 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 153MB)
+Running optimization stage 2 on video_fifo_scaler_11_24_100 .......
+Finished optimization stage 2 on video_fifo_scaler_11_24_100 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 153MB)
+Running optimization stage 2 on PIXEL_ROUTER_8_11 .......
+Extracted state machine for register s_ram_sel
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on PIXEL_ROUTER_8_11 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 153MB)
+Running optimization stage 2 on SCALE_FACTOR_GEN_8_11 .......
+Finished optimization stage 2 on SCALE_FACTOR_GEN_8_11 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 153MB)
+Running optimization stage 2 on BILINEAR_INTERP_8 .......
+Finished optimization stage 2 on BILINEAR_INTERP_8 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on ram2port_scaler_11_8 .......
+Finished optimization stage 2 on ram2port_scaler_11_8 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on IMAGE_SCALER_Native_8_11_11 .......
+Finished optimization stage 2 on IMAGE_SCALER_Native_8_11_11 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on Image_Scaler_8_11_11_0_0 .......
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":49:4:49:10|Input TDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":52:4:52:11|Input TVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":54:1:54:7|Input TUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":73:4:73:15|Input AXI_RESETN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":75:4:75:12|Input AXI_CLK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":78:1:78:13|Input AXI_AWVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":82:1:82:12|Input AXI_AWADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":84:1:84:12|Input AXI_AWPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":86:1:86:13|Input AXI_AWBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":88:1:88:11|Input AXI_WDATA_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":90:1:90:12|Input AXI_WVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":94:1:94:11|Input AXI_WSTRB_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":98:4:98:15|Input AXI_BREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":102:1:102:13|Input AXI_ARVALID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":106:1:106:12|Input AXI_ARADDR_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":108:1:108:12|Input AXI_ARPROT_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":110:4:110:16|Input AXI_ARBURST_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":116:1:116:12|Input AXI_RREADY_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":120:4:120:13|Input AXI_AWID_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":122:1:122:11|Input AXI_AWLEN_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":124:1:124:12|Input AXI_AWSIZE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":126:1:126:12|Input AXI_AWLOCK_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":128:1:128:13|Input AXI_AWCACHE_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":130:1:130:12|Input AXI_AWUSER_I is unused.
+@N: CL159 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\component\Microsemi\SolutionCore\IMAGE_SCALER\4.1.0\Encrypted\Image_Scaler.vhd":132:1:132:11|Input AXI_AWQOS_I is unused.
+
+Only the first 100 messages of id 'CL159' are reported. To see all messages use 'report_messages -log C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synlog\VKPFSOC_TOP_compiler.srr -id CL159' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL159} -count unlimited' in the Tcl shell.
+Finished optimization stage 2 on Image_Scaler_8_11_11_0_0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on IMAGE_SCALER_C0 .......
+Finished optimization stage 2 on IMAGE_SCALER_C0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on intensity_average .......
+@W: CL247 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\intensity_average.vhd":59:4:59:6|Input port bit 0 of r_i(7 downto 0) is unused 
+@W: CL246 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\intensity_average.vhd":61:4:61:6|Input port bits 1 to 0 of b_i(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on intensity_average (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
+@W: CL246 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":72:4:72:10|Input port bits 31 to 12 of paddr_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\hdl\apb_wrapper.vhd":89:4:89:16|Input port bits 31 to 28 of frame_bytes_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on RGB2YCbCr_8_8 .......
+Finished optimization stage 2 on RGB2YCbCr_8_8 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on YCbCr_444to422_8_8 .......
+Finished optimization stage 2 on YCbCr_444to422_8_8 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on RGBtoYCbCr_8_8_2_0_1 .......
+Finished optimization stage 2 on RGBtoYCbCr_8_8_2_0_1 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+Running optimization stage 2 on RGBtoYCbCr_C0 .......
+Finished optimization stage 2 on RGBtoYCbCr_C0 (CPU Time 0h:00m:00s, Memory Used current: 142MB peak: 153MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\synwork\layer1.duruntime
+
+

@@ -1,0 +1,22 @@
+
+fsm_encoding {7214660146618} sequential
+
+fsm_state_encoding {7214660146618} IDLE {00}
+
+fsm_state_encoding {7214660146618} BLOCK_READ {01}
+
+fsm_state_encoding {7214660146618} LAST_BLOCK_READ {10}
+
+fsm_registers {7214660146618} {state[1]}  {state[0]} 
+
+fsm_encoding {7283070830711} original
+
+fsm_state_encoding {7283070830711} COL4 {00}
+
+fsm_state_encoding {7283070830711} COL3 {01}
+
+fsm_state_encoding {7283070830711} COL2 {10}
+
+fsm_state_encoding {7283070830711} COL1 {11}
+
+fsm_registers {7283070830711} {state[1]}  {state[0]} 

@@ -1,0 +1,74 @@
+
+fsm_encoding {7261190611916} sequential
+
+fsm_state_encoding {7261190611916} COL1 {00}
+
+fsm_state_encoding {7261190611916} COL2 {01}
+
+fsm_state_encoding {7261190611916} COL3 {10}
+
+fsm_state_encoding {7261190611916} COL4 {11}
+
+fsm_registers {7261190611916} {state[1]}  {state[0]} 
+
+fsm_encoding {7253140531417} original
+
+fsm_state_encoding {7253140531417} ROW1 {00}
+
+fsm_state_encoding {7253140531417} ROW2 {01}
+
+fsm_state_encoding {7253140531417} ROW3 {10}
+
+fsm_state_encoding {7253140531417} ROW4 {11}
+
+fsm_registers {7253140531417} {state[1]}  {state[0]} 
+
+fsm_encoding {7238780387815} onehot
+
+fsm_state_encoding {7238780387815} IDLE {00000000000000001}
+
+fsm_state_encoding {7238780387815} MB1 {00000000000000010}
+
+fsm_state_encoding {7238780387815} MB2 {00000000000000100}
+
+fsm_state_encoding {7238780387815} MB3 {00000000000001000}
+
+fsm_state_encoding {7238780387815} MB4 {00000000000010000}
+
+fsm_state_encoding {7238780387815} MB5 {00000000000100000}
+
+fsm_state_encoding {7238780387815} MB6 {00000000001000000}
+
+fsm_state_encoding {7238780387815} MB7 {00000000010000000}
+
+fsm_state_encoding {7238780387815} MB8 {00000000100000000}
+
+fsm_state_encoding {7238780387815} MB9 {00000001000000000}
+
+fsm_state_encoding {7238780387815} MB10 {00000010000000000}
+
+fsm_state_encoding {7238780387815} MB11 {00000100000000000}
+
+fsm_state_encoding {7238780387815} MB12 {00001000000000000}
+
+fsm_state_encoding {7238780387815} MB13 {00010000000000000}
+
+fsm_state_encoding {7238780387815} MB14 {00100000000000000}
+
+fsm_state_encoding {7238780387815} MB15 {01000000000000000}
+
+fsm_state_encoding {7238780387815} MB16 {10000000000000000}
+
+fsm_registers {7238780387815} {state[16]}  {state[15]}  {state[14]}  {state[13]}  {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {7253140531414} original
+
+fsm_state_encoding {7253140531414} ROW1 {00}
+
+fsm_state_encoding {7253140531414} ROW2 {01}
+
+fsm_state_encoding {7253140531414} ROW3 {10}
+
+fsm_state_encoding {7253140531414} ROW4 {11}
+
+fsm_registers {7253140531414} {state[1]}  {state[0]} 

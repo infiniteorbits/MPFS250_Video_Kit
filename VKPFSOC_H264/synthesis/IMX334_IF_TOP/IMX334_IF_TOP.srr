@@ -1,0 +1,837 @@
+# Mon Aug 12 21:32:47 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-LP86E50
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 127MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 140MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 140MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 140MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 140MB)
+
+
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Found compile point of type hard on View view:work.IMX334_IF_TOP(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.IMX334_IF_TOP(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 244MB peak: 244MB)
+
+
+Finished environment creation (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 246MB peak: 246MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 246MB peak: 247MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 207MB peak: 247MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Mapping Compile point view:work.IMX334_IF_TOP(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 207MB peak: 247MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 212MB peak: 247MB)
+
+Encoding state machine bitalign_curr_state[29:0] (in view: CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog))
+original code -> new code
+   00000 -> 000000000000000000000000000001
+   00001 -> 000000000000000000000000000010
+   00010 -> 000000000000000000000000000100
+   00011 -> 000000000000000000000000001000
+   00100 -> 000000000000000000000000010000
+   00101 -> 000000000000000000000000100000
+   00110 -> 000000000000000000000001000000
+   00111 -> 000000000000000000000010000000
+   01000 -> 000000000000000000000100000000
+   01001 -> 000000000000000000001000000000
+   01010 -> 000000000000000000010000000000
+   01011 -> 000000000000000000100000000000
+   01100 -> 000000000000000001000000000000
+   01101 -> 000000000000000010000000000000
+   01110 -> 000000000000000100000000000000
+   01111 -> 000000000000001000000000000000
+   10000 -> 000000000000010000000000000000
+   10001 -> 000000000000100000000000000000
+   10010 -> 000000000001000000000000000000
+   10011 -> 000000000010000000000000000000
+   10100 -> 000000000100000000000000000000
+   10101 -> 000000001000000000000000000000
+   10110 -> 000000010000000000000000000000
+   10111 -> 000000100000000000000000000000
+   11000 -> 000001000000000000000000000000
+   11001 -> 000010000000000000000000000000
+   11010 -> 000100000000000000000000000000
+   11011 -> 001000000000000000000000000000
+   11100 -> 010000000000000000000000000000
+   11110 -> 100000000000000000000000000000
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance rst_cnt[9:0] 
+Encoding state machine bitalign_curr_state[29:0] (in view: CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog))
+original code -> new code
+   00000 -> 000000000000000000000000000001
+   00001 -> 000000000000000000000000000010
+   00010 -> 000000000000000000000000000100
+   00011 -> 000000000000000000000000001000
+   00100 -> 000000000000000000000000010000
+   00101 -> 000000000000000000000000100000
+   00110 -> 000000000000000000000001000000
+   00111 -> 000000000000000000000010000000
+   01000 -> 000000000000000000000100000000
+   01001 -> 000000000000000000001000000000
+   01010 -> 000000000000000000010000000000
+   01011 -> 000000000000000000100000000000
+   01100 -> 000000000000000001000000000000
+   01101 -> 000000000000000010000000000000
+   01110 -> 000000000000000100000000000000
+   01111 -> 000000000000001000000000000000
+   10000 -> 000000000000010000000000000000
+   10001 -> 000000000000100000000000000000
+   10010 -> 000000000001000000000000000000
+   10011 -> 000000000010000000000000000000
+   10100 -> 000000000100000000000000000000
+   10101 -> 000000001000000000000000000000
+   10110 -> 000000010000000000000000000000
+   10111 -> 000000100000000000000000000000
+   11000 -> 000001000000000000000000000000
+   11001 -> 000010000000000000000000000000
+   11010 -> 000100000000000000000000000000
+   11011 -> 001000000000000000000000000000
+   11100 -> 010000000000000000000000000000
+   11110 -> 100000000000000000000000000000
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance rst_cnt[9:0] 
+Encoding state machine bitalign_curr_state[29:0] (in view: CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog))
+original code -> new code
+   00000 -> 000000000000000000000000000001
+   00001 -> 000000000000000000000000000010
+   00010 -> 000000000000000000000000000100
+   00011 -> 000000000000000000000000001000
+   00100 -> 000000000000000000000000010000
+   00101 -> 000000000000000000000000100000
+   00110 -> 000000000000000000000001000000
+   00111 -> 000000000000000000000010000000
+   01000 -> 000000000000000000000100000000
+   01001 -> 000000000000000000001000000000
+   01010 -> 000000000000000000010000000000
+   01011 -> 000000000000000000100000000000
+   01100 -> 000000000000000001000000000000
+   01101 -> 000000000000000010000000000000
+   01110 -> 000000000000000100000000000000
+   01111 -> 000000000000001000000000000000
+   10000 -> 000000000000010000000000000000
+   10001 -> 000000000000100000000000000000
+   10010 -> 000000000001000000000000000000
+   10011 -> 000000000010000000000000000000
+   10100 -> 000000000100000000000000000000
+   10101 -> 000000001000000000000000000000
+   10110 -> 000000010000000000000000000000
+   10111 -> 000000100000000000000000000000
+   11000 -> 000001000000000000000000000000
+   11001 -> 000010000000000000000000000000
+   11010 -> 000100000000000000000000000000
+   11011 -> 001000000000000000000000000000
+   11100 -> 010000000000000000000000000000
+   11110 -> 100000000000000000000000000000
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance rst_cnt[9:0] 
+Encoding state machine bitalign_curr_state[29:0] (in view: CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog))
+original code -> new code
+   00000 -> 000000000000000000000000000001
+   00001 -> 000000000000000000000000000010
+   00010 -> 000000000000000000000000000100
+   00011 -> 000000000000000000000000001000
+   00100 -> 000000000000000000000000010000
+   00101 -> 000000000000000000000000100000
+   00110 -> 000000000000000000000001000000
+   00111 -> 000000000000000000000010000000
+   01000 -> 000000000000000000000100000000
+   01001 -> 000000000000000000001000000000
+   01010 -> 000000000000000000010000000000
+   01011 -> 000000000000000000100000000000
+   01100 -> 000000000000000001000000000000
+   01101 -> 000000000000000010000000000000
+   01110 -> 000000000000000100000000000000
+   01111 -> 000000000000001000000000000000
+   10000 -> 000000000000010000000000000000
+   10001 -> 000000000000100000000000000000
+   10010 -> 000000000001000000000000000000
+   10011 -> 000000000010000000000000000000
+   10100 -> 000000000100000000000000000000
+   10101 -> 000000001000000000000000000000
+   10110 -> 000000010000000000000000000000
+   10111 -> 000000100000000000000000000000
+   11000 -> 000001000000000000000000000000
+   11001 -> 000010000000000000000000000000
+   11010 -> 000100000000000000000000000000
+   11011 -> 001000000000000000000000000000
+   11100 -> 010000000000000000000000000000
+   11110 -> 100000000000000000000000000000
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance rst_cnt[9:0] 
+Encoding state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011011 -> 010110
+   011100 -> 010010
+   011101 -> 010011
+   011110 -> 010001
+   011111 -> 010000
+   100000 -> 110000
+   100001 -> 110001
+   100010 -> 110011
+   100011 -> 110010
+   100100 -> 110110
+   100101 -> 110111
+   100110 -> 110101
+   100111 -> 110100
+   101000 -> 111100
+   101001 -> 111101
+   101010 -> 111111
+   101011 -> 111110
+   101100 -> 111010
+   101101 -> 111011
+   101110 -> 111001
+   101111 -> 111000
+   110000 -> 101000
+   110001 -> 101001
+   110010 -> 101011
+   110011 -> 101010
+   110100 -> 101110
+   110101 -> 101111
+   110110 -> 101101
+   110111 -> 101100
+   111000 -> 100100
+   111001 -> 100101
+   111010 -> 100111
+   111011 -> 100110
+   111100 -> 100010
+   111101 -> 100011
+   111110 -> 100001
+   111111 -> 100000
+@N: MO225 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":214:3:214:8|There are no possible illegal states for state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":991:3:991:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance tapcnt_offset[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":947:3:947:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance tap_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":907:3:907:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1007:3:1007:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1191:3:1191:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance rst_cnt[9:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 243MB peak: 247MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 272MB peak: 272MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN132 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Removing sequential instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0] because it is equivalent to instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L2.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Removing sequential instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L2.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0] because it is equivalent to instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Removing sequential instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0] because it is equivalent to instance Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L0.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rst_cnt[9:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 251MB peak: 286MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 251MB peak: 286MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 252MB peak: 286MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 252MB peak: 286MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 251MB peak: 286MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:21s; Memory used current: 324MB peak: 324MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:22s		     1.77ns		7289 /      3868
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 328MB peak: 328MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:27s; Memory used current: 328MB peak: 329MB)
+
+
+End compile point sub-process log
+
+@W: MT246 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\init_monitor\init_monitor_0\init_monitor_init_monitor_0_pfsoc_init_monitor.v":44:53:44:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\pf_iod_generic_rx_c0\pf_iod_rx\pf_iod_generic_rx_c0_pf_iod_rx_pf_iod.v":311:20:311:38|Blackbox INBUF_DIFF_MIPI is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Aug 12 21:33:15 2024
+#
+
+
+Top view:               VKPFSOC_TOP
+Requested Frequency:    2.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\designer\VKPFSOC_TOP\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.634
+
+                                                                                                 Requested     Estimated     Requested     Estimated                Clock                              Clock           
+Starting Clock                                                                                   Frequency     Frequency     Period        Period        Slack      Type                               Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAM1_RX_CLK_P                                                                                    250.0 MHz     NA            4.000         NA            NA         declared                           default_clkgroup
+CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0                                 125.0 MHz     NA            8.000         NA            NA         generated (from REF_CLK_PAD_P)     default_clkgroup
+CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1                                 50.0 MHz      NA            20.000        NA            NA         generated (from REF_CLK_PAD_P)     default_clkgroup
+REF_CLK_PAD_P                                                                                    148.5 MHz     NA            6.734         NA            NA         declared                           default_clkgroup
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                         170.0 MHz     13.9 MHz      5.882         71.718        4.390      generated (from CAM1_RX_CLK_P)     default_clkgroup
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     62.5 MHz      5.1 MHz       16.000        195.073       -2.634     generated (from CAM1_RX_CLK_P)     default_clkgroup
+osc_rc2mhz                                                                                       2.0 MHz       NA            500.000       NA            NA         declared                           default_clkgroup
+System                                                                                           100.0 MHz     121.5 MHz     10.000        8.232         1.768      system                             system_clkgroup 
+=======================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                                                      Ending                                                                                        |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                                        CAM1_RX_CLK_P                                                                                 |  4.000       1.768   |  No paths    -      |  No paths    -       |  No paths    -    
+System                                                                                        Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  |  16.000      11.093  |  No paths    -      |  16.000      14.097  |  No paths    -    
+System                                                                                        Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                      |  5.882       2.751   |  No paths    -      |  No paths    -       |  No paths    -    
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  |  16.000      11.140  |  No paths    -      |  8.000       7.664   |  No paths    -    
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                      |  0.235       -2.634  |  No paths    -      |  No paths    -       |  No paths    -    
+Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0                      |  5.882       4.390   |  No paths    -      |  No paths    -       |  No paths    -    
+====================================================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                                                  Arrival          
+Instance                                                                        Reference                                                                    Type     Pin     Net                         Time        Slack
+                                                                                Clock                                                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+n9v8K8km9xGIzc46dI9eFbJ                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5Jhm3     0.201       4.390
+n9v8K8km9xGIzc46dI9eFm3                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5Jhxn     0.218       4.432
+n9v8K8km9xGIzc46dI9eFrJ                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5Jh23     0.218       4.483
+n9v8K8km9xGIzc46dI9eFxn                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5Jh7J     0.218       4.518
+n9v8K8km9xGIzc46dI9eFhn                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5JhrJ     0.201       4.597
+n9v8K8km9xGIzc46dI9eEI3                                                         Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       n9v8K8km9xGIzc46dI5Jhhn     0.218       4.715
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_14     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       dff_14_0                    0.218       5.540
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_0      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       dff_0_0                     0.218       5.546
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_1      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       dff_1_0                     0.218       5.546
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_2      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      Q       dff_2_0                     0.218       5.546
+===========================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                                                                                             Starting                                                                                                                                                                                                                                                                                                                                      Required          
+Instance                                                                                                                                                                                                                     Reference                                                                    Type     Pin     Net                                                                                                                                                                                                                                             Time         Slack
+                                                                                                                                                                                                                             Clock                                                                                                                                                                                                                                                                                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.ram[8]                      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      D       Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.p_WrRam$un1_we_a                               5.882        4.390
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM2_INST.ram[8]                      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      D       Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM2_INST.p_WrRam$un1_we_a                               5.882        4.390
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM3_INST.ram[8]                      Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      D       Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM3_INST.p_WrRam$un1_we_a                               5.882        4.390
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.READ_LSRAM_INST.s_data_valid_o        Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      D       Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.READ_LSRAM_INST.LSRAM_READ_FSM_PROC$s_data_valid_o_2     5.882        4.390
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[0]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[1]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[2]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[3]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[4]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.s_ram_address[5]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0     SLE      SLn     Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.WRITE_LSRAM_INST.DATA_VALID_I                            5.829        4.537
+=============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.882
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.882
+
+    - Propagation time:                      1.492
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.390
+
+    Number of logic level(s):                3
+    Starting point:                          n9v8K8km9xGIzc46dI9eFbJ / Q
+    Ending point:                            Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.ram[8] / D
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                                                                                                  Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                                                                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+n9v8K8km9xGIzc46dI9eFbJ                                                                                                                                                                                                SLE      Q        Out     0.201     0.201 f     -         
+n9v8K8km9xGIzc46dI5Jhm3                                                                                                                                                                                                Net      -        -       0.118     -           1         
+jzhBHwzrarixcf2AHqrfFlv019                                                                                                                                                                                             CFG4     D        In      -         0.319 f     -         
+jzhBHwzrarixcf2AHqrfFlv019                                                                                                                                                                                             CFG4     Y        Out     0.192     0.510 f     -         
+jzhBHwzrarixcf2AHqrfFlv019                                                                                                                                                                                             Net      -        -       0.118     -           1         
+39gI0a7K8ib66v02p                                                                                                                                                                                                      CFG4     B        In      -         0.628 f     -         
+39gI0a7K8ib66v02p                                                                                                                                                                                                      CFG4     Y        Out     0.084     0.712 r     -         
+39gI0a7K8ib66v02p                                                                                                                                                                                                      Net      -        -       0.579     -           21        
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.p_WrRam\.un1_we_a     CFG3     B        In      -         1.292 r     -         
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.p_WrRam\.un1_we_a     CFG3     Y        Out     0.083     1.375 r     -         
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.p_WrRam$un1_we_a      Net      -        -       0.118     -           1         
+Video_Pipeline_0.video_processing_0.Bayer_Interpolation_C0_0.Bayer_Interpolation_C0_0.Bayer_Native_FORMAT\.Bayer_Native_INST_0.bayer_interpolation_1pix\.Bayer_Interpolation_1pix_inst.RAM1_INST.ram[8]                SLE      D        In      -         1.492 r     -         
+=================================================================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 1.492 is 0.559(37.5%) logic and 0.933(62.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                              Starting                                                                                                                             Arrival           
+Instance                                                                                                                                      Reference                                                                                        Type     Pin     Net                Time        Slack 
+                                                                                                                                              Clock                                                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       bit_align_done     0.218       -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L2.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       bit_align_done     0.218       -2.602
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       bit_align_done     0.218       -2.521
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L0.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       bit_align_done     0.218       -2.454
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_LANECTRL_0.I_LANECTRL_PAUSE_SYNC.pipe_fall\.pause_sync_0                  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       pause_sync_0_i     0.218       7.664 
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.LP_edge_reg[0]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       LP_edge_reg[0]     0.201       11.140
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.LP_edge_reg[0]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       LP_edge_reg[0]     0.201       11.140
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.LP_edge_reg[1]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       LP_edge_reg[1]     0.218       11.174
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.LP_edge_reg[1]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       LP_edge_reg[1]     0.218       11.174
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L1.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.LP_edge_reg[2]     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      Q       LP_edge_reg[2]     0.218       11.239
+=====================================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                               Starting                                                                                                                                      Required           
+Instance                                                                       Reference                                                                                        Type     Pin     Net                         Time         Slack 
+                                                                               Clock                                                                                                                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_0     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_1     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_2     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_3     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_4     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_5     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_6     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_7     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_8     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_9     Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV     SLE      ALn     un1_INTERNAL_RST_arst_i     0.235        -2.634
+================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      0.235
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.235
+
+    - Propagation time:                      2.869
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.633
+
+    Number of logic level(s):                3
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done / Q
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_0 / ALn
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done       SLE      Q        Out     0.218     0.218 r     -         
+bit_align_done                                                                                                                                  Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     A        In      -         0.336 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     Y        Out     0.051     0.387 r     -         
+CORERXIODBITALIGN_C1_L3_BIT_ALGN_DONE                                                                                                           Net      -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     D        In      -         1.335 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     Y        Out     0.282     1.617 r     -         
+PF_IOD_GENERIC_RX_C0_0_training_done_o                                                                                                          Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     A        In      -         1.735 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     Y        Out     0.051     1.786 r     -         
+un1_INTERNAL_RST_arst_i                                                                                                                         Net      -        -       1.083     -           34        
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_0                                                                      SLE      ALn      In      -         2.869 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.869 is 0.602(21.0%) logic and 2.267(79.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      0.235
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.235
+
+    - Propagation time:                      2.869
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.633
+
+    Number of logic level(s):                3
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done / Q
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_14 / ALn
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done       SLE      Q        Out     0.218     0.218 r     -         
+bit_align_done                                                                                                                                  Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     A        In      -         0.336 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     Y        Out     0.051     0.387 r     -         
+CORERXIODBITALIGN_C1_L3_BIT_ALGN_DONE                                                                                                           Net      -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     D        In      -         1.335 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     Y        Out     0.282     1.617 r     -         
+PF_IOD_GENERIC_RX_C0_0_training_done_o                                                                                                          Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     A        In      -         1.735 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     Y        Out     0.051     1.786 r     -         
+un1_INTERNAL_RST_arst_i                                                                                                                         Net      -        -       1.083     -           34        
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_14                                                                     SLE      ALn      In      -         2.869 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.869 is 0.602(21.0%) logic and 2.267(79.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      0.235
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.235
+
+    - Propagation time:                      2.869
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.633
+
+    Number of logic level(s):                3
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done / Q
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_15 / ALn
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done       SLE      Q        Out     0.218     0.218 r     -         
+bit_align_done                                                                                                                                  Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     A        In      -         0.336 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     Y        Out     0.051     0.387 r     -         
+CORERXIODBITALIGN_C1_L3_BIT_ALGN_DONE                                                                                                           Net      -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     D        In      -         1.335 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     Y        Out     0.282     1.617 r     -         
+PF_IOD_GENERIC_RX_C0_0_training_done_o                                                                                                          Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     A        In      -         1.735 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     Y        Out     0.051     1.786 r     -         
+un1_INTERNAL_RST_arst_i                                                                                                                         Net      -        -       1.083     -           34        
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_15                                                                     SLE      ALn      In      -         2.869 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.869 is 0.602(21.0%) logic and 2.267(79.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      0.235
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.235
+
+    - Propagation time:                      2.869
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.633
+
+    Number of logic level(s):                3
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done / Q
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_1 / ALn
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done       SLE      Q        Out     0.218     0.218 r     -         
+bit_align_done                                                                                                                                  Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     A        In      -         0.336 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     Y        Out     0.051     0.387 r     -         
+CORERXIODBITALIGN_C1_L3_BIT_ALGN_DONE                                                                                                           Net      -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     D        In      -         1.335 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     Y        Out     0.282     1.617 r     -         
+PF_IOD_GENERIC_RX_C0_0_training_done_o                                                                                                          Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     A        In      -         1.735 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     Y        Out     0.051     1.786 r     -         
+un1_INTERNAL_RST_arst_i                                                                                                                         Net      -        -       1.083     -           34        
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_1                                                                      SLE      ALn      In      -         2.869 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.869 is 0.602(21.0%) logic and 2.267(79.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      0.235
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.235
+
+    - Propagation time:                      2.869
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.633
+
+    Number of logic level(s):                3
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done / Q
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_2 / ALn
+    The start point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV [rising] (rise=0.000 fall=8.000 period=16.000) on pin CLK
+    The end   point is clocked by            Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=2.941 period=5.882) on pin CLK
+
+Instance / Net                                                                                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                                                                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.bit_align_done       SLE      Q        Out     0.218     0.218 r     -         
+bit_align_done                                                                                                                                  Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     A        In      -         0.336 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.CORERXIODBITALIGN_C1_L3.CORERXIODBITALIGN_C1_0.u_CoreRxIODBitAlign.rx_BIT_ALGN_DONE     CFG2     Y        Out     0.051     0.387 r     -         
+CORERXIODBITALIGN_C1_L3_BIT_ALGN_DONE                                                                                                           Net      -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     D        In      -         1.335 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.AND4_0                                                                                  AND4     Y        Out     0.282     1.617 r     -         
+PF_IOD_GENERIC_RX_C0_0_training_done_o                                                                                                          Net      -        -       0.118     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     A        In      -         1.735 r     -         
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.un1_D                                                                      CFG3     Y        Out     0.051     1.786 r     -         
+un1_INTERNAL_RST_arst_i                                                                                                                         Net      -        -       1.083     -           34        
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_2                                                                      SLE      ALn      In      -         2.869 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.869 is 0.602(21.0%) logic and 2.267(79.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                   Starting                                                                                                                        Arrival           
+Instance                                                                                           Reference     Type                Pin               Net                                                                         Time        Slack 
+                                                                                                   Clock                                                                                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_0     System        INBUF_DIFF_MIPI     Y                 Y_I_INBUF_DIFF_MIPI_0_net                                                   0.000       1.768 
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_1     System        INBUF_DIFF_MIPI     Y                 Y_I_INBUF_DIFF_MIPI_1_net                                                   0.000       1.768 
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_2     System        INBUF_DIFF_MIPI     Y                 Y_I_INBUF_DIFF_MIPI_2_net                                                   0.000       1.768 
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_3     System        INBUF_DIFF_MIPI     Y                 Y_I_INBUF_DIFF_MIPI_3_net                                                   0.000       1.768 
+CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT                                      System        INIT                UIC_INIT_DONE     CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.DEVICE_INIT_DONE     0.000       2.751 
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_0     System        INBUF_DIFF_MIPI     YN                PF_IOD_GENERIC_RX_C0_0_L0_LP_DATA_N                                         0.000       11.093
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_2     System        INBUF_DIFF_MIPI     YN                PF_IOD_GENERIC_RX_C0_0_L2_LP_DATA_N                                         0.000       11.093
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_1     System        INBUF_DIFF_MIPI     YN                PF_IOD_GENERIC_RX_C0_0_L1_LP_DATA_N                                         0.000       11.095
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_3     System        INBUF_DIFF_MIPI     YN                PF_IOD_GENERIC_RX_C0_0_L3_LP_DATA_N                                         0.000       11.095
+=====================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                       Starting                                                      Required          
+Instance                                                                               Reference     Type     Pin      Net                           Time         Slack
+                                                                                       Clock                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_0     System        IOD      RX_P     Y_I_INBUF_DIFF_MIPI_0_net     2.716        1.768
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_1     System        IOD      RX_P     Y_I_INBUF_DIFF_MIPI_1_net     2.716        1.768
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_2     System        IOD      RX_P     Y_I_INBUF_DIFF_MIPI_2_net     2.716        1.768
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_3     System        IOD      RX_P     Y_I_INBUF_DIFF_MIPI_3_net     2.716        1.768
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_0             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_1             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_2             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_3             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_4             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+Video_Pipeline_0.IMX334_IF_TOP_0.CORERESET_PF_C1_0.CORERESET_PF_C1_0.dff_5             System        SLE      ALn      un1_INTERNAL_RST_arst_i       5.863        2.751
+=======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      4.000
+    - Setup time:                            1.284
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.716
+
+    - Propagation time:                      0.948
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.768
+
+    Number of logic level(s):                0
+    Starting point:                          Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_0 / Y
+    Ending point:                            Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_0 / RX_P
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            CAM1_RX_CLK_P [rising] (rise=0.000 fall=2.000 period=4.000) on pin RX_DQS_90[0]
+
+Instance / Net                                                                                                         Pin      Pin               Arrival     No. of    
+Name                                                                                               Type                Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_INBUF_DIFF_MIPI_0     INBUF_DIFF_MIPI     Y        Out     0.000     0.000 r     -         
+Y_I_INBUF_DIFF_MIPI_0_net                                                                          Net                 -        -       0.948     -           1         
+Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_IOD_RX.I_IOD_0                 IOD                 RX_P     In      -         0.948 r     -         
+========================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.232 is 1.284(57.5%) logic and 0.948(42.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/work/polarfire-soc-video-kit-design/vkpfsoc_h264/designer/vkpfsoc_top/synthesis.fdc":46:0:46:0|Timing constraint (to [get_pins { Video_Pipeline_0.IMX334_IF_TOP_0.PF_IOD_GENERIC_RX_C0_0.PF_IOD_0.PF_LANECTRL_0.I_LANECTRL*.HS_IO_CLK_PAUSE }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+Writing compile point status file C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\IMX334_IF_TOP\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name              Status     Reason     
+----------------------------------------
+IMX334_IF_TOP     Mapped     No database
+========================================
+
+Process took 0h:00m:28s realtime, 0h:00m:28s cputime
+# Mon Aug 12 21:33:15 2024
+
+###########################################################]

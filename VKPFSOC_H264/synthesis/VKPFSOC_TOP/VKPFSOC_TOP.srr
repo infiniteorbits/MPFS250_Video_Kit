@@ -1,0 +1,213 @@
+# Mon Aug 12 21:33:13 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-LP86E50
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 146MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 146MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 146MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 138MB peak: 146MB)
+
+
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\h264_top\h264_top.v":9:7:9:14|Found compile point of type hard on View view:work.h264_top(verilog) 
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Found compile point of type hard on View view:work.IMX334_IF_TOP(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.VKPFSOC_TOP(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 249MB peak: 249MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_IMX334_IF_TOP_verilog_inst (in view: work.IMX334_IF_TOP_rtl_ilm(verilog)) because it does not drive other instances.
+
+Finished loading ILMs (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 231MB peak: 295MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\vkpfsoc_top\vkpfsoc_top.v":9:7:9:17|Mapping Top level view:work.VKPFSOC_TOP(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 231MB peak: 295MB)
+
+@N: BZ173 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|Found ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) with 80 words by 20 bits.
+@N: BZ173 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|Found ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) with 80 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 238MB peak: 295MB)
+
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":253:0:253:5|Found counter in view:work.HV_COUNTER(verilog) instance s_v_counter[15:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":243:0:243:5|Found counter in view:work.HV_COUNTER(verilog) instance s_h_counter[15:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Found counter in view:work.obj_generator(verilog) instance s_addr_counter[9:0] 
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":348:9:348:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":348:42:348:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i (in view: work.obj_generator(verilog))
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Found counter in view:work.obj_generator_num(verilog) instance s_addr_offset[9:0] 
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":425:8:425:39|Found 17 by 17 bit equality operator ('==') s_addr_counter17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":427:13:427:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":429:13:429:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_19 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":439:42:439:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i_16 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":439:9:439:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\frame_controls_gen.v":156:9:156:27|Found 16 by 16 bit equality operator ('==') un1_hres_i_16 (in view: work.frame_controls_gen(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\frame_controls_gen.v":156:33:156:51|Found 16 by 16 bit equality operator ('==') un1_vres_i_16 (in view: work.frame_controls_gen(verilog))
+Encoding state machine s_ram_sel[0:2] (in view: work.PIXEL_ROUTER_8_11(pixel_router))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine s_state[0:4] (in view: work.READ_LSRAM_8_16(read_lsram))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+
+Starting factoring (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 240MB peak: 295MB)
+
+@W: BN132 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":263:0:263:5|Removing instance Video_Pipeline_0.video_processing_0.CR_OSD_0.HV_COUNTER_0.s_data_en_dly because it is equivalent to instance Video_Pipeline_0.video_processing_0.CR_OSD_0.data_valid_o. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 247MB peak: 295MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 245MB peak: 295MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 247MB peak: 295MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 247MB peak: 295MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 247MB peak: 295MB)
+
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 246MB peak: 295MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:24s; Memory used current: 298MB peak: 298MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:24s		    -5.57ns		3414 /      1662
+   2		0h:00m:24s		    -5.57ns		3337 /      1662
+   3		0h:00m:24s		    -5.53ns		3337 /      1662
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[4] (in view: work.VKPFSOC_TOP(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[5] (in view: work.VKPFSOC_TOP(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[6] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[7] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[8] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[9] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[10] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 10 Registers via timing driven replication
+Added 8 LUTs via timing driven replication
+
+   4		0h:00m:25s		    -5.58ns		3345 /      1672
+
+
+   5		0h:00m:25s		    -5.58ns		3345 /      1672
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 304MB peak: 304MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 304MB peak: 305MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\synthesis\VKPFSOC_TOP\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name            Status     Reason     
+--------------------------------------
+VKPFSOC_TOP     Mapped     No database
+======================================
+
+Process took 0h:00m:30s realtime, 0h:00m:29s cputime
+# Mon Aug 12 21:33:43 2024
+
+###########################################################]

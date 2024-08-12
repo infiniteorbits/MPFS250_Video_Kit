@@ -1,0 +1,804 @@
+
+fsm_encoding {64356135625} sequential
+
+fsm_state_encoding {64356135625} 00 {00}
+
+fsm_state_encoding {64356135625} 01 {01}
+
+fsm_state_encoding {64356135625} 10 {10}
+
+fsm_state_encoding {64356135625} 11 {11}
+
+fsm_registers {64356135625} {local_wbus_state[1]}  {local_wbus_state[0]} 
+
+fsm_encoding {64449144924} onehot
+
+fsm_state_encoding {64449144924} 000 {00001}
+
+fsm_state_encoding {64449144924} 001 {00010}
+
+fsm_state_encoding {64449144924} 010 {00100}
+
+fsm_state_encoding {64449144924} 101 {01000}
+
+fsm_state_encoding {64449144924} 110 {10000}
+
+fsm_registers {64449144924} {video_bus_state[4]}  {video_bus_state[3]}  {video_bus_state[2]}  {video_bus_state[1]}  {video_bus_state[0]} 
+
+fsm_encoding {13253122531} onehot
+
+fsm_state_encoding {13253122531} idle {000001}
+
+fsm_state_encoding {13253122531} scan {000010}
+
+fsm_state_encoding {13253122531} assign_req {000100}
+
+fsm_state_encoding {13253122531} assign_req_1 {001000}
+
+fsm_state_encoding {13253122531} wait_for_ack {010000}
+
+fsm_state_encoding {13253122531} wait_for_done {100000}
+
+fsm_registers {13253122531} {s_state[0]}  {s_state[1]}  {s_state[2]}  {s_state[3]}  {s_state[4]}  {s_state[5]} 
+
+fsm_encoding {13253122531} onehot
+
+fsm_state_encoding {13253122531} idle {000001}
+
+fsm_state_encoding {13253122531} scan {000010}
+
+fsm_state_encoding {13253122531} assign_req {000100}
+
+fsm_state_encoding {13253122531} assign_req_1 {001000}
+
+fsm_state_encoding {13253122531} wait_for_ack {010000}
+
+fsm_state_encoding {13253122531} wait_for_done {100000}
+
+fsm_registers {13253122531} {s_state[0]}  {s_state[1]}  {s_state[2]}  {s_state[3]}  {s_state[4]}  {s_state[5]} 
+
+fsm_encoding {70168216823} sequential
+
+fsm_state_encoding {70168216823} 00 {00}
+
+fsm_state_encoding {70168216823} 01 {01}
+
+fsm_state_encoding {70168216823} 10 {10}
+
+fsm_registers {70168216823} {s_state[1]}  {s_state[0]} 
+
+fsm_encoding {721381701381722} sequential
+
+fsm_state_encoding {721381701381722} seq0 {0000}
+
+fsm_state_encoding {721381701381722} seq1 {0001}
+
+fsm_state_encoding {721381701381722} seq2 {0010}
+
+fsm_state_encoding {721381701381722} seq3 {0011}
+
+fsm_state_encoding {721381701381722} seq4 {0100}
+
+fsm_state_encoding {721381701381722} seq5 {0101}
+
+fsm_state_encoding {721381701381722} seq6 {0110}
+
+fsm_state_encoding {721381701381722} seq7 {0111}
+
+fsm_state_encoding {721381701381722} seq8 {1000}
+
+fsm_state_encoding {721381701381722} seq9 {1001}
+
+fsm_state_encoding {721381701381722} seq10 {1010}
+
+fsm_registers {721381701381722} {clk_state[3]}  {clk_state[2]}  {clk_state[1]}  {clk_state[0]} 
+
+fsm_encoding {721401901401921} sequential
+
+fsm_state_encoding {721401901401921} seq0 {000}
+
+fsm_state_encoding {721401901401921} seq1 {001}
+
+fsm_state_encoding {721401901401921} seq2 {010}
+
+fsm_state_encoding {721401901401921} seq3 {011}
+
+fsm_state_encoding {721401901401921} seq4 {100}
+
+fsm_state_encoding {721401901401921} seq5 {101}
+
+fsm_state_encoding {721401901401921} seq6 {110}
+
+fsm_registers {721401901401921} {clk_state[2]}  {clk_state[1]}  {clk_state[0]} 
+
+fsm_encoding {721323301323320} sequential
+
+fsm_state_encoding {721323301323320} seq0 {000}
+
+fsm_state_encoding {721323301323320} seq1 {001}
+
+fsm_state_encoding {721323301323320} seq2 {010}
+
+fsm_state_encoding {721323301323320} seq3 {011}
+
+fsm_state_encoding {721323301323320} seq4 {100}
+
+fsm_state_encoding {721323301323320} seq5 {101}
+
+fsm_state_encoding {721323301323320} seq6 {110}
+
+fsm_registers {721323301323320} {clk_state[2]}  {clk_state[1]}  {clk_state[0]} 
+
+fsm_encoding {721421001421019} onehot
+
+fsm_state_encoding {721421001421019} seq0 {00001}
+
+fsm_state_encoding {721421001421019} seq1 {00010}
+
+fsm_state_encoding {721421001421019} seq2 {00100}
+
+fsm_state_encoding {721421001421019} seq3 {01000}
+
+fsm_state_encoding {721421001421019} seq4 {10000}
+
+fsm_registers {721421001421019} {clk_state[4]}  {clk_state[3]}  {clk_state[2]}  {clk_state[1]}  {clk_state[0]} 
+
+fsm_encoding {7214660146618} sequential
+
+fsm_state_encoding {7214660146618} IDLE {00}
+
+fsm_state_encoding {7214660146618} BLOCK_READ {01}
+
+fsm_state_encoding {7214660146618} LAST_BLOCK_READ {10}
+
+fsm_registers {7214660146618} {state[1]}  {state[0]} 
+
+fsm_encoding {7253140531417} original
+
+fsm_state_encoding {7253140531417} ROW1 {00}
+
+fsm_state_encoding {7253140531417} ROW2 {01}
+
+fsm_state_encoding {7253140531417} ROW3 {10}
+
+fsm_state_encoding {7253140531417} ROW4 {11}
+
+fsm_registers {7253140531417} {state[1]}  {state[0]} 
+
+fsm_encoding {7261190611916} sequential
+
+fsm_state_encoding {7261190611916} COL1 {00}
+
+fsm_state_encoding {7261190611916} COL2 {01}
+
+fsm_state_encoding {7261190611916} COL3 {10}
+
+fsm_state_encoding {7261190611916} COL4 {11}
+
+fsm_registers {7261190611916} {state[1]}  {state[0]} 
+
+fsm_encoding {7238780387815} onehot
+
+fsm_state_encoding {7238780387815} IDLE {00000000000000001}
+
+fsm_state_encoding {7238780387815} MB1 {00000000000000010}
+
+fsm_state_encoding {7238780387815} MB2 {00000000000000100}
+
+fsm_state_encoding {7238780387815} MB3 {00000000000001000}
+
+fsm_state_encoding {7238780387815} MB4 {00000000000010000}
+
+fsm_state_encoding {7238780387815} MB5 {00000000000100000}
+
+fsm_state_encoding {7238780387815} MB6 {00000000001000000}
+
+fsm_state_encoding {7238780387815} MB7 {00000000010000000}
+
+fsm_state_encoding {7238780387815} MB8 {00000000100000000}
+
+fsm_state_encoding {7238780387815} MB9 {00000001000000000}
+
+fsm_state_encoding {7238780387815} MB10 {00000010000000000}
+
+fsm_state_encoding {7238780387815} MB11 {00000100000000000}
+
+fsm_state_encoding {7238780387815} MB12 {00001000000000000}
+
+fsm_state_encoding {7238780387815} MB13 {00010000000000000}
+
+fsm_state_encoding {7238780387815} MB14 {00100000000000000}
+
+fsm_state_encoding {7238780387815} MB15 {01000000000000000}
+
+fsm_state_encoding {7238780387815} MB16 {10000000000000000}
+
+fsm_registers {7238780387815} {state[16]}  {state[15]}  {state[14]}  {state[13]}  {state[12]}  {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {7253140531414} original
+
+fsm_state_encoding {7253140531414} ROW1 {00}
+
+fsm_state_encoding {7253140531414} ROW2 {01}
+
+fsm_state_encoding {7253140531414} ROW3 {10}
+
+fsm_state_encoding {7253140531414} ROW4 {11}
+
+fsm_registers {7253140531414} {state[1]}  {state[0]} 
+
+fsm_encoding {7243090430913} sequential
+
+fsm_state_encoding {7243090430913} IDLE {00}
+
+fsm_state_encoding {7243090430913} MB_CB {01}
+
+fsm_state_encoding {7243090430913} MB_CR {10}
+
+fsm_registers {7243090430913} {state[1]}  {state[0]} 
+
+fsm_encoding {7245190451912} onehot
+
+fsm_state_encoding {7245190451912} IDLE {00001}
+
+fsm_state_encoding {7245190451912} MB1 {00010}
+
+fsm_state_encoding {7245190451912} MB2 {00100}
+
+fsm_state_encoding {7245190451912} MB3 {01000}
+
+fsm_state_encoding {7245190451912} MB4 {10000}
+
+fsm_registers {7245190451912} {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {7253140531417} original
+
+fsm_state_encoding {7253140531417} ROW1 {00}
+
+fsm_state_encoding {7253140531417} ROW2 {01}
+
+fsm_state_encoding {7253140531417} ROW3 {10}
+
+fsm_state_encoding {7253140531417} ROW4 {11}
+
+fsm_registers {7253140531417} {state[1]}  {state[0]} 
+
+fsm_encoding {7261190611916} sequential
+
+fsm_state_encoding {7261190611916} COL1 {00}
+
+fsm_state_encoding {7261190611916} COL2 {01}
+
+fsm_state_encoding {7261190611916} COL3 {10}
+
+fsm_state_encoding {7261190611916} COL4 {11}
+
+fsm_registers {7261190611916} {state[1]}  {state[0]} 
+
+fsm_encoding {7283070830711} original
+
+fsm_state_encoding {7283070830711} COL4 {00}
+
+fsm_state_encoding {7283070830711} COL3 {01}
+
+fsm_state_encoding {7283070830711} COL2 {10}
+
+fsm_state_encoding {7283070830711} COL1 {11}
+
+fsm_registers {7283070830711} {state[1]}  {state[0]} 
+
+fsm_encoding {7283070830711} original
+
+fsm_state_encoding {7283070830711} COL4 {00}
+
+fsm_state_encoding {7283070830711} COL3 {01}
+
+fsm_state_encoding {7283070830711} COL2 {10}
+
+fsm_state_encoding {7283070830711} COL1 {11}
+
+fsm_registers {7283070830711} {state[1]}  {state[0]} 
+
+fsm_encoding {721520301520310} sequential
+
+fsm_state_encoding {721520301520310} st0 {00}
+
+fsm_state_encoding {721520301520310} st1 {01}
+
+fsm_state_encoding {721520301520310} st2 {10}
+
+fsm_state_encoding {721520301520310} st3 {11}
+
+fsm_registers {721520301520310} {pattern_state[1]}  {pattern_state[0]} 
+
+fsm_encoding {4981448149} sequential
+
+fsm_state_encoding {4981448149} ST_IDLE {00}
+
+fsm_state_encoding {4981448149} ST_WAIT {01}
+
+fsm_state_encoding {4981448149} ST_WCNT0 {10}
+
+fsm_state_encoding {4981448149} ST_ACTIVE {11}
+
+fsm_registers {4981448149} {state_enb[1]}  {state_enb[0]} 
+
+fsm_encoding {492004220045} sequential
+
+fsm_state_encoding {492004220045} ST_IDLE3 {00}
+
+fsm_state_encoding {492004220045} ST_WAIT3 {01}
+
+fsm_state_encoding {492004220045} ST_RUN3 {10}
+
+fsm_registers {492004220045} {genblk4®state_3[1]}  {genblk4®state_3[0]} 
+
+fsm_encoding {491778217786} sequential
+
+fsm_state_encoding {491778217786} ST_IDLE2 {00}
+
+fsm_state_encoding {491778217786} ST_WAIT2 {01}
+
+fsm_state_encoding {491778217786} ST_RUN2 {10}
+
+fsm_registers {491778217786} {genblk3®state_2[1]}  {genblk3®state_2[0]} 
+
+fsm_encoding {491554215547} sequential
+
+fsm_state_encoding {491554215547} ST_IDLE1 {00}
+
+fsm_state_encoding {491554215547} ST_WAIT1 {01}
+
+fsm_state_encoding {491554215547} ST_RUN1 {10}
+
+fsm_registers {491554215547} {genblk2®state_1[1]}  {genblk2®state_1[0]} 
+
+fsm_encoding {491337213378} sequential
+
+fsm_state_encoding {491337213378} ST_IDLE0 {00}
+
+fsm_state_encoding {491337213378} ST_WAIT0 {01}
+
+fsm_state_encoding {491337213378} ST_RUN0 {10}
+
+fsm_registers {491337213378} {genblk1®state_0[1]}  {genblk1®state_0[0]} 
+
+fsm_encoding {4981701281703} original
+
+fsm_state_encoding {4981701281703} S0 {000}
+
+fsm_state_encoding {4981701281703} S1 {001}
+
+fsm_state_encoding {4981701281703} S2 {010}
+
+fsm_state_encoding {4981701281703} S3 {011}
+
+fsm_registers {4981701281703} {genblk7®pix_distribute_4lane[2]}  {genblk7®pix_distribute_4lane[1]}  {genblk7®pix_distribute_4lane[0]} 
+
+fsm_encoding {4951391051394} onehot
+
+fsm_state_encoding {4951391051394} 000000 {000001}
+
+fsm_state_encoding {4951391051394} 000001 {000010}
+
+fsm_state_encoding {4951391051394} 000010 {000100}
+
+fsm_state_encoding {4951391051394} 000011 {001000}
+
+fsm_state_encoding {4951391051394} 000100 {010000}
+
+fsm_state_encoding {4951391051394} 000101 {100000}
+
+fsm_registers {4951391051394} {genblk2®state_FS[5]}  {genblk2®state_FS[4]}  {genblk2®state_FS[3]}  {genblk2®state_FS[2]}  {genblk2®state_FS[1]}  {genblk2®state_FS[0]} 
+
+fsm_encoding {3026932692} onehot
+
+fsm_state_encoding {3026932692} BITALIGN_IDLE_ST {000000000000000000000000000001}
+
+fsm_state_encoding {3026932692} BITALIGN_LOAD_ST {000000000000000000000000000010}
+
+fsm_state_encoding {3026932692} BITALIGN_CLRFLAGS_ST {000000000000000000000000000100}
+
+fsm_state_encoding {3026932692} BITALIGN_EM_ST {000000000000000000000000001000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPSTORE_ST {000000000000000000000000010000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_ST {000000000000000000000000100000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY_ST {000000000000000000000001000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY1_ST {000000000000000000000010000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY2_ST {000000000000000000000100000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_ST {000000000000000000001000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY_ST {000000000000000000010000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY1_ST {000000000000000000100000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY2_ST {000000000000000001000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_ST {000000000000000010000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY_ST {000000000000000100000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY1_ST {000000000000001000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY2_ST {000000000000010000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_ST {000000000000100000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY_ST {000000000001000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY1_ST {000000000010000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY2_ST {000000000100000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_ST {000000001000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_DLY_ST {000000010000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_ST {000000100000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP_ST {000001000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP2_ST {000010000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST1 {000100000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST2 {001000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_DONE_ST {010000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LP_WAIT_ST {100000000000000000000000000000}
+
+fsm_registers {3026932692} {bitalign_curr_state[29]}  {bitalign_curr_state[28]}  {bitalign_curr_state[27]}  {bitalign_curr_state[26]}  {bitalign_curr_state[25]}  {bitalign_curr_state[24]}  {bitalign_curr_state[23]}  {bitalign_curr_state[22]}  {bitalign_curr_state[21]}  {bitalign_curr_state[20]}  {bitalign_curr_state[19]}  {bitalign_curr_state[18]}  {bitalign_curr_state[17]}  {bitalign_curr_state[16]}  {bitalign_curr_state[15]}  {bitalign_curr_state[14]}  {bitalign_curr_state[13]}  {bitalign_curr_state[12]}  {bitalign_curr_state[11]}  {bitalign_curr_state[10]}  {bitalign_curr_state[9]}  {bitalign_curr_state[8]}  {bitalign_curr_state[7]}  {bitalign_curr_state[6]}  {bitalign_curr_state[5]}  {bitalign_curr_state[4]}  {bitalign_curr_state[3]}  {bitalign_curr_state[2]}  {bitalign_curr_state[1]}  {bitalign_curr_state[0]} 
+
+fsm_encoding {3026932692} onehot
+
+fsm_state_encoding {3026932692} BITALIGN_IDLE_ST {000000000000000000000000000001}
+
+fsm_state_encoding {3026932692} BITALIGN_LOAD_ST {000000000000000000000000000010}
+
+fsm_state_encoding {3026932692} BITALIGN_CLRFLAGS_ST {000000000000000000000000000100}
+
+fsm_state_encoding {3026932692} BITALIGN_EM_ST {000000000000000000000000001000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPSTORE_ST {000000000000000000000000010000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_ST {000000000000000000000000100000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY_ST {000000000000000000000001000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY1_ST {000000000000000000000010000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY2_ST {000000000000000000000100000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_ST {000000000000000000001000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY_ST {000000000000000000010000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY1_ST {000000000000000000100000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY2_ST {000000000000000001000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_ST {000000000000000010000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY_ST {000000000000000100000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY1_ST {000000000000001000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY2_ST {000000000000010000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_ST {000000000000100000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY_ST {000000000001000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY1_ST {000000000010000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY2_ST {000000000100000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_ST {000000001000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_DLY_ST {000000010000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_ST {000000100000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP_ST {000001000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP2_ST {000010000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST1 {000100000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST2 {001000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_DONE_ST {010000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LP_WAIT_ST {100000000000000000000000000000}
+
+fsm_registers {3026932692} {bitalign_curr_state[29]}  {bitalign_curr_state[28]}  {bitalign_curr_state[27]}  {bitalign_curr_state[26]}  {bitalign_curr_state[25]}  {bitalign_curr_state[24]}  {bitalign_curr_state[23]}  {bitalign_curr_state[22]}  {bitalign_curr_state[21]}  {bitalign_curr_state[20]}  {bitalign_curr_state[19]}  {bitalign_curr_state[18]}  {bitalign_curr_state[17]}  {bitalign_curr_state[16]}  {bitalign_curr_state[15]}  {bitalign_curr_state[14]}  {bitalign_curr_state[13]}  {bitalign_curr_state[12]}  {bitalign_curr_state[11]}  {bitalign_curr_state[10]}  {bitalign_curr_state[9]}  {bitalign_curr_state[8]}  {bitalign_curr_state[7]}  {bitalign_curr_state[6]}  {bitalign_curr_state[5]}  {bitalign_curr_state[4]}  {bitalign_curr_state[3]}  {bitalign_curr_state[2]}  {bitalign_curr_state[1]}  {bitalign_curr_state[0]} 
+
+fsm_encoding {3026932692} onehot
+
+fsm_state_encoding {3026932692} BITALIGN_IDLE_ST {000000000000000000000000000001}
+
+fsm_state_encoding {3026932692} BITALIGN_LOAD_ST {000000000000000000000000000010}
+
+fsm_state_encoding {3026932692} BITALIGN_CLRFLAGS_ST {000000000000000000000000000100}
+
+fsm_state_encoding {3026932692} BITALIGN_EM_ST {000000000000000000000000001000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPSTORE_ST {000000000000000000000000010000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_ST {000000000000000000000000100000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY_ST {000000000000000000000001000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY1_ST {000000000000000000000010000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY2_ST {000000000000000000000100000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_ST {000000000000000000001000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY_ST {000000000000000000010000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY1_ST {000000000000000000100000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY2_ST {000000000000000001000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_ST {000000000000000010000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY_ST {000000000000000100000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY1_ST {000000000000001000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY2_ST {000000000000010000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_ST {000000000000100000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY_ST {000000000001000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY1_ST {000000000010000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY2_ST {000000000100000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_ST {000000001000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_DLY_ST {000000010000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_ST {000000100000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP_ST {000001000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP2_ST {000010000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST1 {000100000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST2 {001000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_DONE_ST {010000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LP_WAIT_ST {100000000000000000000000000000}
+
+fsm_registers {3026932692} {bitalign_curr_state[29]}  {bitalign_curr_state[28]}  {bitalign_curr_state[27]}  {bitalign_curr_state[26]}  {bitalign_curr_state[25]}  {bitalign_curr_state[24]}  {bitalign_curr_state[23]}  {bitalign_curr_state[22]}  {bitalign_curr_state[21]}  {bitalign_curr_state[20]}  {bitalign_curr_state[19]}  {bitalign_curr_state[18]}  {bitalign_curr_state[17]}  {bitalign_curr_state[16]}  {bitalign_curr_state[15]}  {bitalign_curr_state[14]}  {bitalign_curr_state[13]}  {bitalign_curr_state[12]}  {bitalign_curr_state[11]}  {bitalign_curr_state[10]}  {bitalign_curr_state[9]}  {bitalign_curr_state[8]}  {bitalign_curr_state[7]}  {bitalign_curr_state[6]}  {bitalign_curr_state[5]}  {bitalign_curr_state[4]}  {bitalign_curr_state[3]}  {bitalign_curr_state[2]}  {bitalign_curr_state[1]}  {bitalign_curr_state[0]} 
+
+fsm_encoding {3026932692} onehot
+
+fsm_state_encoding {3026932692} BITALIGN_IDLE_ST {000000000000000000000000000001}
+
+fsm_state_encoding {3026932692} BITALIGN_LOAD_ST {000000000000000000000000000010}
+
+fsm_state_encoding {3026932692} BITALIGN_CLRFLAGS_ST {000000000000000000000000000100}
+
+fsm_state_encoding {3026932692} BITALIGN_EM_ST {000000000000000000000000001000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPSTORE_ST {000000000000000000000000010000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_ST {000000000000000000000000100000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY_ST {000000000000000000000001000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY1_ST {000000000000000000000010000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_DLY2_ST {000000000000000000000100000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCALC_STRT_ST {000000000000000000001000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY_ST {000000000000000000010000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY1_ST {000000000000000000100000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_DLY2_ST {000000000000000001000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_ELY_ST {000000000000000010000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY_ST {000000000000000100000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY1_ST {000000000000001000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_DLY2_ST {000000000000010000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LTE_ST {000000000000100000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY_ST {000000000001000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY1_ST {000000000010000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_DLY2_ST {000000000100000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_NOELY_NOLTE_ST {000000001000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_DLY_ST {000000010000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_CHK_ST {000000100000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP_ST {000001000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_TAPCMP2_ST {000010000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST1 {000100000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_VALID_TAP_WAIT_ST2 {001000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_DONE_ST {010000000000000000000000000000}
+
+fsm_state_encoding {3026932692} BITALIGN_LP_WAIT_ST {100000000000000000000000000000}
+
+fsm_registers {3026932692} {bitalign_curr_state[29]}  {bitalign_curr_state[28]}  {bitalign_curr_state[27]}  {bitalign_curr_state[26]}  {bitalign_curr_state[25]}  {bitalign_curr_state[24]}  {bitalign_curr_state[23]}  {bitalign_curr_state[22]}  {bitalign_curr_state[21]}  {bitalign_curr_state[20]}  {bitalign_curr_state[19]}  {bitalign_curr_state[18]}  {bitalign_curr_state[17]}  {bitalign_curr_state[16]}  {bitalign_curr_state[15]}  {bitalign_curr_state[14]}  {bitalign_curr_state[13]}  {bitalign_curr_state[12]}  {bitalign_curr_state[11]}  {bitalign_curr_state[10]}  {bitalign_curr_state[9]}  {bitalign_curr_state[8]}  {bitalign_curr_state[7]}  {bitalign_curr_state[6]}  {bitalign_curr_state[5]}  {bitalign_curr_state[4]}  {bitalign_curr_state[3]}  {bitalign_curr_state[2]}  {bitalign_curr_state[1]}  {bitalign_curr_state[0]} 
+
+fsm_encoding {4021432141} gray
+
+fsm_state_encoding {4021432141} CLKALIGN_HOLD_ST {000000}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_ST {000001}
+
+fsm_state_encoding {4021432141} CLKALIGN_RESE_ST {000011}
+
+fsm_state_encoding {4021432141} CLKALIGN_RESW_ST {000010}
+
+fsm_state_encoding {4021432141} CLKALIGN_START_ST {000110}
+
+fsm_state_encoding {4021432141} CLKALIGN_LOAD_ST {000111}
+
+fsm_state_encoding {4021432141} CLKALIGN_CLRFLAGS_ST {000101}
+
+fsm_state_encoding {4021432141} CLKALIGN_EM_ST {000100}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPSTORE_ST {001100}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCALC_ST {001101}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCALC_STRT_DLY_ST {001111}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCALC_STRT_DLY1_ST {001110}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCALC_STRT_DLY2_ST {001010}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCALC_STRT_ST {001011}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_ELY_LTE_DLY_ST {001001}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_ELY_LTE_DLY1_ST {001000}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_ELY_LTE_DLY2_ST {011000}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_ELY_LTE_ST {011001}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_NO_ELY_LTE_DLY_ST {011011}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_NO_ELY_LTE_DLY1_ST {011010}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_NO_ELY_LTE_DLY2_ST {011110}
+
+fsm_state_encoding {4021432141} CLKALIGN_INIT_NO_ELY_LTE_ST {011111}
+
+fsm_state_encoding {4021432141} CLKALIGN_NXT_ELY_LTE_DLY_ST {011101}
+
+fsm_state_encoding {4021432141} CLKALIGN_NXT_ELY_LTE_DLY1_ST {011100}
+
+fsm_state_encoding {4021432141} CLKALIGN_NXT_ELY_LTE_DLY2_ST {010100}
+
+fsm_state_encoding {4021432141} CLKALIGN_NXT_ELY_LTE_ST {010101}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_CHK_DLY_ST {010111}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_CHK_ST {010110}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCMP_ST {010010}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCMP2_ST {010011}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_WAIT_ST1 {010001}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_WAIT_ST2 {010000}
+
+fsm_state_encoding {4021432141} CLKALIGN_DONE_ST {110000}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCMP_OFFSET_ST {110001}
+
+fsm_state_encoding {4021432141} CLKALIGN_TAPCMP2_OFFSET_ST {110011}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_WAIT_OFFSET_ST1 {110010}
+
+fsm_state_encoding {4021432141} CLKALIGN_VALID_TAP_WAIT_OFFSET_ST2 {110110}
+
+fsm_state_encoding {4021432141} CLKALIGN_PAUSE_ST {110111}
+
+fsm_state_encoding {4021432141} CLKALIGN_RESE1_ST {110101}
+
+fsm_state_encoding {4021432141} CLKALIGN_DONE1_ST {110100}
+
+fsm_state_encoding {4021432141} 101000 {111100}
+
+fsm_state_encoding {4021432141} 101001 {111101}
+
+fsm_state_encoding {4021432141} 101010 {111111}
+
+fsm_state_encoding {4021432141} 101011 {111110}
+
+fsm_state_encoding {4021432141} 101100 {111010}
+
+fsm_state_encoding {4021432141} 101101 {111011}
+
+fsm_state_encoding {4021432141} 101110 {111001}
+
+fsm_state_encoding {4021432141} 101111 {111000}
+
+fsm_state_encoding {4021432141} 110000 {101000}
+
+fsm_state_encoding {4021432141} 110001 {101001}
+
+fsm_state_encoding {4021432141} 110010 {101011}
+
+fsm_state_encoding {4021432141} 110011 {101010}
+
+fsm_state_encoding {4021432141} 110100 {101110}
+
+fsm_state_encoding {4021432141} 110101 {101111}
+
+fsm_state_encoding {4021432141} 110110 {101101}
+
+fsm_state_encoding {4021432141} 110111 {101100}
+
+fsm_state_encoding {4021432141} 111000 {100100}
+
+fsm_state_encoding {4021432141} 111001 {100101}
+
+fsm_state_encoding {4021432141} 111010 {100111}
+
+fsm_state_encoding {4021432141} 111011 {100110}
+
+fsm_state_encoding {4021432141} 111100 {100010}
+
+fsm_state_encoding {4021432141} 111101 {100011}
+
+fsm_state_encoding {4021432141} 111110 {100001}
+
+fsm_state_encoding {4021432141} 111111 {100000}
+
+fsm_registers {4021432141} {clkalign_curr_state[5]}  {clkalign_curr_state[4]}  {clkalign_curr_state[3]}  {clkalign_curr_state[2]}  {clkalign_curr_state[1]}  {clkalign_curr_state[0]} 
+
+fsm_encoding {221906819063} sequential
+
+fsm_state_encoding {221906819063} red {00}
+
+fsm_state_encoding {221906819063} green {01}
+
+fsm_state_encoding {221906819063} blue {10}
+
+fsm_registers {221906819063} {s_ram_sel[1]}  {s_ram_sel[0]} 
+
+fsm_encoding {202171421712} onehot
+
+fsm_state_encoding {202171421712} idle {00001}
+
+fsm_state_encoding {202171421712} first_line {00010}
+
+fsm_state_encoding {202171421712} mid_range {00100}
+
+fsm_state_encoding {202171421712} wait_state {01000}
+
+fsm_state_encoding {202171421712} last_line {10000}
+
+fsm_registers {202171421712} {s_state[0]}  {s_state[1]}  {s_state[2]}  {s_state[3]}  {s_state[4]} 

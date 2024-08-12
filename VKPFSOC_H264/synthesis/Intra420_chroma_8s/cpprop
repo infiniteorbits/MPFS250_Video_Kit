@@ -1,0 +1,9 @@
+n work Intra420_chroma_8s verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 16.7031;
+av .compile_point_starttime_stamp "Mon Aug 12 21:33:15 2024";
+av .compile_point_endtime_stamp "Mon Aug 12 21:33:32 2024";
+av .compile_point_realtime_used 16.707;

@@ -1,0 +1,9 @@
+n work H264_Iframe_Encoder_8s_1s_1s_22s verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 21.6719;
+av .compile_point_starttime_stamp "Mon Aug 12 21:33:04 2024";
+av .compile_point_endtime_stamp "Mon Aug 12 21:33:26 2024";
+av .compile_point_realtime_used 21.78;

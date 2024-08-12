@@ -1,0 +1,270 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\h264_top\h264_top.v":9:7:9:14|Found compile point of type hard on View view:work.h264_top(verilog) 
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Found compile point of type hard on View view:work.IMX334_IF_TOP(verilog) 
+**** Begin Compile Point : CAVLC_H264_CAVLC_C ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.CAVLC_H264_CAVLC_C(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : CAVLC_H264_CAVLC_C ****
+**** Begin Compile Point : CAVLC_H264_CAVLC_Y_0 ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.CAVLC_H264_CAVLC_Y_0(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : CAVLC_H264_CAVLC_Y_0 ****
+**** Begin Compile Point : Intra420_luma_8s_1s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.Intra420_luma_8s_1s(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : Intra420_luma_8s_1s ****
+**** Begin Compile Point : IMX334_IF_TOP ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Found compile point of type hard on View view:work.IMX334_IF_TOP(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.IMX334_IF_TOP(verilog) 
+@N: MF106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Mapping Compile point view:work.IMX334_IF_TOP(verilog) because 
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0(verilog) instance rst_cnt[9:0] 
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1(verilog) instance rst_cnt[9:0] 
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2(verilog) instance rst_cnt[9:0] 
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found up-down counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance tap_cnt[7:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":269:3:269:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\corerxiodbitalign_c1\corerxiodbitalign_c1_0\rtl\vlog\core\corerxiodbitalign.v":991:3:991:8|Found counter in view:CORERXIODBITALIGN_LIB.CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3(verilog) instance rst_cnt[9:0] 
+@N: MO225 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":214:3:214:8|There are no possible illegal states for state machine clkalign_curr_state[63:0] (in view: work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":991:3:991:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance tapcnt_offset[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":947:3:947:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance tap_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":907:3:907:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance timeout_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1007:3:1007:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance emflag_cnt[7:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\actel\directcore\corebclksclkalign\2.0.111\rtl\vlog\core\icb_bclksclkalign.v":1191:3:1191:8|Found counter in view:work.ICB_BCLKSCLKALIGN_Z17_layer0(verilog) instance rst_cnt[9:0] 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : IMX334_IF_TOP ****
+**** Begin Compile Point : H264_Intra420_8s_1s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.H264_Intra420_8s_1s(verilog) 
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.73ns 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 with period 20.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : H264_Intra420_8s_1s ****
+**** Begin Compile Point : mipi_csi2_rx_embsync_detect_Z12_layer0 ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.mipi_csi2_rx_embsync_detect_Z12_layer0(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : mipi_csi2_rx_embsync_detect_Z12_layer0 ****
+**** Begin Compile Point : H264_Iframe_Encoder_8s_1s_1s_22s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.H264_Iframe_Encoder_8s_1s_1s_22s(verilog) 
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[0] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[12] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[13] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[14] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[15] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[0] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[12] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[13] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[14] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[15] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.73ns 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 with period 20.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : H264_Iframe_Encoder_8s_1s_1s_22s ****
+**** Begin Compile Point : Intra420_chroma_8s ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.Intra420_chroma_8s(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : Intra420_chroma_8s ****
+**** Begin Compile Point : mipi_csi2_rxdecoder_Z13_layer0 ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.mipi_csi2_rxdecoder_Z13_layer0(verilog) 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : mipi_csi2_rxdecoder_Z13_layer0 ****
+**** Begin Compile Point : h264_top ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\h264_top\h264_top.v":9:7:9:14|Found compile point of type hard on View view:work.h264_top(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.h264_top(verilog) 
+@N: MF106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\h264_top\h264_top.v":9:7:9:14|Mapping Compile point view:work.h264_top(verilog) because 
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\video_axi_fifo.v":151:37:151:45|Tristate driver DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z2_layer0(verilog)) on net DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z2_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\video_axi_fifo.v":150:37:150:46|Tristate driver SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z2_layer0(verilog)) on net SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z2_layer0(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":60:26:60:36|Tristate driver B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":59:26:59:36|Tristate driver A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_DB_DETECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":58:26:58:37|Tristate driver B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net B_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_ram_wrapper.v":57:26:57:37|Tristate driver A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) on net A_SB_CORRECT (in view: work.ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s(verilog)) has its enable tied to GND.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[0] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[12] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[13] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[14] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[15] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[0] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[12] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[13] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[14] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Removing sequential instance Video_Pipeline_0.apb3_if_0.vert_resl_o[15] (in view: work.VKPFSOC_TOP(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO225 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":356:1:356:6|There are no possible illegal states for state machine local_wbus_state[3:0] (in view: work.ddr_rw_arbiter_Z8_layer0(verilog)); safe FSM implementation is not required.
+@N: FX403 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_lsram_top.v":50:0:50:5|Property "block_ram" or "no_rw_check" found for RAM v_wr_len_fifo.genblk24\.UI_ram_wrapper_1.L3_syncnonpipe.pf_ram[7:0] with specified coding style. Inferring block RAM.
+@N: FX403 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_lsram_top.v":50:0:50:5|Property "block_ram" or "no_rw_check" found for RAM v_wr_data_fifo.genblk24\.UI_ram_wrapper_1.L3_syncnonpipe.pf_ram[63:0] with specified coding style. Inferring block RAM.
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":356:1:356:6|Found counter in view:work.ddr_rw_arbiter_Z8_layer0(verilog) instance wd_trans_Cnt[7:0] 
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_corefifo_sync_scntr.v":284:3:284:8|Found up-down counter in view:work.ddr_rw_arbiter_Z8_layer0(verilog) instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.sc_r_fwft[9:0]  
+@N: MO230 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_corefifo_sync_scntr.v":269:4:269:9|Found up-down counter in view:work.ddr_rw_arbiter_Z8_layer0(verilog) instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.sc_r[9:0]  
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_corefifo_sync_scntr.v":507:3:507:8|Found counter in view:work.ddr_rw_arbiter_Z8_layer0(verilog) instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.memraddr_r[8:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\axi_lbus_corefifo_sync_scntr.v":491:3:491:8|Found counter in view:work.ddr_rw_arbiter_Z8_layer0(verilog) instance v_wr_data_fifo.genblk18\.fifo_corefifo_sync_scntr.memwaddr_r[8:0] 
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance s_clear_fifo (in view: work.request_scheduler_0(request_scheduler)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance req_o (in view: work.request_scheduler_0(request_scheduler)) because it does not drive other instances.
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\ddr_write_controller_enc.v":168:2:168:7|Found counter in view:work.ddr_write_controller_enc(verilog) instance s_counter[8:0] 
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\video_fifo.vhd":286:9:286:23|Found 13 by 13 bit equality operator ('==') REMPTY_ASSIGN_PROC\.un6_rgnext (in view: work.work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD(video_fifo))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\video_fifo.vhd":389:9:389:29|Found 13 by 13 bit equality operator ('==') FIFO_FULL_ASSIGN\.un5_wgnext (in view: work.work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD(video_fifo))
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":449:1:449:6|Removing sequential instance arvalid (in view: work.ddr_rw_arbiter_Z8_layer0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":356:1:356:6|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.ddr_rw_arbiter_0.rdone_int (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":449:1:449:6|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.ddr_rw_arbiter_0.rack_o (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\ddr_rw_arbiter.v":449:1:449:6|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.ddr_rw_arbiter_0.video_bus_state[3] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.write_top_0.request_scheduler_0.mux_sel_o[0] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.read_top_0.request_scheduler_0.s_read_ctr[0] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.read_top_0.request_scheduler_0.s_state[4] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.read_top_0.request_scheduler_0.s_read_ctr[2] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\microsemi\solutioncore\ddr_axi4_arbiter_pf\2.1.0\rtl\request_scheduler.vhd":253:12:253:13|Removing sequential instance DDR_AXI4_ARBITER_PF_C0_0.DDR_AXI4_ARBITER_PF_C0_0.genblk1\.DDR_AXI4_ARBITER_PF_0.read_top_0.request_scheduler_0.s_read_ctr[1] (in view: work.h264_top(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\ddr_write_controller_enc.v":184:2:184:5|Replicating instance H264_DDR_WRITE_64.ddr_write_controller_enc_0.g0 (in view: work.h264_top(verilog)) with 46 loads 3 times to improve timing.
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.73ns 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 with period 20.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : h264_top ****
+**** Begin Compile Point : VKPFSOC_TOP ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\h264_top\h264_top.v":9:7:9:14|Found compile point of type hard on View view:work.h264_top(verilog) 
+@N: MF104 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\imx334_if_top\imx334_if_top.v":9:7:9:19|Found compile point of type hard on View view:work.IMX334_IF_TOP(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.VKPFSOC_TOP(verilog) 
+@N: MF106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\component\work\vkpfsoc_top\vkpfsoc_top.v":9:7:9:17|Mapping Top level view:work.VKPFSOC_TOP(verilog) because 
+@N: BZ173 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":552:12:552:21|Found ROM dout_2[19:0] (in view: work.CH_ROM(verilog)) with 80 words by 20 bits.
+@N: BZ173 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) mapped in logic.
+@N: MO106 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":647:12:647:21|Found ROM dout_2[7:0] (in view: work.NUM_ROM(verilog)) with 80 words by 8 bits.
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":253:0:253:5|Found counter in view:work.HV_COUNTER(verilog) instance s_v_counter[15:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":243:0:243:5|Found counter in view:work.HV_COUNTER(verilog) instance s_h_counter[15:0] 
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Found counter in view:work.obj_generator(verilog) instance s_addr_counter[9:0] 
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":348:9:348:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":348:42:348:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i (in view: work.obj_generator(verilog))
+@N: MO231 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Found counter in view:work.obj_generator_num(verilog) instance s_addr_offset[9:0] 
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":425:8:425:39|Found 17 by 17 bit equality operator ('==') s_addr_counter17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":427:13:427:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_18 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":429:13:429:47|Found 17 by 17 bit equality operator ('==') un1_h_counter_i_19 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":439:42:439:71|Found 16 by 16 bit equality operator ('==') un1_v_counter_i_16 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":439:9:439:39|Found 16 by 16 bit equality operator ('==') un1_h_counter_i_17 (in view: work.obj_generator_num(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\frame_controls_gen.v":156:9:156:27|Found 16 by 16 bit equality operator ('==') un1_hres_i_16 (in view: work.frame_controls_gen(verilog))
+@N: MF179 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\frame_controls_gen.v":156:33:156:51|Found 16 by 16 bit equality operator ('==') un1_vres_i_16 (in view: work.frame_controls_gen(verilog))
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":408:0:408:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_num_0.s_addr_offset[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":329:0:329:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_counter[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[1] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[2] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[3] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[4] (in view: work.VKPFSOC_TOP(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[5] (in view: work.VKPFSOC_TOP(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[6] (in view: work.VKPFSOC_TOP(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[7] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[8] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[9] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\apb_wrapper.vhd":469:4:469:5|Replicating instance Video_Pipeline_0.apb3_if_0.horiz_resl_o[10] (in view: work.VKPFSOC_TOP(verilog)) with 9 loads 1 time to improve timing.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[9] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[8] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\work\polarfire-soc-video-kit-design\vkpfsoc_h264\hdl\cr_osd.v":316:0:316:5|Removing sequential instance Video_Pipeline_0.video_processing_0.CR_OSD_0.obj_generator_0.s_addr_offset[7] (in view: work.VKPFSOC_TOP(verilog)) because it does not drive other instances.
+**** End Compile Point : VKPFSOC_TOP ****
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock REF_CLK_PAD_P with period 6.73ns 
+@N: MT615 |Found clock CAM1_RX_CLK_P with period 4.00ns 
+@N: MT615 |Found clock osc_rc2mhz with period 500.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 with period 20.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV with period 16.00ns 
+@N: MT615 |Found clock Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 with period 5.88ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,105 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. VKPFSOC_TOP, 5174, 3161, 3220, 0, 0, 15, 1, 10, 113
+.	. CLOCKS_AND_RESETS, 32, 1, 0, 0, 0, 0, 0, 2, 0
+.	.	. CORERESET, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_CORERESET_0_CORERESET_PF, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. CORERESET_PF_C5, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_PF_C5_CORERESET_PF_C5_0_CORERESET_PF, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_CCC_C0, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. PF_CCC_C0_PF_CCC_C0_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	.	. PF_CLK_DIV_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_CLK_DIV_C0_PF_CLK_DIV_C0_0_PF_CLK_DIV, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_OSC_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_OSC_C0_PF_OSC_C0_0_PF_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_XCVR_REF_CLK_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_XCVR_REF_CLK_C0_PF_XCVR_REF_CLK_C0_0_PF_XCVR_REF_CLK, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. FIC_CONVERTER, 0, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreAPB3_C0, 0, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CoreAPB3_Z1_layer0, 0, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREAPB3_MUXPTOB3, 0, 32, 0, 0, 0, 0, 0, 0, 0
+.	. MSS_VIDEO_KIT_H264, 0, 0, 0, 0, 0, 0, 0, 0, 88
+.	. Video_Pipeline, 5142, 3125, 3220, 0, 0, 15, 1, 8, 1
+.	.	. IMX334_IF_TOP, 3785, 2117, 2455, 0, 0, 0, 0, 8, 1
+.	.	.	. CAM_IOD_TIP_TOP, 3751, 2115, 2455, 0, 0, 0, 0, 5, 1
+.	.	.	.	. CORERESET_PF_C1_0, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORERESET_PF_C1_CORERESET_PF_C1_0_CORERESET_PF_1, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CORERXIODBITALIGN_C1_0, 767, 469, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_1s_0s_0s_26s_3s_1s_10s_10s_256_8_3, 767, 469, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_3, 767, 469, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CORERXIODBITALIGN_C1_1, 767, 464, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_1s_0s_0s_26s_3s_1s_10s_10s_256_8_2, 767, 464, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_2, 767, 464, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CORERXIODBITALIGN_C1_2, 767, 467, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_1s_0s_0s_26s_3s_1s_10s_10s_256_8_1, 767, 467, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_1, 767, 467, 499, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CORERXIODBITALIGN_C1_3, 777, 468, 509, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_1s_0s_0s_26s_3s_1s_10s_10s_256_8_0, 777, 468, 509, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. CORERXIODBITALIGN_C1_CORERXIODBITALIGN_C1_0_CORERXIODBITALIGN_TRNG_Z15_layer0_0, 777, 468, 509, 0, 0, 0, 0, 0, 0
+.	.	.	.	. PF_IOD_GENERIC_RX_C0, 657, 247, 449, 0, 0, 0, 0, 4, 1
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_FIFO_PF_CLK_DIV_DELAY, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_CLK_DIV_RXCLK_PF_CLK_DIV_DELAY, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_IOD_CLK_TRAINING_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_IOD_RX_PF_IOD, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_LANECTRL_0_PF_LANECTRL, 2, 1, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_PF_LANECTRL_0_PF_LANECTRL_PAUSE_SYNC_3, 2, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_TR, 655, 246, 449, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. PF_IOD_GENERIC_RX_C0_TR_PF_IOD_GENERIC_RX_C0_TR_0_COREBCLKSCLKALIGN_Z16_layer0, 655, 246, 449, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. ICB_BCLKSCLKALIGN_Z17_layer0, 655, 246, 449, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_PF_C1_1, 17, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	. CORERESET_PF_C1_CORERESET_PF_C1_0_CORERESET_PF_0, 17, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. CORERESET_PF_C2, 17, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	. CORERESET_PF_C2_CORERESET_PF_C2_0_CORERESET_PF, 17, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. PF_CCC_C2, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	.	. PF_CCC_C2_PF_CCC_C2_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. mipicsi2rxdecoderPF_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. mipicsi2rxdecoderPF_10s_4s_1s_0s_12s_1s_0s, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. RGBtoYCbCr_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. h264_top, 791, 508, 201, 0, 0, 15, 1, 0, 0
+.	.	.	. DDR_AXI4_ARBITER_PF_C0, 445, 355, 62, 0, 0, 2, 1, 0, 0
+.	.	.	.	. DDR_AXI4_ARBITER_PF_4s_32s_64s_1s_1s_2s_0s, 445, 355, 62, 0, 0, 2, 1, 0, 0
+.	.	.	.	.	. DDR_AXI4_ARBITER_PF_Native_4s_32s_64s_1s_1s_2s, 445, 355, 62, 0, 0, 2, 1, 0, 0
+.	.	.	.	.	.	. ddr_rw_arbiter_Z8_layer0, 383, 317, 58, 0, 0, 2, 1, 0, 0
+.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z2_layer0, 306, 235, 50, 0, 0, 2, 0, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft_Z4_layer0, 131, 80, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z3_layer0, 42, 16, 50, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_64s_64s_9_9_1s_1s_2s, 66, 64, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top_64s_64s_9_9_512s, 66, 64, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_video_axi_fifo_Z5_layer0, 49, 60, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_fwft_Z7_layer0, 19, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_corefifo_sync_scntr_Z6_layer0, 19, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_ram_wrapper_8s_8s_3_3_1s_1s_2s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	.	.	. ddr_rw_arbiter_C0_ddr_rw_arbiter_C0_0_LSRAM_top_8s_8s_3_3_8s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. read_top_32s, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. request_scheduler_0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	. write_top_32s_64s, 61, 38, 4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. request_scheduler_1, 23, 36, 4, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. work_write_mux_write_mux_64_32_8_1_g_DATA_WIDTHg_ADDR_WIDTH, 38, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. write_demux, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. H264_DDR_WRITE, 346, 153, 139, 0, 0, 13, 0, 0, 0
+.	.	.	.	. ddr_write_controller_enc, 145, 81, 73, 0, 0, 0, 0, 0, 0
+.	.	.	.	. work_data_packer_h264_data_packer_h264_16_64_1_g_IP_DWg_OP_DW, 84, 10, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. work_video_fifo_video_fifo_12_64_1280_1_g_VIDEO_FIFO_AWIDTHg_INPUT_VIDEO_DATA_BIT_WIDTHg_HALF_EMPTY_THRESHOLD, 117, 62, 66, 0, 0, 13, 0, 0, 0
+.	.	.	.	.	. ram2PORT_work_video_fifo_video_fifo_0layer1, 0, 0, 0, 0, 0, 13, 0, 0, 0
+.	.	.	. H264_Iframe_Encoder_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. video_processing, 354, 383, 564, 0, 0, 0, 0, 0, 0
+.	.	.	. Bayer_Interpolation_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Bayer_Interpolation_1_8_2048_0_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CR_OSD, 197, 327, 453, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CH_ROM, 20, 126, 18, 0, 0, 0, 0, 0, 0
+.	.	.	.	. HV_COUNTER, 32, 5, 34, 0, 0, 0, 0, 0, 0
+.	.	.	.	. NUM_ROM, 7, 47, 10, 0, 0, 0, 0, 0, 0
+.	.	.	.	. obj_generator, 18, 28, 131, 0, 0, 0, 0, 0, 0
+.	.	.	.	. obj_generator_num, 31, 65, 202, 0, 0, 0, 0, 0, 0
+.	.	.	.	. text_out, 24, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Gamma_Correction_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Gamma_Correction_1_8_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. IMAGE_SCALER_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Image_Scaler_8_11_11_0_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. Image_Enhancement_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. Image_Enhancement_8_1_0_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. frame_controls_gen, 91, 53, 16, 0, 0, 0, 0, 0, 0
+.	.	.	. intensity_average, 66, 3, 95, 0, 0, 0, 0, 0, 0
+.	.	. work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH, 212, 117, 0, 0, 0, 0, 0, 0, 0

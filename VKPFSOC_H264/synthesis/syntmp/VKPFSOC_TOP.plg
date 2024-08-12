@@ -1,0 +1,48 @@
+@P:  Worst Slack : -30.800
+@P:  CAM1_RX_CLK_P - Estimated Frequency : NA
+@P:  CAM1_RX_CLK_P - Requested Frequency : 250.0 MHz
+@P:  CAM1_RX_CLK_P - Estimated Period : NA
+@P:  CAM1_RX_CLK_P - Requested Period : 4.000
+@P:  CAM1_RX_CLK_P - Slack : NA
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Frequency : 8.1 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Frequency : 125.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 - Estimated Period : 124.097
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 - Requested Period : 8.000
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT0 - Slack : -2.821
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 - Estimated Frequency : 8.9 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 - Requested Frequency : 50.0 MHz
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 - Estimated Period : 112.481
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 - Requested Period : 20.000
+@P:  CLOCKS_AND_RESETS_inst_0/PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0/OUT1 - Slack : -5.440
+@P:  REF_CLK_PAD_P - Estimated Frequency : NA
+@P:  REF_CLK_PAD_P - Requested Frequency : 148.5 MHz
+@P:  REF_CLK_PAD_P - Estimated Period : NA
+@P:  REF_CLK_PAD_P - Requested Period : 6.734
+@P:  REF_CLK_PAD_P - Slack : NA
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 - Estimated Frequency : 11.0 MHz
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 - Requested Frequency : 170.0 MHz
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 - Estimated Period : 91.247
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 - Requested Period : 5.882
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_CCC_C2_0/PF_CCC_C2_0/pll_inst_0/OUT0 - Slack : -30.800
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV - Estimated Frequency : 5.1 MHz
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV - Requested Frequency : 62.5 MHz
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV - Estimated Period : 196.298
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV - Requested Period : 16.000
+@P:  Video_Pipeline_0/IMX334_IF_TOP_0/PF_IOD_GENERIC_RX_C0_0/PF_IOD_0/PF_CLK_DIV_FIFO/I_CDD/Y_DIV - Slack : -2.651
+@P:  osc_rc2mhz - Estimated Frequency : NA
+@P:  osc_rc2mhz - Requested Frequency : 2.0 MHz
+@P:  osc_rc2mhz - Estimated Period : NA
+@P:  osc_rc2mhz - Requested Period : 500.000
+@P:  osc_rc2mhz - Slack : NA
+@P:  System - Estimated Frequency : 96.1 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 10.405
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : -0.406
+@P: VKPFSOC_TOP Part : mpfs250tfcg1152-1
+@P: VKPFSOC_TOP Register bits  : 23802 
+@P: VKPFSOC_TOP DSP Blocks  : 47
+@P: VKPFSOC_TOP I/O primitives : 113
+@P: VKPFSOC_TOP RAM1K20 :  122
+@P: VKPFSOC_TOP RAM64x12 :  23
+@P:  CPU Time : 0h:01m:17s

@@ -1,0 +1,9 @@
+n work CAVLC_H264_CAVLC_Y_0 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 7.5;
+av .compile_point_starttime_stamp "Mon Aug 12 21:32:56 2024";
+av .compile_point_endtime_stamp "Mon Aug 12 21:33:03 2024";
+av .compile_point_realtime_used 7.344;

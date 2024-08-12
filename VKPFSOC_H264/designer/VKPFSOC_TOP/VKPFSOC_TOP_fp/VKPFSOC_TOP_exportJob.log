@@ -1,0 +1,15 @@
+Software Version: 2023.2.0.8
+Opened 'C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\designer\VKPFSOC_TOP\VKPFSOC_TOP_fp\VKPFSOC_TOP.pro'
+PDB file 'C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\designer\VKPFSOC_TOP\VKPFSOC_TOP.pdb' has been loaded successfully.
+DESIGN : VKPFSOC_TOP;  CHECKSUM : EDFD;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Successfully generated bitstream file and it has been added to the job container; file programs Fabric and sNVM.
+BITS component bitstream digest: aee355e728bed157183d65b414803ca9422e59d42b06365e61ddf1ed5ec41d74
+Fabric component bitstream digest: 3abb01cc532fa70cbd87a59f9d7f5a3463e74c66a0da673c4f969e27dc84b385
+sNVM component bitstream digest: 5ba372b3378abe30899761897aa875daa49fa54bee62885dd9013fa1f1b2406b
+EOB component bitstream digest: 5feee1b1bf6a194892fc36bc313c6f6228253ff414025af7cb5823a89d5b336d
+Entire bitstream digest: 5572ca4d55a79e46037baf946fd8cd392552c2b85eb07226c082529911858684
+Finished: Mon Aug 12 22:01:13 2024 (Elapsed time 00:01:24)
+
+Project saved.
+Project closed.

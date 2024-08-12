@@ -1,0 +1,26 @@
+work.INIT
+work.BANKCTRL_GPIO
+work.BANKCTRL_HSIO
+work.PLL
+work.ICB_CLKDIV
+work.OSC_RC2MHZ
+work.XCVR_REF_CLK
+work.MSS
+read_demux
+|read_mux|parameter g_ADDR_WIDTH 32;|
+request_scheduler
+write_demux
+|write_mux|parameter g_ADDR_WIDTH 32;,parameter g_DATA_WIDTH 64;|
+|data_packer_h264|parameter g_IP_DW 16;,parameter g_OP_DW 64;|
+|video_fifo|parameter g_HALF_EMPTY_THRESHOLD 1280;,parameter g_INPUT_VIDEO_DATA_BIT_WIDTH 64;,parameter g_VIDEO_FIFO_AWIDTH 12;|
+work.HS_IO_CLK
+work.ICB_CLKDIVDELAY
+work.IOD
+work.LANECTRL
+Bayer_Interpolation_C0
+Gamma_Correction_C0
+Image_Enhancement_C0
+IMAGE_SCALER_C0
+intensity_average
+|apb3_if|parameter g_APB3_IF_DATA_WIDTH 32;,parameter g_CONST_WIDTH 12;|
+RGBtoYCbCr_C0
