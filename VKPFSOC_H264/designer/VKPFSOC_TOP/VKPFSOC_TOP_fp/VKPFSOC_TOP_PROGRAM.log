@@ -1,0 +1,62 @@
+Software Version: 2023.2.0.8
+===============================================================
+Programmer: Embedded FP6 'F0BD713B' : Version = EF9B
+===============================================================
+programmer 'F0BD713B' : Embedded FlashPro6
+Opened 'C:\work\polarfire-soc-video-kit-design\VKPFSOC_H264\designer\VKPFSOC_TOP\VKPFSOC_TOP_fp\VKPFSOC_TOP.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS250TS'.
+The 'enable_device' command succeeded.
+PPD file 'C:/work/polarfire-soc-video-kit-design/VKPFSOC_H264/designer/VKPFSOC_TOP/VKPFSOC_TOP.ppd' has been loaded successfully.
+DESIGN : VKPFSOC_TOP;  CHECKSUM : EDFD;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'F0BD713B' : Scan Chain...
+programmer 'F0BD713B' : Check Chain...
+programmer 'F0BD713B' : Scan and Check Chain PASSED.
+programmer 'F0BD713B' : device 'MPFS250TS' : Executing action PROGRAM
+Performing FPGA action. Please wait...
+eFP6 acceleration mode enabled with PPD file. Please wait...
+CM3 Version: D1.3
+Programmer 'F0BD713B' : JTAG TCK frequency = 4 MHz
+eFP6 Messages:
+CM3 Version: F4.0
+================================================================================
+
+JTAG DirectC Version: 04.07
+JTAG_Frequency:  4 MHz
+Identifying device...
+Looking for MPF device...
+ActID = 1F81A1CF
+ActID = 0F81A1CF ExpID = 0F81A1CF
+Device Rev = 01
+ActID = 0F81A1CF ExpID = 0F81A1CF
+Device Rev = 01
+--- Security locks and configuration settings ---
+00000000000000000000000000000000
+FPGA Array is programmed and enabled.
+ISC_ENABLE_RESULT: 00000000
+CRCERR: 00
+
+BITS component bitstream digest: AEE355E728BED157183D65B414803CA9422E59D42B06365E61DDF1ED5EC41D74
+Security component bitstream digest: FC453E84F6A640AA9C25246A71A9A565230D0EA3E01964366F5AE86AB934EFE6
+Fabric component bitstream digest: 3ABB01CC532FA70CBD87A59F9D7F5A3463E74C66A0DA673C4F969E27DC84B385
+sNVM component bitstream digest: 5BA372B3378ABE30899761897AA875DAA49FA54BEE62885DD9013FA1F1B2406B
+EOB component bitstream digest: 5FEEE1B1BF6A194892FC36BC313C6F6228253FF414025AF7CB5823A89D5B336D
+=====================================================================
+DSN: 4E4E0EC69CB3DF6943E61205305C268A
+=====================================================================
+================================================================================
+
+programmer 'F0BD713B' : device 'MPFS250TS' : Executing action PROGRAM PASSED.
+programmer 'F0BD713B' : Chain programming PASSED.
+Chain Programming Finished: Tue Aug 13 11:18:29 2024 (Elapsed time 00:00:56)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.
