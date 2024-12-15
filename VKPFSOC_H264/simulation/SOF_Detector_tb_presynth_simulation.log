@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# do run.do
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap polarfire C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap PolarFire C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap CORERXIODBITALIGN_LIB CORERXIODBITALIGN_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 13:11:20 on Dec 15,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/hdl/SOF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SOF_Detector
+# -- Compiling architecture Behavioral of SOF_Detector
+# End time: 13:11:20 on Dec 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 13:11:20 on Dec 15,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/stimulus/SOF_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SOF_Detector_tb
+# -- Compiling architecture behavior of SOF_Detector_tb
+# End time: 13:11:20 on Dec 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L COREAPB3_LIB -L CORERXIODBITALIGN_LIB -t 1ps -pli "C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll" presynth.SOF_Detector_tb 
+# Start time: 13:11:20 on Dec 15,2024
+# ** License Issue: Error getting license information: No license or end of license list.
+# ** License Issue: Licensed number of users already reached. (C:\flexlm\License.dat)
+# ** Error: Failure to obtain a VHDL simulation license. Unable to checkout 'microsemimsim' license feature.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 31

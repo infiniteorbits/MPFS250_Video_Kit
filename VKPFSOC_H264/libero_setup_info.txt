@@ -1,7 +1,7 @@
 # Microsemi Corp.
-# Date: 2024-Aug-12 21:23:26
-Libero Release : v2023.2
-Libero Version : 2023.2.0.8
+# Date: 2024-Dec-15 13:09:54
+Libero Release : v2024.1
+Libero Version : 2024.1.0.3
 Operating System Name : Windows 8
 Ram Size : 15.73 GB (usable)
 OS Type : 64-bit
