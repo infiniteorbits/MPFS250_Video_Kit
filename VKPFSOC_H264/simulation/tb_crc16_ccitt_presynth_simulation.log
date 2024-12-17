@@ -1,0 +1,139 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap polarfire C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap PolarFire C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/precompiled/vlog/polarfire 
+# Modifying modelsim.ini
+# INFO: Simulation library COREAPB3_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library CORERXIODBITALIGN_LIB already exists
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap CORERXIODBITALIGN_LIB CORERXIODBITALIGN_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 19:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/hdl/crc16_ccit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity crc
+# -- Compiling architecture Behavioral of crc
+# End time: 19:10:20 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 19:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/hdl/crc_toplevel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity crc16_ccitt_top
+# -- Compiling architecture Behavioral of crc16_ccitt_top
+# End time: 19:10:20 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 19:10:20 on Dec 16,2024
+# vcom -reportprogress 300 -2008 -explicit -work presynth C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/stimulus/crc_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_crc16_ccitt
+# -- Compiling architecture Behavioral of tb_crc16_ccitt
+# End time: 19:10:20 on Dec 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L polarfire -L presynth -L COREAPB3_LIB -L CORERXIODBITALIGN_LIB -t 1ps -pli "C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll" presynth.tb_crc16_ccitt 
+# Start time: 19:10:20 on Dec 16,2024
+# //  ModelSim Microsemi Pro 2023.4 Oct 10 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi Pro and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.tb_crc16_ccitt(behavioral)
+# Loading presynth.crc16_ccitt_top(behavioral)
+# Loading presynth.crc(behavioral)
+# Loading C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+# ** Note: Simulation complete.
+#    Time: 220 ns  Iteration: 0  Instance: /tb_crc16_ccitt
+pwd
+# C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/simulation
+cd ../..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd 
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+pwd
+# C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/simulation
+cd
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd ../..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 22:36:54 on Dec 16,2024, Elapsed time: 3:26:34
+# Errors: 0, Warnings: 0
+pwd
+# C:/Users/romaissa/Documents/work/polarfire_soc_video_kit/polarfire-soc-video-kit-design/VKPFSOC_H264/simulation
+cd ../..
+# reading C:/Microchip/Libero_SoC_v2024.1/ModelSimPro/win32acoem/../modelsim.ini
+cd ../..
+cd ../..
+pwd
+# C:/Users/romaissa
+cd Documents
+cd work
+cd 8b10b_VHDL
+cd UVVM/script
+vsim -do ./compile_all.do -c
+# No design specified
+
+vlib work
+
+vcom -2008 my_design.vhd
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 10:16:12 on Dec 17,2024
+# vcom -reportprogress 300 -2008 my_design.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "my_design.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 10:16:12 on Dec 17,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/Microchip/Libero_SoC_v2024.1/ModelSimPro/win32acoem/vcom failed.
+
+vcom -2008 my_design.vhd
+# Model Technology ModelSim Microsemi Pro vcom 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 10:24:46 on Dec 17,2024
+# vcom -reportprogress 300 -2008 my_design.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "my_design.vhd" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 10:24:46 on Dec 17,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/Microchip/Libero_SoC_v2024.1/ModelSimPro/win32acoem/vcom failed.
+vsim -do ./compile_all.do -c
+# No design specified
+vsim -do ./compile_all.do -c
+# No design specified
+vsim -do ./compile_all.do -c
+# No design specified
+vsim -do ./compile_all.do -c
+# No design specified
+vsim -do ./compile_all.do -c
+# No design specified
